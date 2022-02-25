@@ -1,13 +1,18 @@
 version: "3.0"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - Bowling_alley
+  - Bowling_alley_application
+  - Bowling_alley_processing
+  - Bowling_alley_renewal
+  - Circus_application
+  - Circus_license
+  - Multiplex_application
+  - Multiplex_noc 
+  - Multiplex_license
+  - Multiplex_license_renewal 
+  - Loudspeaker_license 
+  - Loudspeaker_license_renewal 
 
 responses:
   utter_greet:
