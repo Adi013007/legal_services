@@ -15,24 +15,80 @@ intents:
   - Loudspeaker_license_renewal 
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_Bowling_alley_answer:
+  - text: |
+    -  "You require the Premises License, the Ticket Selling License and the Performance License."
+    -  "The Premises License and Ticket selling license are issued from the Office of the Commissioner of Police.the Performance license is issued by the office of Divisional ACP."
+    -  "The Performance license is issued by the office of Divisional ACP(Assistant Commissioner of Police".
+    -  "To procure the licenses you will have to make an application form in the prescribed format, affixing a court fee stamp of Rs. 5 on it."
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  
+  utter_Bowling_alley_application_answer:
+  - text: |
+    - "The application form is available online"
+    - "The following documents have to be submitted along with application form"
+        1. A plan (map) showing details of the premises where the bowling alley will be placed for play games. The map should also show the number of lanes.
+        2. Geographical location of the site (showing the road approach building/adjoining the proposed place, i.e. on east, west, north and south sides) The plan should be drawn by The Registrar Of The Architect with his counter signature.
+        3. Certificate or receipt of fire fighting equipment installed in the proposed premises.
+        4. Documents showing ownership/title/rights of the premises (owned/leased/rented).
+        5. If the premises are rented, then NOCs from the concerned landlord stating that he does not have any objection to starting the said activities.
+        6. N.O.C. from the Fire Brigade office.
+        7. N.O.C. from the Health Department of local municipal corporation.
+        8. If there is a telephone, then a certificate from MTNL office.
+        9. NOC from the electrical Inspector.
+        10.Number of bowling alleys.
+        11.Undertaking application/notice for not installing any gambling equipment" 
+    - "If above documents are not presented,application will not be processed"
+    
+  utter_Bowling_alley_processing_answer:
+  - text: |
+    - "Application processing will take 30-45 days minimum"
+    - "The fee structure is as under:
+        1.Premises license fee Rs. 500 per machine/per lane (per month).
+        2.Ticket selling fee Rs. 500 per year.
+        3.Performance license fees Rs. 10,000/- per Alley/per month (this will be collected by Divisional Asst. commissioner of Police)."
+    
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_Bowling_alley_renewal_answer:
+  - text: |
+    - "You will have to submit an application along with the copy of your license one month prior to the expiry of the license. You will also have to submit valid NOC's along with the application. Enquiries will be made through the concerned Police station, and after receipt of the inquiry report, you will be intimated." 
+    - "Renewal charges are same as license fee structure"
 
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_Circus_application_answer:
+  - text: |
+    - "Following Police License are required for Circus
+       1. Premises license   
+       2. Ticket Selling license
+       3. Performance license:
+    - "For obtaining license, An application should be in writing affixing court fees stamp of Rs.5 on it. The application should be submitted along with certified copies of the following documents:
+       1. NOC from the Landlord.
+       2. N.O.C from the Traffic Police.
+       3. NOC from the Fire Brigade.
+       4. NOC from the electrical Inspector.
+       5. NOC from the Health Department of the local municipal corporation.
+       6. If there is a telephone, a certificate from the MTNL office.
+       7. NOC from the Collector.
+       8. Undertaking from applicant to observe The Provisions Of Cruelty To Animals Act-1960.
+       9. The plan (map) showing details of the premises where the circus will be held.
+       10 N.O.C. from P.W.D. Department"
+    - "The application will be sent to the local Police station for enquiries on the following points:
+       1. Whether the site in question is on the main road or in a by-lane and how far it is from the road.
+       2. Whether the site in question is situated in a residential area and whether it will cause a nuisance to the residents of the locality.
+       3. Whether the site is suitable from the traffic point of view.
+       4. Whether the site was used on previous occasions for similar programs.
+       5. Was there any complaints from the members of the public or residents regarding nuisance.
+       6. Whether there is any objection for granting the permission.
+       7. What is the seating arrangement made and whether it is sound.
+       8. Certificate for fitness of machinery
+       9. Whether the place is within 100 meters from a hospital, court, educational institute or religious place and defined as a silence zone, as per Noise Pollution (Regulation & Control) Rules-2000. After the receipt of this report through concerned ACP and DCP the decision will be taken and the applicant will be informed."
+  utter_Circus_license_answer:
+  - text: |
+    - "Following are the license Fees for Circus:
+        1.Premises license fees Rs.1000
+        2.Ticket selling fees Rs.100
+        3.Performance license fees Rs.250 (per show)"
+    -  "It takes 15 to 20 days to obtain a license for a circus."
 
 session_config:
   session_expiration_time: 60
