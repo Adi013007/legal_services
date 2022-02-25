@@ -53,9 +53,9 @@ nlu:
 
 - intent: Multiplex_license 
   examples: |
-    - When do I obtain license for construction for multiplex?
-    - When do I procure license for construction for multiplex?
-    - What is the license fee
+    - When do I obtain license for  multiplex?
+    - When do I procure license for  multiplex?
+    - What is the license fee?
 
 - intent: Multiplex_license_renewal 
   examples: |

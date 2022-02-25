@@ -85,11 +85,87 @@ responses:
   utter_Circus_license_answer:
   - text: |
     - "Following are the license Fees for Circus:
-        1.Premises license fees Rs.1000
-        2.Ticket selling fees Rs.100
-        3.Performance license fees Rs.250 (per show)"
+       1.Premises license fees Rs.1000
+       2.Ticket selling fees Rs.100
+       3.Performance license fees Rs.250 (per show)"
     -  "It takes 15 to 20 days to obtain a license for a circus."
 
+  utter_Multiplex_application_answer:
+  - text: |
+    - "You have to obtain NOC for the location of the proposed construction from The Office Of The Commissioner Of Police"
+    - "To obtain such an NOC,you have to make an application affixing court fees stamp of Rs. 5/- along with following necessary documents.
+       1. Plan of the proposed site indicating surroundings, roads and buildings up to a distance of 75 meters from the perimeter. Schools, hospitals, temples or other similar places should be clearly indicated in the plan along with floor wise plans (3 sets)
+       2. Certificate from the Collector for N.A. land.
+       3. Property card
+       4. Appointment letter of the architect.
+       5. Agreement between land Owner and Builder/Developer or Power of Attorney.
+       6.Copies of applications submitted to PWD and Buildings Proposals Department along with their remarks."
+    - It will take 6 months to obtain NOC because:
+       1. Objections will be invited from members of public by displaying a board with details of the proposal at the site and by publishing the same in three local newspapers.
+       2. Enquiries will be conducted by the local Police station from the law and order point of view.
+       3. A report will be invited from the traffic department for Traffic point of view.
+       4. After completion of all the above procedure, the proposal will be submitted to the government for previous sanction.
+       5. After the receipt of previous sanction from the government, an NOC will be issued. 
+   
+  utter_Multiplex_noc_answer:
+  - text: |
+    - "You have to obtain NOC for the location of the proposed construction from The Office Of The Commissioner Of Police"
+    - "To obtain such an NOC,you have to make an application affixing court fees stamp of Rs. 5/- along with following necessary documents.
+       1. Plan of the proposed site indicating surroundings, roads and buildings up to a distance of 75 meters from the perimeter. Schools, hospitals, temples or other similar places should be clearly indicated in the plan along with floor wise plans (3 sets)
+       2. Certificate from the Collector for N.A. land.
+       3. Property card
+       4. Appointment letter of the architect.
+       5. Agreement between land Owner and Builder/Developer or Power of Attorney.
+       6.Copies of applications submitted to PWD and Buildings Proposals Department along with their remarks."
+    - "It will take 6 months to obtain NOC because:
+       1. Objections will be invited from members of public by displaying a board with details of the proposal at the site and by publishing the same in three local newspapers.
+       2. Enquiries will be conducted by the local Police station from the law and order point of view.
+       3. A report will be invited from the traffic department for Traffic point of view.
+       4. After completion of all the above procedure, the proposal will be submitted to the government for previous sanction.
+       5. After the receipt of previous sanction from the government, an NOC will be issued." 
+    
+  utter_Mutliplex_construction_answer:
+  - text: |
+    - "To commence construction, you will require an NOC from the office of the Commissioner of Police. You will have to make an application and submit the following documents:
+       1. A true copy of the NOC issued by the licensing authority with respect to the site where the cinema is proposed to be put up.
+       2. Approved plans (by the Building Proposals Department, BMC)
+       3.IOD (Intimation of disapproval) from the BMC
+       4. NOC from the Chief Fire officer, BMC After receipt of the same, the papers will be processed and then NOC for construction will be issued."
+    - "It will take 1 month to obtain the NOC"
+  
+  utter_Mutliplex_license_answer:
+  - text: |
+    - "After completing construction, you will have to make an application for grant of license. You have to submit the following documents along with your application:
+       1. Occupation certificate from the BMC.
+       2. NOC from the electrical Inspector.
+       3. NOC from the Health Officer, local municipal corporation.
+       4. Certificate from MTNL.
+       5. Certificate of lighting contractor.
+       6. NOC from the Chief Fire Officer, BMC.
+       7. NOC from the Traffic Police regarding parking.
+       8. NOC from PWD.
+       9. Structural stability certificate from the architect.
+       10. Name and address of the Manager, Projector operator and electrician. After the receipt of the same, the proposal will be submitted to the Government for previous sanction. After receipt of the previous sanction from the Government, the license will be issued."
+    - "Obtaining this license will take 2 months"
+    - "Fees:
+       1. Cinema license up to 200 seats Rs. 2,000; Up to 500 seats Rs. 3,000; Above 501 seats Rs. 4,500
+       2. Ticket selling license Rs. 500
+       3. Addition/Alteration in the license Rs. 25
+       4. Duplicate license Rs. 50"
+ 
+  utter_Mutliplex_license_renewal_answer:
+  - text: |
+    - "For renewal of the license, you will have to submit the following documents along with the application:
+       1. NOC from PWD
+       2. NOC from the electrical Inspector
+       3. NOC from the Health Officer, BMC
+       4. Certificate from MTNL
+       5. Certificate of lighting contractor
+       6. NOC from the Chief Fire Officer, BMC
+       7. NOC from the Traffic Police regarding parking
+       8. Certificate regarding screening of approved films 
+       9. NOC from the Collector."
+    - "Fee is the same as in license fee structure"
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
