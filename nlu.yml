@@ -16,7 +16,7 @@ nlu:
 - intent: Bowling_alley_processing
   examples: |
     - How long will it take to process my application for bowling_alley?
-    - What is the fee structure for license
+    - What is the fee structure for license?
     
 
 - intent: Bowling_alley_renewal
@@ -35,7 +35,7 @@ nlu:
 - intent: Circus_license
   examples: |
     - What is fee required for obtaining licenses for opening circus?
-    - How much time will it take for me to obtain the licenses?
+    - How much time will it take for me to obtain the licenses for circus?
     
 - intent: Multiplex_application
   examples: |

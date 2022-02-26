@@ -166,6 +166,31 @@ responses:
        8. Certificate regarding screening of approved films 
        9. NOC from the Collector."
     - "Fee is the same as in license fee structure"
+  
+   utter_Loudspeaker_license_answer:
+  - text: |
+    - "You require a loudspeaker contractor's license which will be issued by Commissioner of Police"
+    - "Make an application form in the prescribed format affixing a court fee stamp of Rs. 5 along with your passport size photograph on it."
+    - "Following documents have to be submitted along with application form:
+       1. Wireman's certificate (Government recognized).
+       2. Wireman's license.
+       3. School leaving certificate.
+       4. Xerox copy of ration card. 
+       5. Election card.
+       6. Electricity bill.
+       7. Document showing ownership/title/rights of premises (own/lease/rental).
+       8. If the premises are rented, then the NOC from the concerned person has to be duly submitted to the landlord stating that he does not have any objection for keeping the loudspeaker equipment."
+    - "If you do not have these documents,your application will not be processed"
+    - "The application will take minimum 30-45 days to process"
+    - "Fee structure for license is as under :
+       1.Loudspeaker Contractor's License fees Rs. 2,500 per year.
+       2.Renewal fees Rs. 2,500 per year."
+   
+   utter_Loudspeaker_license_renewal_answer:
+  - text: |
+    - "You have to make an application along with a copy of the license one month prior to the expiry of the license; enquiries will be made by the concerned Police Station and after receipt of the enquiry report, you will be intimated."
+    - "The renewal charges are the same as license fee structure"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
