@@ -34,7 +34,7 @@ rules:
 
 - rule: Say procedure anytime the user asks about application  for multiplex
   steps:
-  - intent: Mutliplex_application
+  - intent: Multiplex_application
   - action: utter_Multiplex_application_answer
 
 - rule: Say procedure anytime the user asks about noc for multiplex

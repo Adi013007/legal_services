@@ -192,18 +192,18 @@ responses:
      - "The renewal charges are the same as license fee structure"
 
 actions:
-  - action_Bowling_alley_answer
-  - action_Bowling_alley_application_answer
-  - action_Bowling_alley_processing_answer
-  - action_Bowling_alley_renewal_answer
-  - action_Circus_application_answer
-  - action_Circus_license_answer
-  - action_Multiplex_application_answer
+  - utter_Bowling_alley_answer
+  - utter_Bowling_alley_application_answer
+  - utter_Bowling_alley_processing_answer
+  - utter_Bowling_alley_renewal_answer
+  - utter_Circus_application_answer
+  - utter_Circus_license_answer
+  - utter_Multiplex_application_answer
   - answer_Multiplex_noc_answer 
-  - action_Multiplex_license_answer
-  - action_Multiplex_license_renewal_answer 
-  - action_Loudspeaker_license_answer 
-  - action_Loudspeaker_license_renewal_answer 
+  - utter_Multiplex_license_answer
+  - utter_Multiplex_license_renewal_answer 
+  - utter_Loudspeaker_license_answer 
+  - utter_Loudspeaker_license_renewal_answer 
 
 session_config:
   session_expiration_time: 60
