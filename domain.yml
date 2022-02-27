@@ -17,17 +17,17 @@ intents:
 responses:
   utter_Bowling_alley_answer:
   - text: |
-    -  "You require the Premises License, the Ticket Selling License and the Performance License."
-    -  "The Premises License and Ticket selling license are issued from the Office of the Commissioner of Police.the Performance license is issued by the office of Divisional ACP."
-    -  "The Performance license is issued by the office of Divisional ACP(Assistant Commissioner of Police".
-    -  "To procure the licenses you will have to make an application form in the prescribed format, affixing a court fee stamp of Rs. 5 on it."
+     - "You require the Premises License, the Ticket Selling License and the Performance License."
+     - "The Premises License and Ticket selling license are issued from the Office of the Commissioner of Police.the Performance license is issued by the office of Divisional ACP."
+     - "The Performance license is issued by the office of Divisional ACP(Assistant Commissioner of Police".
+     - "To procure the licenses you will have to make an application form in the prescribed format, affixing a court fee stamp of Rs. 5 on it."
 
 
   
   utter_Bowling_alley_application_answer:
   - text: |
-    - "The application form is available online"
-    - "The following documents have to be submitted along with application form"
+     - "The application form is available online"
+     - "The following documents have to be submitted along with application form"
         1. A plan (map) showing details of the premises where the bowling alley will be placed for play games. The map should also show the number of lanes.
         2. Geographical location of the site (showing the road approach building/adjoining the proposed place, i.e. on east, west, north and south sides) The plan should be drawn by The Registrar Of The Architect with his counter signature.
         3. Certificate or receipt of fire fighting equipment installed in the proposed premises.
@@ -39,12 +39,12 @@ responses:
         9. NOC from the electrical Inspector.
         10.Number of bowling alleys.
         11.Undertaking application/notice for not installing any gambling equipment" 
-    - "If above documents are not presented,application will not be processed"
+     - "If above documents are not presented,application will not be processed"
     
   utter_Bowling_alley_processing_answer:
   - text: |
-    - "Application processing will take 30-45 days minimum"
-    - "The fee structure is as under:
+     - "Application processing will take 30-45 days minimum"
+     - "The fee structure is as under:
         1.Premises license fee Rs. 500 per machine/per lane (per month).
         2.Ticket selling fee Rs. 500 per year.
         3.Performance license fees Rs. 10,000/- per Alley/per month (this will be collected by Divisional Asst. commissioner of Police)."
@@ -52,16 +52,16 @@ responses:
 
   utter_Bowling_alley_renewal_answer:
   - text: |
-    - "You will have to submit an application along with the copy of your license one month prior to the expiry of the license. You will also have to submit valid NOC's along with the application. Enquiries will be made through the concerned Police station, and after receipt of the inquiry report, you will be intimated." 
-    - "Renewal charges are same as license fee structure"
+     - "You will have to submit an application along with the copy of your license one month prior to the expiry of the license. You will also have to submit valid NOC's along with the application. Enquiries will be made through the concerned Police station, and after receipt of the inquiry report, you will be intimated." 
+     - "Renewal charges are same as license fee structure"
 
   utter_Circus_application_answer:
   - text: |
-    - "Following Police License are required for Circus
+     - "Following Police License are required for Circus
        1. Premises license   
        2. Ticket Selling license
        3. Performance license:
-    - "For obtaining license, An application should be in writing affixing court fees stamp of Rs.5 on it. The application should be submitted along with certified copies of the following documents:
+     - "For obtaining license, An application should be in writing affixing court fees stamp of Rs.5 on it. The application should be submitted along with certified copies of the following documents:
        1. NOC from the Landlord.
        2. N.O.C from the Traffic Police.
        3. NOC from the Fire Brigade.
@@ -72,7 +72,7 @@ responses:
        8. Undertaking from applicant to observe The Provisions Of Cruelty To Animals Act-1960.
        9. The plan (map) showing details of the premises where the circus will be held.
        10 N.O.C. from P.W.D. Department"
-    - "The application will be sent to the local Police station for enquiries on the following points:
+     - "The application will be sent to the local Police station for enquiries on the following points:
        1. Whether the site in question is on the main road or in a by-lane and how far it is from the road.
        2. Whether the site in question is situated in a residential area and whether it will cause a nuisance to the residents of the locality.
        3. Whether the site is suitable from the traffic point of view.
@@ -84,23 +84,23 @@ responses:
        9. Whether the place is within 100 meters from a hospital, court, educational institute or religious place and defined as a silence zone, as per Noise Pollution (Regulation & Control) Rules-2000. After the receipt of this report through concerned ACP and DCP the decision will be taken and the applicant will be informed."
   utter_Circus_license_answer:
   - text: |
-    - "Following are the license Fees for Circus:
+     - "Following are the license Fees for Circus:
        1.Premises license fees Rs.1000
        2.Ticket selling fees Rs.100
        3.Performance license fees Rs.250 (per show)"
-    -  "It takes 15 to 20 days to obtain a license for a circus."
+     -  "It takes 15 to 20 days to obtain a license for a circus."
 
   utter_Multiplex_application_answer:
   - text: |
-    - "You have to obtain NOC for the location of the proposed construction from The Office Of The Commissioner Of Police"
-    - "To obtain such an NOC,you have to make an application affixing court fees stamp of Rs. 5/- along with following necessary documents.
+     - "You have to obtain NOC for the location of the proposed construction from The Office Of The Commissioner Of Police"
+     - "To obtain such an NOC,you have to make an application affixing court fees stamp of Rs. 5/- along with following necessary documents.
        1. Plan of the proposed site indicating surroundings, roads and buildings up to a distance of 75 meters from the perimeter. Schools, hospitals, temples or other similar places should be clearly indicated in the plan along with floor wise plans (3 sets)
        2. Certificate from the Collector for N.A. land.
        3. Property card
        4. Appointment letter of the architect.
        5. Agreement between land Owner and Builder/Developer or Power of Attorney.
        6.Copies of applications submitted to PWD and Buildings Proposals Department along with their remarks."
-    - It will take 6 months to obtain NOC because:
+     - It will take 6 months to obtain NOC because:
        1. Objections will be invited from members of public by displaying a board with details of the proposal at the site and by publishing the same in three local newspapers.
        2. Enquiries will be conducted by the local Police station from the law and order point of view.
        3. A report will be invited from the traffic department for Traffic point of view.
@@ -109,15 +109,15 @@ responses:
    
   utter_Multiplex_noc_answer:
   - text: |
-    - "You have to obtain NOC for the location of the proposed construction from The Office Of The Commissioner Of Police"
-    - "To obtain such an NOC,you have to make an application affixing court fees stamp of Rs. 5/- along with following necessary documents.
+     - "You have to obtain NOC for the location of the proposed construction from The Office Of The Commissioner Of Police"
+     - "To obtain such an NOC,you have to make an application affixing court fees stamp of Rs. 5/- along with following necessary documents.
        1. Plan of the proposed site indicating surroundings, roads and buildings up to a distance of 75 meters from the perimeter. Schools, hospitals, temples or other similar places should be clearly indicated in the plan along with floor wise plans (3 sets)
        2. Certificate from the Collector for N.A. land.
        3. Property card
        4. Appointment letter of the architect.
        5. Agreement between land Owner and Builder/Developer or Power of Attorney.
        6.Copies of applications submitted to PWD and Buildings Proposals Department along with their remarks."
-    - "It will take 6 months to obtain NOC because:
+     - "It will take 6 months to obtain NOC because:
        1. Objections will be invited from members of public by displaying a board with details of the proposal at the site and by publishing the same in three local newspapers.
        2. Enquiries will be conducted by the local Police station from the law and order point of view.
        3. A report will be invited from the traffic department for Traffic point of view.
@@ -126,16 +126,16 @@ responses:
     
   utter_Mutliplex_construction_answer:
   - text: |
-    - "To commence construction, you will require an NOC from the office of the Commissioner of Police. You will have to make an application and submit the following documents:
+     - "To commence construction, you will require an NOC from the office of the Commissioner of Police. You will have to make an application and submit the following documents:
        1. A true copy of the NOC issued by the licensing authority with respect to the site where the cinema is proposed to be put up.
        2. Approved plans (by the Building Proposals Department, BMC)
        3.IOD (Intimation of disapproval) from the BMC
        4. NOC from the Chief Fire officer, BMC After receipt of the same, the papers will be processed and then NOC for construction will be issued."
-    - "It will take 1 month to obtain the NOC"
+     - "It will take 1 month to obtain the NOC"
   
   utter_Mutliplex_license_answer:
   - text: |
-    - "After completing construction, you will have to make an application for grant of license. You have to submit the following documents along with your application:
+     - "After completing construction, you will have to make an application for grant of license. You have to submit the following documents along with your application:
        1. Occupation certificate from the BMC.
        2. NOC from the electrical Inspector.
        3. NOC from the Health Officer, local municipal corporation.
@@ -146,8 +146,8 @@ responses:
        8. NOC from PWD.
        9. Structural stability certificate from the architect.
        10. Name and address of the Manager, Projector operator and electrician. After the receipt of the same, the proposal will be submitted to the Government for previous sanction. After receipt of the previous sanction from the Government, the license will be issued."
-    - "Obtaining this license will take 2 months"
-    - "Fees:
+     - "Obtaining this license will take 2 months"
+     - "Fees:
        1. Cinema license up to 200 seats Rs. 2,000; Up to 500 seats Rs. 3,000; Above 501 seats Rs. 4,500
        2. Ticket selling license Rs. 500
        3. Addition/Alteration in the license Rs. 25
@@ -155,7 +155,7 @@ responses:
  
   utter_Mutliplex_license_renewal_answer:
   - text: |
-    - "For renewal of the license, you will have to submit the following documents along with the application:
+     - "For renewal of the license, you will have to submit the following documents along with the application:
        1. NOC from PWD
        2. NOC from the electrical Inspector
        3. NOC from the Health Officer, BMC
@@ -165,13 +165,13 @@ responses:
        7. NOC from the Traffic Police regarding parking
        8. Certificate regarding screening of approved films 
        9. NOC from the Collector."
-    - "Fee is the same as in license fee structure"
+     - "Fee is the same as in license fee structure"
   
-   utter_Loudspeaker_license_answer:
+  utter_Loudspeaker_license_answer:
   - text: |
-    - "You require a loudspeaker contractor's license which will be issued by Commissioner of Police"
-    - "Make an application form in the prescribed format affixing a court fee stamp of Rs. 5 along with your passport size photograph on it."
-    - "Following documents have to be submitted along with application form:
+     - "You require a loudspeaker contractor's license which will be issued by Commissioner of Police"
+     - "Make an application form in the prescribed format affixing a court fee stamp of Rs. 5 along with your passport size photograph on it."
+     - "Following documents have to be submitted along with application form:
        1. Wireman's certificate (Government recognized).
        2. Wireman's license.
        3. School leaving certificate.
@@ -180,16 +180,16 @@ responses:
        6. Electricity bill.
        7. Document showing ownership/title/rights of premises (own/lease/rental).
        8. If the premises are rented, then the NOC from the concerned person has to be duly submitted to the landlord stating that he does not have any objection for keeping the loudspeaker equipment."
-    - "If you do not have these documents,your application will not be processed"
-    - "The application will take minimum 30-45 days to process"
-    - "Fee structure for license is as under :
+     - "If you do not have these documents,your application will not be processed"
+     - "The application will take minimum 30-45 days to process"
+     - "Fee structure for license is as under :
        1.Loudspeaker Contractor's License fees Rs. 2,500 per year.
        2.Renewal fees Rs. 2,500 per year."
    
-   utter_Loudspeaker_license_renewal_answer:
+  utter_Loudspeaker_license_renewal_answer:
   - text: |
-    - "You have to make an application along with a copy of the license one month prior to the expiry of the license; enquiries will be made by the concerned Police Station and after receipt of the enquiry report, you will be intimated."
-    - "The renewal charges are the same as license fee structure"
+     - "You have to make an application along with a copy of the license one month prior to the expiry of the license; enquiries will be made by the concerned Police Station and after receipt of the enquiry report, you will be intimated."
+     - "The renewal charges are the same as license fee structure"
 
 session_config:
   session_expiration_time: 60
