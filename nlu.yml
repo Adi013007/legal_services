@@ -22,13 +22,13 @@ nlu:
 - intent: Bowling_alley_renewal
   examples: |
     - I want to renew license for my bowling alley,what should I do?
-    - What are bowling_alley license renewal charges>?
+    - What are bowling alley license renewal charges>?
 
 
 - intent: Circus_application
   examples: |
     - I wish to open a circus,what should I do
-    - I wish to open a circus,but dont know what to do
+    - I wish to open a circus but dont know what to do
     - What licenses are required to open circus?
     
 
