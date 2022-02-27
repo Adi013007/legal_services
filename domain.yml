@@ -17,10 +17,10 @@ intents:
 responses:
   utter_Bowling_alley_answer:
   - text: |
-     1."You require the Premises License, the Ticket Selling License and the Performance License."
-     2."The Premises License and Ticket selling license are issued from the Office of the Commissioner of Police.the Performance license is issued by the office of Divisional ACP."
-     3."The Performance license is issued by the office of Divisional ACP(Assistant Commissioner of Police".
-     4."To procure the licenses you will have to make an application form in the prescribed format, affixing a court fee stamp of Rs. 5 on it."
+     - "You require the Premises License, the Ticket Selling License and the Performance License."
+     - "The Premises License and Ticket selling license are issued from the Office of the Commissioner of Police.the Performance license is issued by the office of Divisional ACP."
+     - "The Performance license is issued by the office of Divisional ACP(Assistant Commissioner of Police".
+     - "To procure the licenses you will have to make an application form in the prescribed format, affixing a court fee stamp of Rs. 5 on it."
 
 
   
