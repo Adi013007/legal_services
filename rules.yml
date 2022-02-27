@@ -60,4 +60,4 @@ rules:
 - rule: Say procedure anytime the user asks about license renewal for loudspeaker
   steps:
   - intent: Loudspeaker_license_renewal
-  - action: utter_Loudspeaker_renewal_answer
+  - action: utter_Loudspeaker_license_renewal_answer
