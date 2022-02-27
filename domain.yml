@@ -191,6 +191,23 @@ responses:
      - "You have to make an application along with a copy of the license one month prior to the expiry of the license; enquiries will be made by the concerned Police Station and after receipt of the enquiry report, you will be intimated."
      - "The renewal charges are the same as license fee structure"
 
+actions:
+  - action_Bowling_alley_answer
+  - action_Bowling_alley_application_answer
+  - action_Bowling_alley_processing_answer
+  - action_Bowling_alley_renewal_answer
+  - action_Circus_application_answer
+  - action_Circus_license_answer
+  - action_Multiplex_application_answer
+  - answer_Multiplex_noc_answer 
+  - action_Multiplex_license_answer
+  - action_Multiplex_license_renewal_answer 
+  - action_Loudspeaker_license_answer 
+  - action_Loudspeaker_license_renewal_answer 
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
+
+

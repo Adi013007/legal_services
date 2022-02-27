@@ -27,7 +27,7 @@ stories:
   - action: Multiplex_application_answer
   - intent: Multiplex_noc
   - action: Multiplex_noc_answer
-  - intent: Mutliplex_license
+  - intent: Multiplex_license
   - action: Multiplex_license_answer
 
 - story: loudspeaker_application path 
