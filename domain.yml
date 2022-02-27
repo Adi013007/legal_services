@@ -124,7 +124,7 @@ responses:
        4. After completion of all the above procedure, the proposal will be submitted to the government for previous sanction.
        5. After the receipt of previous sanction from the government, an NOC will be issued." 
     
-  utter_Mutliplex_construction_answer:
+  utter_Multiplex_construction_answer:
   - text: |
      - "To commence construction, you will require an NOC from the office of the Commissioner of Police. You will have to make an application and submit the following documents:
        1. A true copy of the NOC issued by the licensing authority with respect to the site where the cinema is proposed to be put up.
@@ -133,7 +133,7 @@ responses:
        4. NOC from the Chief Fire officer, BMC After receipt of the same, the papers will be processed and then NOC for construction will be issued."
      - "It will take 1 month to obtain the NOC"
   
-  utter_Mutliplex_license_answer:
+  utter_Multiplex_license_answer:
   - text: |
      - "After completing construction, you will have to make an application for grant of license. You have to submit the following documents along with your application:
        1. Occupation certificate from the BMC.
@@ -153,7 +153,7 @@ responses:
        3. Addition/Alteration in the license Rs. 25
        4. Duplicate license Rs. 50"
  
-  utter_Mutliplex_license_renewal_answer:
+  utter_Multiplex_license_renewal_answer:
   - text: |
      - "For renewal of the license, you will have to submit the following documents along with the application:
        1. NOC from PWD
