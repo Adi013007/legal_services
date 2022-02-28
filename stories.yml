@@ -37,4 +37,17 @@ stories:
   - intent: Loudspeaker_license_renewal
   - action: utter_Loudspeaker_license_renewal_answer
 
-  
+- story: passport_application_path_01
+  steps: 
+  - intent: Passport_application
+  - action: utter_Passport_application
+
+- story: passport_application_path_02
+  steps:
+  - intent: Passport_fee
+  - action: utter_Passport_fee
+
+- story: passport_application_path_03
+  steps:
+  - intent: Passport_office_location
+  - action: utter_Passport_office_location

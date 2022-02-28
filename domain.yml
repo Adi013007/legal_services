@@ -13,6 +13,9 @@ intents:
   - Multiplex_license_renewal 
   - Loudspeaker_license 
   - Loudspeaker_license_renewal 
+  - Passport_office_location
+  - Passport_application
+  - Passport_fee
 
 responses:
   utter_Bowling_alley_answer:
@@ -51,7 +54,7 @@ responses:
   - text: |
      - "You will have to submit an application along with the copy of your license one month prior to the expiry of the license. You will also have to submit valid NOC's along with the application. Enquiries will be made through the concerned Police station, and after receipt of the inquiry report, you will be intimated." 
      - "Renewal charges are same as license fee structure"
-     
+
   utter_Circus_application_answer:
   - text: |
      - "Following Police License are required for Circus
@@ -79,6 +82,7 @@ responses:
        7. What is the seating arrangement made and whether it is sound.
        8. Certificate for fitness of machinery
        9. Whether the place is within 100 meters from a hospital, court, educational institute or religious place and defined as a silence zone, as per Noise Pollution (Regulation & Control) Rules-2000. After the receipt of this report through concerned ACP and DCP the decision will be taken and the applicant will be informed."
+
   utter_Circus_license_answer:
   - text: |
      - "Following are the license Fees for Circus:
@@ -86,7 +90,7 @@ responses:
        2.Ticket selling fees Rs.100
        3.Performance license fees Rs.250 (per show)"
      -  "It takes 15 to 20 days to obtain a license for a circus."
-     
+
   utter_Multiplex_application_answer:
   - text: |
      - "You have to obtain NOC for the location of the proposed construction from The Office Of The Commissioner Of Police"
@@ -185,9 +189,24 @@ responses:
    
   utter_Loudspeaker_license_renewal_answer:
   - text: |
-     - "You have to make an application along with a copy of the license one month prior to the expiry of the license; enquiries will be made by the concerned Police Station and after receipt of the enquiry report, you will be intimated."
-     - "The renewal charges are the same as license fee structure"
-     
+      - "You have to make an application along with a copy of the license one month prior to the expiry of the license; enquiries will be made by the concerned Police Station and after receipt of the enquiry report, you will be intimated."
+      - "The renewal charges are the same as license fee structure"
+
+  utter_Passport_office_location:
+  - text: |
+      - "Address : Regional Passport Office, Videsh Bhavan, Bandra Kurla Complex, Plot No. C-45 G Block, Bandra (East), Mumbai -400051. Telephone number 26520017/26520016"
+
+  utter_Passport_application:
+  - text: |
+      - "Passport application is available on the following website - www.passportindia.gov.in"
+      
+  utter_Passport_fee:
+  - text: |
+      - "Fee structure :
+        i) Fresh Passport (36 pages) of 10 years validity- Rs. 1,500.
+        ii) Fresh Passport (60 pages) of 10 years validity - Rs. 2,000.
+        iii) Fresh Passport for Minors (Below 15 years of Age) of 5 years validity - Rs.1000."
+
 actions:
   - utter_Bowling_alley_answer
   - utter_Bowling_alley_application_answer
@@ -201,6 +220,9 @@ actions:
   - utter_Multiplex_license_renewal_answer 
   - utter_Loudspeaker_license_answer 
   - utter_Loudspeaker_license_renewal_answer 
+  - utter_Passport_office_location
+  - utter_Passport_application
+  - utter_Passport_fee
 
 session_config:
   session_expiration_time: 60

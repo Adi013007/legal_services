@@ -5,12 +5,13 @@ nlu:
   examples: |
     - I wish to open a bowling alley,but dont know what to do.
     - I wish to open a bowling alley,what should I do?
- 
+
 - intent: Bowling_alley_application
   examples: |
     - Where can I get the application form for bowling alley?
     - What documents should I submit along with application form?
     - What should I do if I do not have all the required documents?
+
 - intent: Bowling_alley_processing
   examples: |
     - How long will it take to process my application for bowling_alley?
@@ -35,7 +36,6 @@ nlu:
 - intent: Multiplex_application
   examples: |
     - What should I do to construct my own multiplex
-    
  
 - intent: Multiplex_noc 
   examples: |
@@ -45,20 +45,44 @@ nlu:
 - intent: Multiplex_construction 
   examples: |
     - When can I start the construction of multiplex?
+
 - intent: Multiplex_license 
   examples: |
     - When do I obtain license for  multiplex?
     - When do I procure license for  multiplex?
     - What is the license fee?
+
 - intent: Multiplex_license_renewal 
   examples: |
     - When do I renew license for construction for multiplex?
     - What is the license renewal fee?
+
 - intent: Loudspeaker_license 
   examples: |
     - How do I obtain license for becoming loudspeaker contractor?
     - Where will I get the application form for obtaining license?
+
 - intent: Loudspeaker_license_renewal 
   examples: |
     - How do I renew license for becoming loudspeaker contractor?
     - What is the license renewal fee?
+
+- intent: Passport_office_location 
+  examples: |
+    - Location of Passport Office
+    - Where to go for Passport
+    - Where is Passport Office
+    - Contact Passport Office
+
+- intent: Passport_application
+  examples: |
+    - I want to get a passport
+    - Want passport application
+    - Want to issue a passport
+    - Where to fill the passport application
+
+- intent: Passport_fee
+  examples: |
+    - Cost for issuing a passport
+    - Fees for passport creation
+    - How much does it cost to get a passport
