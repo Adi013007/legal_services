@@ -6,7 +6,6 @@ nlu:
     - I wish to open a bowling alley,but dont know what to do.
     - I wish to open a bowling alley,what should I do?
  
-
 - intent: Bowling_alley_application
   examples: |
     - Where can I get the application form for bowling alley?
@@ -21,6 +20,7 @@ nlu:
   examples: |
     - I want to renew license for my bowling alley,what should I do?
     - What are bowling alley license renewal charges>?
+
 - intent: Circus_application
   examples: |
     - I wish to open a circus,what should I do

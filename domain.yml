@@ -51,6 +51,7 @@ responses:
   - text: |
      - "You will have to submit an application along with the copy of your license one month prior to the expiry of the license. You will also have to submit valid NOC's along with the application. Enquiries will be made through the concerned Police station, and after receipt of the inquiry report, you will be intimated." 
      - "Renewal charges are same as license fee structure"
+     
   utter_Circus_application_answer:
   - text: |
      - "Following Police License are required for Circus
@@ -85,6 +86,7 @@ responses:
        2.Ticket selling fees Rs.100
        3.Performance license fees Rs.250 (per show)"
      -  "It takes 15 to 20 days to obtain a license for a circus."
+     
   utter_Multiplex_application_answer:
   - text: |
      - "You have to obtain NOC for the location of the proposed construction from The Office Of The Commissioner Of Police"
@@ -185,6 +187,7 @@ responses:
   - text: |
      - "You have to make an application along with a copy of the license one month prior to the expiry of the license; enquiries will be made by the concerned Police Station and after receipt of the enquiry report, you will be intimated."
      - "The renewal charges are the same as license fee structure"
+     
 actions:
   - utter_Bowling_alley_answer
   - utter_Bowling_alley_application_answer
