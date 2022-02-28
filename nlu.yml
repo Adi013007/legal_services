@@ -3,8 +3,8 @@ version: "3.0"
 nlu:
 - intent: Bowling_alley
   examples: |
-    - I wish to open a bowling alley,but dont know what to do.
-    - I wish to open a bowling alley,what should I do?
+    - I wish to open a bowling alley, but dont know what to do.
+    - I wish to open a bowling alley, what should I do?
  
 - intent: Bowling_alley_application
   examples: |
@@ -13,17 +13,17 @@ nlu:
     - What should I do if I do not have all the required documents?
 - intent: Bowling_alley_processing
   examples: |
-    - How long will it take to process my application for bowling_alley?
+    - How long will it take to process my application for bowling alley?
     - What is the fee structure for license?
     
 - intent: Bowling_alley_renewal
   examples: |
-    - I want to renew license for my bowling alley,what should I do?
+    - I want to renew license for my bowling alley, what should I do?
     - What are bowling alley license renewal charges>?
 
 - intent: Circus_application
   examples: |
-    - I wish to open a circus,what should I do
+    - I wish to open a circus, what should I do
     - I wish to open a circus but dont know what to do
     - What licenses are required to open circus?
     
@@ -47,8 +47,8 @@ nlu:
     - When can I start the construction of multiplex?
 - intent: Multiplex_license 
   examples: |
-    - When do I obtain license for  multiplex?
-    - When do I procure license for  multiplex?
+    - When do I obtain license for multiplex?
+    - When do I procure license for multiplex?
     - What is the license fee?
 - intent: Multiplex_license_renewal 
   examples: |
