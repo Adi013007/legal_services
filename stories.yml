@@ -2,29 +2,39 @@ version: "3.0"
 
 stories:
 
-- story: happy path
+- story: bowling_alley path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: Bowling_alley
+  - action: utter_Bowling_alley_answer
+  - intent: Bowling_alley_application
+  - action: utter_Bowling_alley_application_answer
+  - intent: Bowling_alley_processing
+  - action: utter_Bowling_alley_processing_answer
+  - intent: Bowling_alley_renewal
+  - action: utter_Bowling_alley_renewal_answer
 
-- story: sad path 1
+- story: circus_application path 
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: Circus_application
+  - action: utter_Circus_application_answer
+  - intent: Circus_license
+  - action: utter_Circus_license_answer
+  
 
-- story: sad path 2
+- story: mutliplex_application path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: Multiplex_application
+  - action: utter_Multiplex_application_answer
+  - intent: Multiplex_noc
+  - action: utter_Multiplex_noc_answer
+  - intent: Multiplex_license
+  - action: utter_Multiplex_license_answer
+
+- story: loudspeaker_application path 
+  steps:
+  - intent: Loudspeaker_license
+  - action: utter_Loudspeaker_license_answer
+  - intent: Loudspeaker_license_renewal
+  - action: utter_Loudspeaker_license_renewal_answer
+
+  

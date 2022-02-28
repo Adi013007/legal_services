@@ -12,26 +12,21 @@ nlu:
     - Where can I get the application form for bowling alley?
     - What documents should I submit along with application form?
     - What should I do if I do not have all the required documents?
-
 - intent: Bowling_alley_processing
   examples: |
     - How long will it take to process my application for bowling_alley?
     - What is the fee structure for license?
     
-
 - intent: Bowling_alley_renewal
   examples: |
     - I want to renew license for my bowling alley,what should I do?
-    - What are bowling_alley license renewal charges>?
-
-
+    - What are bowling alley license renewal charges>?
 - intent: Circus_application
   examples: |
     - I wish to open a circus,what should I do
-    - I wish to open a circus,but dont know what to do
+    - I wish to open a circus but dont know what to do
     - What licenses are required to open circus?
     
-
 - intent: Circus_license
   examples: |
     - What is fee required for obtaining licenses for opening circus?
@@ -50,23 +45,19 @@ nlu:
 - intent: Multiplex_construction 
   examples: |
     - When can I start the construction of multiplex?
-
 - intent: Multiplex_license 
   examples: |
     - When do I obtain license for  multiplex?
     - When do I procure license for  multiplex?
     - What is the license fee?
-
 - intent: Multiplex_license_renewal 
   examples: |
     - When do I renew license for construction for multiplex?
     - What is the license renewal fee?
-
 - intent: Loudspeaker_license 
   examples: |
     - How do I obtain license for becoming loudspeaker contractor?
     - Where will I get the application form for obtaining license?
-
 - intent: Loudspeaker_license_renewal 
   examples: |
     - How do I renew license for becoming loudspeaker contractor?
