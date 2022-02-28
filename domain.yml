@@ -21,8 +21,8 @@ responses:
   utter_Bowling_alley_answer:
   - text: |
      - "You require the Premises License, the Ticket Selling License and the Performance License."
-     - "The Premises License and Ticket selling license are issued from the Office of the Commissioner of Police.the Performance license is issued by the office of Divisional ACP."
-     - "The Performance license is issued by the office of Divisional ACP(Assistant Commissioner of Police".
+     - "The Premises License and Ticket selling license are issued from the Office of the Commissioner of Police. The Performance license is issued by the office of Divisional ACP."
+     - "The Performance license is issued by the office of Divisional ACP (Assistant Commissioner of Police)."
      - "To procure the licenses you will have to make an application form in the prescribed format, affixing a court fee stamp of Rs. 5 on it."
   
   utter_Bowling_alley_application_answer:
@@ -37,10 +37,10 @@ responses:
         6. N.O.C. from the Fire Brigade office.
         7. N.O.C. from the Health Department of local municipal corporation.
         8. If there is a telephone, then a certificate from MTNL office.
-        9. NOC from the electrical Inspector.
+        9. N.O.C. from the electrical Inspector.
         10.Number of bowling alleys.
         11.Undertaking application/notice for not installing any gambling equipment" 
-     - "If above documents are not presented,application will not be processed"
+     - "If above documents are not presented, application will not be processed"
     
   utter_Bowling_alley_processing_answer:
   - text: |
@@ -62,13 +62,13 @@ responses:
        2. Ticket Selling license
        3. Performance license:
      - "For obtaining license, An application should be in writing affixing court fees stamp of Rs.5 on it. The application should be submitted along with certified copies of the following documents:
-       1. NOC from the Landlord.
+       1. N.O.C. from the Landlord.
        2. N.O.C from the Traffic Police.
-       3. NOC from the Fire Brigade.
-       4. NOC from the electrical Inspector.
-       5. NOC from the Health Department of the local municipal corporation.
+       3. N.O.C. from the Fire Brigade.
+       4. N.O.C. from the electrical Inspector.
+       5. N.O.C. from the Health Department of the local municipal corporation.
        6. If there is a telephone, a certificate from the MTNL office.
-       7. NOC from the Collector.
+       7. N.O.C. from the Collector.
        8. Undertaking from applicant to observe The Provisions Of Cruelty To Animals Act-1960.
        9. The plan (map) showing details of the premises where the circus will be held.
        10 N.O.C. from P.W.D. Department"
@@ -111,7 +111,7 @@ responses:
   utter_Multiplex_noc_answer:
   - text: |
      - "You have to obtain NOC for the location of the proposed construction from The Office Of The Commissioner Of Police"
-     - "To obtain such an NOC,you have to make an application affixing court fees stamp of Rs. 5/- along with following necessary documents.
+     - "To obtain such an NOC, you have to make an application affixing court fees stamp of Rs. 5/- along with following necessary documents.
        1. Plan of the proposed site indicating surroundings, roads and buildings up to a distance of 75 meters from the perimeter. Schools, hospitals, temples or other similar places should be clearly indicated in the plan along with floor wise plans (3 sets)
        2. Certificate from the Collector for N.A. land.
        3. Property card
@@ -138,13 +138,13 @@ responses:
   - text: |
      - "After completing construction, you will have to make an application for grant of license. You have to submit the following documents along with your application:
        1. Occupation certificate from the BMC.
-       2. NOC from the electrical Inspector.
-       3. NOC from the Health Officer, local municipal corporation.
+       2. N.O.C. from the electrical Inspector.
+       3. N.O.C. from the Health Officer, local municipal corporation.
        4. Certificate from MTNL.
        5. Certificate of lighting contractor.
-       6. NOC from the Chief Fire Officer, BMC.
-       7. NOC from the Traffic Police regarding parking.
-       8. NOC from PWD.
+       6. N.O.C. from the Chief Fire Officer, BMC.
+       7. N.O.C. from the Traffic Police regarding parking.
+       8. N.O.C. from PWD.
        9. Structural stability certificate from the architect.
        10. Name and address of the Manager, Projector operator and electrician. After the receipt of the same, the proposal will be submitted to the Government for previous sanction. After receipt of the previous sanction from the Government, the license will be issued."
      - "Obtaining this license will take 2 months"
@@ -157,15 +157,15 @@ responses:
   utter_Multiplex_license_renewal_answer:
   - text: |
      - "For renewal of the license, you will have to submit the following documents along with the application:
-       1. NOC from PWD
-       2. NOC from the electrical Inspector
-       3. NOC from the Health Officer, BMC
+       1. N.O.C. from PWD
+       2. N.O.C. from the electrical Inspector
+       3. N.O.C. from the Health Officer, BMC
        4. Certificate from MTNL
        5. Certificate of lighting contractor
-       6. NOC from the Chief Fire Officer, BMC
-       7. NOC from the Traffic Police regarding parking
+       6. N.O.C. from the Chief Fire Officer, BMC
+       7. N.O.C. from the Traffic Police regarding parking
        8. Certificate regarding screening of approved films 
-       9. NOC from the Collector."
+       9. N.O.C. from the Collector."
      - "Fee is the same as in license fee structure"
   
   utter_Loudspeaker_license_answer:
