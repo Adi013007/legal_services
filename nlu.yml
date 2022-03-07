@@ -86,3 +86,75 @@ nlu:
     - Cost for issuing a passport
     - Fees for passport creation
     - How much does it cost to get a passport
+
+- intent: Amusement_Waterpark_NOC_requirements
+  examples: |
+    - How to get NOC for Amusement park
+    - How to get NOC for water park
+    - What is the procedure to get NOC for Amusement park
+    - What is the procedure to get NOC for water park
+    - What all documents are required for NOC for amusement park
+    - What all documents are required for NOC for water park
+
+- intent: Amusement_Waterpark_procedure
+  examples: |
+    - What is the procedure involved for obtaining permission to build an Amusement Park
+    - How to obtain permission to build an Amusement Park
+    - What is the procedure involved for obtaining permission to build an Water Park
+    - How to obtain permission to build an Water Park
+
+- intent: Amusement_Waterpark_NOC_processing
+  examples: |
+    - How long will it take to process my application the NOC for the location of an Amusement/Water Park ?
+    - How many days will it take to process my application for the NOC for the location of an Amusement/Water Park ?
+
+- intent: Off_course_betting_centre
+  examples: |
+    - Which authority issue these licenses to an Off-Course Betting Centre?
+    - Who issue licenses to an Off-Course Betting Centre?
+    - How does an Off-Course Betting Centre obtain licenses?
+
+- intent: Off_course_betting_centre_fee
+  examples: |
+    - Cost for issuing a license to Off-Course Betting Centre
+    - Fees for Off-Course Betting Centre license
+    - How much does it cost to get a license for Off-Course Betting Centre
+
+- intent: Go_karting_licenses
+  examples: |
+    - I wish to start a Go Karting establishment. What are the Licenses I require?
+    - What all license required to establish Go karting?
+    - Should I get any license to establish Go karting?
+- intent: Go_karting_processing
+  examples: |
+    - How long will it take to process my application for Go karting?
+    - How many days will it take to process my application for Go karting?
+
+- intent: Go_karting_processing
+  examples: |
+    - How long will it take to process my application for Go karting?
+    - How many days will it take to process my application for Go karting?
+
+- intent: Video_theatre_license
+  examples: |
+    - I wish to start a video theatre. What are the Licenses I require?
+    - What all license required to establish video theatre?
+    - Should I get any license to establish Go video theatre?
+    - Where do I get licenses for video theatre?
+    - Where should I apply for  Premises License and Ticket selling license?
+    - Which authority issue Video theatre licenses?
+
+- intent: Video_theatre_application
+  examples: |
+    - Where will I get the application for opening new theatre?
+    - How to get the application for opening new theatre?
+    - Where is the application for opening new theatre available?
+    - How long the application will take to process?
+
+- intent: Video_theatre_fee
+  examples: |
+    - Cost for issuing a license to Video theatre
+    - Fees for passport Video theatre license
+    - How much does it cost to get a license for Video theatre?
+    - What is the fee structure for Video theatre application?
+

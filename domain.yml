@@ -16,6 +16,16 @@ intents:
   - Passport_office_location
   - Passport_application
   - Passport_fee
+  - Amusement_Waterpark_NOC_requirements
+  - Amusement_Waterpark_procedure
+  - Amusement_Waterpark_NOC_processing
+  - Off_course_betting_centre
+  - Off_course_betting_centre_fee
+  - Go_karting_licenses
+  - Go_karting_processing
+  - Video_theatre_license
+  - Video_theatre_application
+  - Video_theatre_fee
 
 responses:
   utter_Bowling_alley_answer:
@@ -206,7 +216,58 @@ responses:
         i) Fresh Passport (36 pages) of 10 years validity- Rs. 1,500.
         ii) Fresh Passport (60 pages) of 10 years validity - Rs. 2,000.
         iii) Fresh Passport for Minors (Below 15 years of Age) of 5 years validity - Rs.1000."
+  
+  utter_Amusement_Waterpark_NOC_requirements:
+  - text: |
+      - "The applicant should submit the following documents/NOC's along with the application: 
+          a.  Plan of the proposed site indicating surroundings, roads and buildings up to a distance of 75 meters from the perimeter. Schools, Hospitals,Temples or other similar places should be clearly indicated in the plan along with floor wise plans (3 sets)
+          b.  Certificate from the Collector for non-agricultural land.
+          c.  Property Card.
+          d.  Appointment letter of the Architect. 
+          e.  Agreement between landowner and Builder/Developer or Power of Attorney. 
+          f.  Copies of applications submitted to the Building Proposal Department along with their remarks"
 
+  utter_Amusement_Waterpark_procedure:
+  - text: |
+      - " After applying NOC, following procedure is to be followed:
+      1. For inviting objections from the public, if any, the applicant is directed to - a. Display a Notice Board at the proposed site. b. Publish an advertisement in 3 newspapers.
+      2. One set of plans along with the application is forwarded to the local Police authorities for their remarks and also in-view of law and order.
+      3. One set of plans along with the application is forwarded to the Traffic branch for their remarks from the traffic point of view. After the reports are received, the licensing authority decides upon the application and the applicant is intimated accordingly."
+
+  utter_Amusement_Waterpark_NOC_processing:
+  - text: |
+      - "This procedure requires minimum 5 months of time."
+  utter_Off_course_betting_centre:
+  - text: |
+    - "Secretary of the Royal Western India Turf Club issues these licenses."  
+  
+  utter_Off_course_betting_centre_fee:
+  - text: |
+    - "Premises license fees Rs.2,000 /- Ticket selling license fees Rs.100/-"
+  
+  utter_Go_karting_licenses:
+  - text: |
+    - "You require a Premises License, a Ticket Selling License and Performance License."
+  
+  utter_Go_karting_processing:
+  - text: |
+    - "You require a Premises License, a Ticket Selling License and Performance License."
+  
+  utter_Video_theatre_license:
+  - text: |
+    - "You require the Premises License and the Ticket selling license."
+    - "The Premises License and Ticket selling license are issued from the Office of the Commissioner of Police, the Performance license is issued by the office of Divisional ACP."
+  
+  utter_Video_theatre_application:
+  - text: |
+    - "You can collect the form from Theater Branch or you can receive it online."
+    - "The process will take minimum two month's time."
+  utter_Video_theatre_fee:
+  - text: |
+    - "1. Cinema license - Up to 200 seats Rs. 2,000. Up to 500 seats Rs. 3,000. Above 501 seats Rs. 4,500.
+    2. Ticket selling license Rs. 500.
+    3. Addition/Alteration in the license. Rs. 25.
+    4. Duplicate license Rs. 50."
 actions:
   - utter_Bowling_alley_answer
   - utter_Bowling_alley_application_answer
@@ -223,7 +284,17 @@ actions:
   - utter_Passport_office_location
   - utter_Passport_application
   - utter_Passport_fee
-
+  - utter_Amusement_Waterpark_NOC_requirements
+  - utter_Amusement_Waterpark_procedure
+  - utter_Amusement_Waterpark_NOC_processing
+  - utter_Off_course_betting_centre
+  - utter_Off_course_betting_centre_fee
+  - utter_Go_karting_licenses
+  - utter_Go_karting_processing
+  - utter_Video_theatre_license
+  - utter_Video_theatre_application
+  - utter_Video_theatre_fee
+ 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
