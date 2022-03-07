@@ -16,6 +16,18 @@ intents:
   - Passport_office_location
   - Passport_application
   - Passport_fee
+  - Passport_lost
+  - Passport_verification_time
+  - Passport_documents
+  - Passport_minor
+  - Passport_name_change_marriage
+  - Passport_name_change_remarriage
+  - Passport_name_change_divorce
+  - Passport_name_change_other
+  - Passport_address_change
+  - Passport_verification_procedure
+  - Passport_ecnr
+  - Passport_immediate
 
 responses:
   utter_Bowling_alley_answer:
@@ -207,6 +219,79 @@ responses:
         ii) Fresh Passport (60 pages) of 10 years validity - Rs. 2,000.
         iii) Fresh Passport for Minors (Below 15 years of Age) of 5 years validity - Rs.1000."
 
+  utter_Passport_lost:
+  - text: |
+      - "A complaint should be lodged in the concerned local Police station and thereafter, an application for a new Passport should be made in the Passport Office."
+
+  utter_Passport_verification_time:
+  - text: |
+      - "The verification procedure takes minimum 3 weeks from the receipt of the application, provided that reports are received well in time from the local Police station."
+
+  utter_Passport_documents:
+  - text: |
+      - "Following documents are needed for passport application : 
+          1. Any two of the below mentioned documents 
+              a)Applicant's ration card 
+              b)Telephone bill(copy of current month and previous year) 
+              c)Electricity payment(copy of current month and last year) 
+              d)Current bank account passbook(only first page) 
+              e)Election card/Aadhar card 
+              f)PAN card or driving license
+          2. Birth certificate proof or school leaving certificate
+          3. Documents of Citizenship
+          4. If the Indian citizens are registered or acquired by the acquisition of old passport copies"
+
+  utter_Passport_minor: 
+  - text: |
+      - "If the applicant is a minor, then the application should be accompanied by a copy of both the passport and Aadhar card. Also bring the sample 'D'(Annexure D) along with it."
+
+  utter_Passport_name_change_marriage:
+  - text: |
+      - "A woman applying for the first time for a passport in her married name or for change of name/surname in the existing passport on account of marriage should furnish :
+            i)A photocopy of the husband's Passport if any, and 
+            ii)An attested copy of the marriage certificate issued by Registrar of Marriage and affidavit of the husband and wife along with a joint photograph."
+
+  utter_Passport_name_change_remarriage:
+  - text: |
+      - "Re-married applicants applying for a change of name/spouse's name should furnish :
+            i)Divorce/death certificate as the case may be in respect of first spouse, and 
+            ii)An attested copy of the marriage certificate issued by Registrar of Marriage and affidavit of the husband and wife along with a joint photograph."
+
+  utter_Passport_name_change_divorce:
+  - text: |
+      - "Divorcees applying for change of name or deletion of spouse's name in existing passport must furnish :
+            i)Divorce deed duly authenticated by the court, or 
+            ii)Deed poll/sworn affidavit."
+
+  utter_Passport_name_change_other: 
+  - text: |
+      - "In circumstances other than marriage, remarriage and divorce, the applicant (both male and female) should furnish :
+          i)A deed poll/sworn affidavit. 
+          ii)A paper cutting of two leading daily newspapers(one daily newspaper should be of the area of applicants permanent and present address of nearby area)"
+
+  utter_Passport_address_change:
+  - text: |
+      - "Submit the prescribed passport application along with the present residence proof."
+
+  utter_Passport_verification_procedure:
+  - text: |
+      - "Following procedure is followed for passport verification : 
+          1)First of all, the submitted documents are presented to the passport service center with your application.
+          2) The applications are downloaded from the police station in the online way.
+          3)A copy of this application is given to the BIT executives. The passport applicant verifies the passport and signature of the passport applicant on the tab by going to Beat Employer of the Police Station on the address.
+          4)After the verification of the tab, the passport applicant has to appear before the passport verification officer for 2 to 3 days in the passport serial center and have to appear before the police station for verification of other documents (original and printed copies).
+          5)After verification of the documents, the application is sent online along with the passport verification report to the passport branch-2.
+          6)Police officers will again submit the passport application in Special Branch-2 and submit it in the online form to the Passport Office.
+          7)After the completion of the process, the applicant gets the passport from the regional passport office. After completion of the verification process, contact the Regional Passport Office if the applicant has any doubts regarding the passport."
+
+  utter_Passport_ecnr:
+  - text: |
+      - "Passport applicant whose education is more than 10th, come under the Emmigration check not included(ECNR) category."
+
+  utter_Passport_immediate:
+  - text: |
+      - "It will take 1 week.(In relation to Regional Passport Office, Mumbai.)"
+
 actions:
   - utter_Bowling_alley_answer
   - utter_Bowling_alley_application_answer
@@ -223,6 +308,18 @@ actions:
   - utter_Passport_office_location
   - utter_Passport_application
   - utter_Passport_fee
+  - utter_Passport_lost
+  - utter_Passport_verification_time
+  - utter_Passport_documents
+  - utter_Passport_minor
+  - utter_Passport_name_change_marriage
+  - utter_Passport_name_change_remarriage
+  - utter_Passport_name_change_divorce
+  - utter_Passport_name_change_other
+  - utter_Passport_address_change
+  - utter_Passport_verification_procedure
+  - utter_Passport_ecnr
+  - utter_Passport_immediate
 
 session_config:
   session_expiration_time: 60

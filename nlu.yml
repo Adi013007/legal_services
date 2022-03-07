@@ -86,3 +86,64 @@ nlu:
     - Cost for issuing a passport
     - Fees for passport creation
     - How much does it cost to get a passport
+  
+- intent: Passport_lost
+  examples: |
+    - What to do if I have misplaced my passport
+    - Lost my passport
+    - Can't find my passport
+
+- intent: Passport_verification_time
+  examples: |
+    - How long is the passport verification process
+    - Time taken in passport verification
+    - Duration for passport verification process
+
+- intent: Passport_documents
+  examples: |
+    - What all documents are required for passport application
+    - Documents needed to issue a passport
+    - What all documents I need to apply for a passport
+
+- intent: Passport_minor
+  examples: | 
+    - Passport application procedure for minors
+    - How do I issue a passport if I am a minor
+
+- intent: Passport_name_change_marriage
+  examples: |
+    - Procedure for change of name following marriage
+
+- intent: Passport_name_change_remarriage
+  examples: |
+    - Procedure for change of name following remarriage
+
+- intent: Passport_name_change_divorce
+  examples: |
+    - Procedure for change of name following divorce
+
+- intent: Passport_name_change_other
+  examples: |
+    - How do I change my name in passport
+    - New name on passport application
+
+- intent: Passport_address_change
+  examples: |
+    - How to change my address on passport
+    - Procedure for change of address
+
+- intent: Passport_verification_procedure
+  examples: |
+    - What is the procedure for verfication for passport application
+    - What entails the verification procedure
+
+- intent: Passport_ecnr
+  examples: |
+    - What is ecnr category
+    - What is Emigration Check Not Required category
+    - Who all do not need a Emigeration Check
+
+- intent: Passport_immediate
+  examples: |
+    - How long does it take get a passport immediately
+    - Time taken to issue immediate passport
