@@ -38,6 +38,14 @@ intents:
   - Passport_verification_procedure
   - Passport_ecnr
   - Passport_immediate
+  - Drama_redevelop
+  - Drama_days
+  - Drama_procure_license
+  - Drama_time_license
+  - Drama_law_license
+  - Drama_fee
+  - Drama_renewal_license
+  - Drama_renewal_charge
 
 responses:
   utter_Bowling_alley_answer:
@@ -309,26 +317,26 @@ responses:
   utter_Passport_name_change_marriage:
   - text: |
       - "A woman applying for the first time for a passport in her married name or for change of name/surname in the existing passport on account of marriage should furnish :
-            i)A photocopy of the husband's Passport if any, and 
-            ii)An attested copy of the marriage certificate issued by Registrar of Marriage and affidavit of the husband and wife along with a joint photograph."
+            i. A photocopy of the husband's Passport if any, and 
+            ii. An attested copy of the marriage certificate issued by Registrar of Marriage and affidavit of the husband and wife along with a joint photograph."
 
   utter_Passport_name_change_remarriage:
   - text: |
       - "Re-married applicants applying for a change of name/spouse's name should furnish :
-            i)Divorce/death certificate as the case may be in respect of first spouse, and 
-            ii)An attested copy of the marriage certificate issued by Registrar of Marriage and affidavit of the husband and wife along with a joint photograph."
+            i. Divorce/death certificate as the case may be in respect of first spouse, and 
+            ii. An attested copy of the marriage certificate issued by Registrar of Marriage and affidavit of the husband and wife along with a joint photograph."
 
   utter_Passport_name_change_divorce:
   - text: |
       - "Divorcees applying for change of name or deletion of spouse's name in existing passport must furnish :
-            i)Divorce deed duly authenticated by the court, or 
-            ii)Deed poll/sworn affidavit."
+            i. Divorce deed duly authenticated by the court, or 
+            ii. Deed poll/sworn affidavit."
 
   utter_Passport_name_change_other: 
   - text: |
       - "In circumstances other than marriage, remarriage and divorce, the applicant (both male and female) should furnish :
-          i)A deed poll/sworn affidavit. 
-          ii)A paper cutting of two leading daily newspapers(one daily newspaper should be of the area of applicants permanent and present address of nearby area)"
+          i. A deed poll/sworn affidavit. 
+          ii. A paper cutting of two leading daily newspapers(one daily newspaper should be of the area of applicants permanent and present address of nearby area)"
 
   utter_Passport_address_change:
   - text: |
@@ -337,13 +345,13 @@ responses:
   utter_Passport_verification_procedure:
   - text: |
       - "Following procedure is followed for passport verification : 
-          1)First of all, the submitted documents are presented to the passport service center with your application.
-          2) The applications are downloaded from the police station in the online way.
-          3)A copy of this application is given to the BIT executives. The passport applicant verifies the passport and signature of the passport applicant on the tab by going to Beat Employer of the Police Station on the address.
-          4)After the verification of the tab, the passport applicant has to appear before the passport verification officer for 2 to 3 days in the passport serial center and have to appear before the police station for verification of other documents (original and printed copies).
-          5)After verification of the documents, the application is sent online along with the passport verification report to the passport branch-2.
-          6)Police officers will again submit the passport application in Special Branch-2 and submit it in the online form to the Passport Office.
-          7)After the completion of the process, the applicant gets the passport from the regional passport office. After completion of the verification process, contact the Regional Passport Office if the applicant has any doubts regarding the passport."
+          1. First of all, the submitted documents are presented to the passport service center with your application.
+          2. The applications are downloaded from the police station in the online way.
+          3. A copy of this application is given to the BIT executives. The passport applicant verifies the passport and signature of the passport applicant on the tab by going to Beat Employer of the Police Station on the address.
+          4. After the verification of the tab, the passport applicant has to appear before the passport verification officer for 2 to 3 days in the passport serial center and have to appear before the police station for verification of other documents (original and printed copies).
+          5. After verification of the documents, the application is sent online along with the passport verification report to the passport branch-2.
+          6. Police officers will again submit the passport application in Special Branch-2 and submit it in the online form to the Passport Office.
+          7. After the completion of the process, the applicant gets the passport from the regional passport office. After completion of the verification process, contact the Regional Passport Office if the applicant has any doubts regarding the passport."
 
   utter_Passport_ecnr:
   - text: |
@@ -351,7 +359,67 @@ responses:
 
   utter_Passport_immediate:
   - text: |
-      - "It will take 1 week.(In relation to Regional Passport Office, Mumbai.)"
+      - "It will take 1 week (In relation to Regional Passport Office, Mumbai.)"
+
+  utter_Drama_redevelop:
+  - text: |
+      - "You have to make an application affixing a court fee stamp of Rs.5 and submit the following necessary documents:
+          1. Approved plan of the proposed site indicating surroundings, roads and buildings up to a distance of 75 meters from the perimeter. Schools, hospitals, temples or other similar places should be clearly indicated in the plan and floor wise plans (3 sets) (by the Building Proposals Department, BMC)
+          2. Intimation Of Disapproval issued by the BMC
+          3. N.O.C. from the Chief Fire Officer, BMC
+          4. N.O.C. from PWD
+          5. Appointment letter of the architect.
+          6. Agreement between Landowner and Builder/Developer or Power of Attorney"
+  
+  utter_Drama_days:
+  - text: |
+      - "It will take five months because:
+          1. Objections will be invited from the members of public by displaying board with details of the proposal at the site and the same will also be published in three local newspapers.
+          2. Enquiries will be conducted by the local Police station from the law and order point of view.
+          3. A report will be called for from the Traffic department from traffic point of view.
+          4. After completing the above procedure, a decision will be made and an NOC will be issued."
+
+  utter_Drama_procure_license:
+  - text: |
+      - "After completing the construction you will have to make an application for the grant of license. You need to submit the following documents along with your application:
+          1. Occupation certificate from the BMC 
+          2. N.O.C. from the electrical Inspector
+          3. N.O.C. from Health Officer, BMC 
+          4. N.O.C. from CFO 
+          5. Certificate from MTNL 
+          6. N.O.C. from PWD 
+          7. Structural stability certificate from the architect 
+          8. Name and address of the manager and electrician. 
+          9. Certificate of lightning conductor After the receipt of the same, a decision will be made and the license will be issued."
+
+  utter_Drama_time_license:
+  - text: |
+      - "The process will take minimum two months."  
+
+  utter_Drama_law_license:
+  - text: |
+      - "The Maharashtra Cinema (Regulation) Rules, 1966."      
+
+  utter_Drama_fee:
+  - text: |
+      - "Fees: 
+          1. Premises license up to 200 seats Rs. 5,000. up to 500 seats Rs. 10,000. above 501 seats Rs. 15,000.
+          2. Ticket selling license. Rs. 500. 
+          3. Addition/alteration in the license. Rs. 500. 
+          4. Duplicate license Rs. 500."  
+
+  utter_Drama_renewal_license:
+  - text: |
+      - "For renewal of the license you will have to submit following documents along with the application: 
+          1. N.O.C. from the electrical Inspector.
+          2. N.O.C. from the Health Officer, BMC 
+          3. N.O.C. from CFO 
+          4. Certificate from MTNL 
+          5. N.O.C. from PWD"  
+
+  utter_Drama_renewal_charge:
+  - text: |
+      - "It is the same as given in fee structure."
 
 actions:
   - utter_Bowling_alley_answer
@@ -391,6 +459,13 @@ actions:
   - utter_Passport_verification_procedure
   - utter_Passport_ecnr
   - utter_Passport_immediate
+  - utter_Drama_redevelop
+  - utter_Drama_days
+  - utter_Drama_time_license
+  - utter_Drama_law_license
+  - utter_Drama_fee
+  - utter_Drama_renewal_license
+  - utter_Drama_renewal_charge
 
 session_config:
   session_expiration_time: 60

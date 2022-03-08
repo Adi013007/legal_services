@@ -219,3 +219,40 @@ nlu:
   examples: |
     - How long does it take get a passport immediately
     - Time taken to issue immediate passport
+
+- intent: Drama_redevelop
+  examples: |
+    - I plan to redevelop an existing drama hall. What should I need to do?
+    - What should I do to redevelop an existing drama hall?
+
+- intent: Drama_days
+  examples: |
+    - How many days will it take?
+    - How long will the construction last?
+
+- intent: Drama_procure_license
+  examples: |
+    - Once the construction is complete, how do I procure a license to start my business?
+    - How to procure license after construction?
+
+- intent: Drama_time_license
+  examples: |
+    - How much time does this process take?
+    - How long will the process take?
+
+- intent: Drama_law_license
+  example: |
+    - Under which law this license is required?
+
+- intent: Drama_fee
+  example: |
+    - What is the fee structure?
+
+- intent: Drama_renewal_license
+  example: |
+    - What is the procedure of renewal of license?
+    - What should I do to renew the license?
+
+- inent: Drama_renewal_charge
+  example: |
+    - What are the renewal charges?

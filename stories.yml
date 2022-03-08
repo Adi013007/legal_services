@@ -158,3 +158,43 @@ stories:
   steps:
   - intent: Passport_immediate
   - action: utter_Passport_immediate
+
+- story: drama_renewal_path_1
+  steps:
+  - intent: Drama_redevelop
+  - action: utter_Drama_redevelop
+
+- story: drama_renewal_path_2
+  steps:
+  - intent: Drama_days
+  - action: utter_Drama_days
+
+- story: drama_license_path_1
+  steps:
+  - intent: Drama_procure_license
+  - action: utter_Drama_procure_license
+
+- story: drama_license_path_2
+  steps:
+  - intent: Drama_time_license
+  - action: utter_Drama_time license
+
+- story: drama_license_path_3
+  steps:
+  - intent: Drama_law_license
+  - action: utter_Drama_law_license
+
+- story: drama_fee_structure
+  steps:
+  - intent: Drama_fee
+  - action: utter_Drama_fee
+
+- story: drama_renewal_path_3
+  steps:
+  - intent: Drama_renewal_license
+  - action: utter_Drama_renewal_license
+
+- story: drama_renewal_path_4
+  steps:
+  - intent: Drama_renewal_charge
+  - action: utter_Drama_renewal_charge
