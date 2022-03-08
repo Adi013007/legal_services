@@ -99,3 +99,62 @@ stories:
   - intent: Video_theatre_fee
   - action: utter_Video_theatre_fee
 
+- story: passport_application_path_04
+  steps:
+  - intent: Passport_lost
+  - action: utter_Passport_lost
+
+- story: passport_application_path_05
+  steps:
+  - intent: Passport_verification_time
+  - action: utter_Passport_verification_time
+
+- story: passport_application_path_06
+  steps:
+  - intent: Passport_documents
+  - action: utter_Passport_documents
+
+- story: passport_application_path_07
+  steps:
+  - intent: Passport_minor
+  - action: utter_Passport_minor
+
+- story: passport_application_path_08_name_change_01
+  steps:
+  - intent: Passport_name_change_marriage
+  - action: utter_Passport_name_change_marriage
+
+- story: passport_application_path_08_name_change_02
+  steps:
+  - intent: Passport_name_change_remarriage
+  - action: utter_Passport_name_change_remarriage
+
+- story: passport_application_path_08_name_change_03
+  steps:
+  - intent: Passport_name_change_divorce
+  - action: utter_Passport_name_change_divorce
+
+- story: passport_application_path_08_name_change_04
+  steps:
+  - intent: Passport_name_change_other
+  - action: utter_Passport_name_change_other
+
+- story: passport_application_path_09
+  steps:
+  - intent: Passport_address_change
+  - action: utter_Passport_address_change
+
+- story: passport_application_path_10
+  steps:
+  - intent: Passport_verification_procedure
+  - action: utter_Passport_verification_procedure
+
+- story: passport_application_path_11
+  steps:
+  - intent: Passport_ecnr
+  - action: utter_Passport_ecnr
+
+- story: passport_application_path_12
+  steps:
+  - intent: Passport_immediate
+  - action: utter_Passport_immediate
