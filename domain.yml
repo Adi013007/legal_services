@@ -46,6 +46,20 @@ intents:
   - Drama_fee
   - Drama_renewal_license
   - Drama_renewal_charge
+  - Arms_new_license
+  - Arms_license_time
+  - Arms_license_procedure
+  - Arms_license_documents
+  - Arms_license_renewal
+  - Arms_license_renewal_late
+  - Arms_license_renewal_late_out_of_Mumbai
+  - Arms_TJP
+  - Arms_property_protection
+  - Arms_possession_01
+  - Arms_possession_02
+  - Arms_possession_03
+  - Arms_register_Mumbai
+  - Arms_register_other
 
 responses:
   utter_Bowling_alley_answer:
@@ -257,37 +271,39 @@ responses:
   utter_Amusement_Waterpark_NOC_processing:
   - text: |
       - "This procedure requires minimum 5 months of time."
+
   utter_Off_course_betting_centre:
   - text: |
-    - "Secretary of the Royal Western India Turf Club issues these licenses."  
+      - "Secretary of the Royal Western India Turf Club issues these licenses."  
   
   utter_Off_course_betting_centre_fee:
   - text: |
-    - "Premises license fees Rs.2,000 /- Ticket selling license fees Rs.100/-"
+      - "Premises license fees Rs.2,000 /- Ticket selling license fees Rs.100/-"
   
   utter_Go_karting_licenses:
   - text: |
-    - "You require a Premises License, a Ticket Selling License and Performance License."
+      - "You require a Premises License, a Ticket Selling License and Performance License."
   
   utter_Go_karting_processing:
   - text: |
-    - "You require a Premises License, a Ticket Selling License and Performance License."
+      - "You require a Premises License, a Ticket Selling License and Performance License."
   
   utter_Video_theatre_license:
   - text: |
-    - "You require the Premises License and the Ticket selling license."
-    - "The Premises License and Ticket selling license are issued from the Office of the Commissioner of Police, the Performance license is issued by the office of Divisional ACP."
+      - "You require the Premises License and the Ticket selling license."
+      - "The Premises License and Ticket selling license are issued from the Office of the Commissioner of Police, the Performance license is issued by the office of Divisional ACP."
   
   utter_Video_theatre_application:
   - text: |
-    - "You can collect the form from Theater Branch or you can receive it online."
-    - "The process will take minimum two month's time."
+      - "You can collect the form from Theater Branch or you can receive it online."
+      - "The process will take minimum two month's time."
+  
   utter_Video_theatre_fee:
   - text: |
-    - "1. Cinema license - Up to 200 seats Rs. 2,000. Up to 500 seats Rs. 3,000. Above 501 seats Rs. 4,500.
-    2. Ticket selling license Rs. 500.
-    3. Addition/Alteration in the license. Rs. 25.
-    4. Duplicate license Rs. 50."
+      - " 1. Cinema license - Up to 200 seats Rs. 2,000. Up to 500 seats Rs. 3,000. Above 501 seats Rs. 4,500.
+          2. Ticket selling license Rs. 500.
+          3. Addition/Alteration in the license. Rs. 25.
+          4. Duplicate license Rs. 50."
   utter_Passport_lost:
   - text: |
       - "A complaint should be lodged in the concerned local Police station and thereafter, an application for a new Passport should be made in the Passport Office."
@@ -421,6 +437,74 @@ responses:
   - text: |
       - "It is the same as given in fee structure."
 
+  utter_Arms_new_license:
+  - text: |
+      - "One can procure a new Arms license by submitting an application in "A" form with Rs. 5/- Court fees, stamp"
+
+  utter_Arms_license_time:
+  - text: |
+      - "It will minimum two months to get a new Arms License."
+
+  utter_Arms_license_procedure:
+  - text: |
+      - "The application form is sent to the concerned Police station. The Police station makes an inquiry and submit the report to the Zonal DCP who interviews the applicant and submits his report. Once convinced by the reports, the licensing authority issues the license."
+
+  utter_Arms_license_documents:
+  - text: |
+      - "Following needs to be submitted to obtain a new Arms License :
+            1. Copy of Ration card
+            2. Election card
+            3. Last 3 years I.T. certificate / Challan copy
+            4. Two character certificates from the responsible citizens of your locality
+            5. Physical fitness certificate
+            6. Education Qualification certificate
+            7. Proof of age"
+
+  utter_Arms_license_renewal:
+  - text: |
+      - "If the renewal is not late, fill the renewal form and affix Rs. 5/- Court fees, stamp. Produce weapon and license for inspection at Citizen Facilitation Center. Pay the renewal fees. Renewal will be done immediately."
+
+  utter_Arms_license_renewal_late:
+  - text: |
+      - "Call on personally. Produce the weapon for inspection. Fill up the renewal form. Submit your explanation for the delay. You will be issued with a Show Cause Notice. Answer within 15 days. The decision will be taken after receipt of your reply. The decision will be conveyed to you by letter, through the concerned Police station."
+
+  utter_Arms_license_renewal_late_out_of_Mumbai:
+  - text: |
+      - "Deposit the weapon to the nearest Police station. Obtain receipt for the same. Fill up the renewal form and leave the license with A & A Branch. When the license holder returns, ask him to come into the office and collect the license."
+
+  utter_Arms_TJP:
+  - text: |
+      - "Submit an application on a plain paper with Rs. 5/- Court Fees, Stamp. Attach a copy of the license. Next day, pay a fee of Rs. 20/- and you will get a TJP. This is only valid for 30 days and is subject to local restrictions imposed by the local authority."
+
+  utter_Arms_property_protection:
+  - text: |
+      - " The license for property protection is granted on a Per-Pro basis. The procedure is same as that for obtaining a new license."
+
+  utter_Arms_possession_01:
+  - text: |
+      - "You have to deposit the weapon and the original license with ammunition for safe custody at the nearest police station. Attach copy of death certificate with application. A safe custody receipt will be issued to you. The weapon can be kept for one year. Charges are Rs. 50/- for one year."
+
+  utter_Arms_possession_02:
+  - text: |
+      - "Submit "A" form application for new license. Attach copy of the death certificate and the safe custody receipt of Rs. 20/- stamp paper, duly notarized. An affidavit of all legal heirs with NOC in the applicant's name has to be attached. The other procedure remains the same as for procuring a new license."
+
+  utter_Arms_possession_03:
+  - text: |
+      - "Make an application for an arms license in the form "A". Attach a consent letter of the license holder with an affidavit of Rs. 20/- stamp paper duly notarized. Attach an NOC from other legal heirs on Rs.20/- stamp paper duly notarized. The procedure remains the same as for procuring a new license. Please remember, grant of license depends upon your eligibility to hold it and not on the wish of the donor."
+
+  utter_Arms_register_Mumbai:
+  - text: |
+      - "Following process is required to be followed : 
+            i. Submit an application in prescribed form for re-registration.
+            ii. Attach a copy of the arms license.
+            iii. Produce/attach residential proof.
+            iv. An NOC from the original licensing authority is required.
+            v. A police station report with remarks from the Zonal DCP is also required. On receiving the NOC and remarks from the DCP, the decision shall be taken by the licensing authority."
+
+  utter_Arms_register_other:
+  - text: |
+      - "Arms and Ammunition Branch will issue an NOC to the new registering authority on receipt of their request letter."
+
 actions:
   - utter_Bowling_alley_answer
   - utter_Bowling_alley_application_answer
@@ -466,6 +550,19 @@ actions:
   - utter_Drama_fee
   - utter_Drama_renewal_license
   - utter_Drama_renewal_charge
+  - utter_Arms_license_time
+  - utter_Arms_license_procedure
+  - utter_Arms_license_documents
+  - utter_Arms_license_renewal
+  - utter_Arms_license_renewal_late
+  - utter_Arms_license_renewal_late_out_of_Mumbai
+  - utter_Arms_TJP
+  - utter_Arms_property_protection
+  - utter_Arms_possession_01
+  - utter_Arms_possession_02
+  - utter_Arms_possession_03
+  - utter_Arms_register_Mumabi
+  - utter_Arms_register_other
 
 session_config:
   session_expiration_time: 60

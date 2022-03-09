@@ -177,7 +177,7 @@ stories:
 - story: drama_license_path_2
   steps:
   - intent: Drama_time_license
-  - action: utter_Drama_time license
+  - action: utter_Drama_time_license
 
 - story: drama_license_path_3
   steps:
@@ -198,3 +198,74 @@ stories:
   steps:
   - intent: Drama_renewal_charge
   - action: utter_Drama_renewal_charge
+
+- story: arms_path_01
+  steps:
+  - intent: Arms_new_license
+  - action: utter_Arms_new_license
+
+- story: arms_path_02
+  steps:
+  - intent: Arms_license_time
+  - action: utter_Arms_license_time
+
+- story: arms_path_03
+  steps:
+  - intent: Arms_license_procedure
+  - action: utter_Arms_license_procedure
+
+- story: arms_path_04
+  steps:
+  - intent: Arms_license_documents
+  - action: utter_Arms_license_documents
+
+- story: arms_path_05
+  steps:
+  - intent: Arms_license_renewal
+  - action: utter_Arms_license_renewal
+
+- story: arms_path_06
+  steps:
+  - intent: Arms_license_renewal_late
+  - action: utter_Arms_license_renewal_late
+
+
+- story: arms_path_07
+  steps:
+  - intent: Arms_license_renewal_late_out_of_Mumbai
+  - action: utter_Arms_license_renewal_late_out_of_Mumbai
+
+- story: arms_path_08
+  steps:
+  - intent: Arms_TJP
+  - action: utter_Arms_TJP
+
+- story: arms_path_09
+  steps:
+  - intent: Arms_property_protection
+  - action: utter_Arms_property_protection
+
+- story: arms_path_10
+  steps:
+    - intent: Arms_possession_01
+    - action: utter_Arms_possession_01
+
+- story: arms_path_10
+  steps:
+    - intent: Arms_possession_02
+    - action: utter_Arms_possession_02
+
+- story: arms_path_11
+  steps:
+    - intent: Arms_possession_03
+    - action: utter_Arms_possession_03
+
+- story: arms_path_12
+  steps:
+    - intent: Arms_register_Mumbai
+    - action: utter_Arms_register_Mumbai
+
+- story: arms_path_13
+  steps:
+    - intent: Arms_register_other
+    - action: utter_Arms_register_other
