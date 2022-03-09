@@ -227,7 +227,7 @@ nlu:
 
 - intent: Drama_days
   examples: |
-    - How many days will it take?
+    - How many days will it take to redevelop the drama hall?
     - How long will the construction last?
 
 - intent: Drama_procure_license
@@ -237,8 +237,8 @@ nlu:
 
 - intent: Drama_time_license
   examples: |
-    - How much time does this process take?
-    - How long will the process take?
+    - How much time does this licensing process take?
+    - How long will the licensing process take?
 
 - intent: Drama_law_license
   examples: |
@@ -246,7 +246,7 @@ nlu:
 
 - intent: Drama_fee
   examples: |
-    - What is the fee structure?
+    - What is the fee structure for the drama hall?
 
 - intent: Drama_renewal_license
   examples: |
@@ -255,7 +255,7 @@ nlu:
 
 - intent: Drama_renewal_charge
   examples: |
-    - What are the renewal charges?
+    - What are the renewal charges for the drama hall?
 
 - intent: Arms_new_license
   examples: |
@@ -328,3 +328,40 @@ nlu:
 - intent: Arms_register_other
   examples: |
     - My license was issued in Mumbai. I want to register it at another place.
+
+- intent: Cinema_redevelop
+  examples: |
+    - I wish to redevelop my cinema theatre. What are the requirements?
+    - What are the requirements to redevelop a cinema theatre?
+
+- intent: Cinema_months
+  examples: |
+    - How much time will the renewal process take?
+    - How long will it take to renew the cinema theatre?
+
+- intent: Cinema_procure_license
+  examples: |
+    - After completion of the construction, how do I procure a license to start the business?
+    - How to procure license after construction?
+
+- intent: Cinema_time_license
+  examples: |
+    - How much time does this licensing process take?
+    - How long will the licensing process take?
+
+- intent: Cinema_law_license
+  examples: |
+    - Under which law the license is required?
+
+- intent: Cinema_fee
+  examples: |
+    - What is the fee structure for the cinema theatre?
+
+- intent: Cinema_renewal_license
+  examples: |
+    - What is the procedure of renewal of license?
+    - What should I do to renew the license?
+
+- intent: Cinema_renewal_charge
+  examples: |
+    - What are the renewal charges for the cinema theatre?

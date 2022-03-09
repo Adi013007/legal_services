@@ -60,6 +60,14 @@ intents:
   - Arms_possession_03
   - Arms_register_Mumbai
   - Arms_register_other
+  - Cinema_redevelop
+  - Cinema_months
+  - Cinema_procure_license
+  - Cinema_time_license
+  - Cinema_law_license
+  - Cinema_fee
+  - Cinema_renewal_license
+  - Cinema_renewal_charge
 
 responses:
   utter_Bowling_alley_answer:
@@ -478,7 +486,7 @@ responses:
 
   utter_Arms_property_protection:
   - text: |
-      - " The license for property protection is granted on a Per-Pro basis. The procedure is same as that for obtaining a new license."
+      - "The license for property protection is granted on a Per-Pro basis. The procedure is same as that for obtaining a new license."
 
   utter_Arms_possession_01:
   - text: |
@@ -504,6 +512,72 @@ responses:
   utter_Arms_register_other:
   - text: |
       - "Arms and Ammunition Branch will issue an NOC to the new registering authority on receipt of their request letter."
+
+  utter_Cinema_redevelop:
+  - text: |
+      - "You have to make an application affixing a court fee stamp of Rs.5 along with all the following documents: 
+            1. Intimation of disapproval from BMC 
+            2. Approved plans (by the building proposals department, BMC) of the proposed site indicating surroundings, roads and buildings up to a distance of 75 meters from the perimeter. Schools, hospitals, temples or other like places should be clearly indicated in the plan and floor wise plans (3 sets)
+            3. Property card 
+            4. N.O.C. from PWD 
+            5. N.O.C. from the Chief Fire Officer 
+            6. Appointment letter of the architect. 
+            7. Agreement between Landowner and Builder/Developer or Power of Attorney."
+
+  utter_Cinema_months:
+  - text: |
+      - "It will take six months because 
+            1. Objections will be invited from the members of public by displaying a board with details of the proposal at the site and by publishing the same in three local Newspapers.
+            2. Enquiries will be conducted by the local Police station from the law and order point of view.
+            3. A report will be invited from The Traffic department from the traffic point of view.
+            4. After completing the above procedure, the proposal will be submitted to the government for previous sanction.
+            5. After the receipt of previous sanction from the government, an NOC will be issued. "
+
+  utter_Cinema_procure_license:
+  - text: |
+      - "After completing the construction you will have to make an application for the grant of license. You need to submit the following documents along with your application:
+          1. Occupation certificate from the BMC 
+          2. N.O.C. from the electrical Inspector
+          3. N.O.C. from Health Officer, BMC 
+          4. N.O.C. from CFO 
+          5. Certificate from MTNL 
+          6. N.O.C. from PWD 
+          7. Structural stability certificate from the architect 
+          8. Name and address of the manager and electrician. 
+          9. Certificate of lightning conductor After the receipt of the same, a decision will be made and the license will be issued. After the receipt of previous sanction from the government, licenses will be issued."
+
+  utter_Cinema_time_license:
+  - text: |
+      - "The process will take minimum two months."
+
+  utter_Cinema_law_license:
+  - text: |
+      - "The Maharashtra Cinema (Regulation) Rules, 1966."
+
+  utter_Cinema_fee:
+  - text: |
+      - "Fees
+          1. Cinema license - Up to 200 seats Rs. 2,000. Up to 500 seats Rs. 3,000. Above 501 seats Rs. 4,500. 
+          2. Ticket selling license Rs. 500. 
+          3. Addition/Alteration in the license. Rs. 25. 
+          4. Duplicate license Rs. 50. "
+
+  utter_Cinema_renewal_license:
+  - text: |
+      - "For renewal of the license you will have to submit the following documents along with the application: 
+          1. Certificate of lightning conductor.
+          2. N.O.C. from the electrical Inspector 
+          3. N.O.C. from the Health Officer, BMC 
+          4. N.O.C. from CFO, BMC 
+          5. Certificate from MTNL 
+          6. NOC from PWD 
+          7. N.O.C. from Traffic Police regarding parking. 
+          8. Name and address of the manager, projector operator and electrician. 
+          9. N.O.C. from the Collector. After the receipt of the same, enquiries will be made through the local Police Station and after receipt of the report, the license will be renewed."
+
+  utter_Cinema_renewal_charge
+  - text: |
+      - "It is the same as given in fee structure."
 
 actions:
   - utter_Bowling_alley_answer
@@ -563,6 +637,13 @@ actions:
   - utter_Arms_possession_03
   - utter_Arms_register_Mumabi
   - utter_Arms_register_other
+  - utter_Cinema_redevelop
+  - utter_Cinema_months
+  - utter_Cinema_procure_license
+  - utter_Cinema_time_license
+  - utter_Cinema_law_license
+  - utter_Cinema_renewal_license
+  - utter_Cinema_renewal_charge
 
 session_config:
   session_expiration_time: 60
