@@ -68,6 +68,18 @@ intents:
   - Cinema_fee
   - Cinema_renewal_license
   - Cinema_renewal_charge
+  - Pool_license
+  - Pool_authority_license
+  - Pool_action_license
+  - Pool_business_requirements
+  - Pool_later_submission
+  - Pool_other_requirements
+  - Pool_sustainability_enquiry
+  - Pool_NOC
+  - Pool_license_rules
+  - Pool_negative_application
+  - Pool_license_renewal
+  - Pool_license_renewal_fee
 
 responses:
   utter_Bowling_alley_answer:
@@ -575,9 +587,80 @@ responses:
           8. Name and address of the manager, projector operator and electrician. 
           9. N.O.C. from the Collector. After the receipt of the same, enquiries will be made through the local Police Station and after receipt of the report, the license will be renewed."
 
-  utter_Cinema_renewal_charge
+  utter_Cinema_renewal_charge:
   - text: |
       - "It is the same as given in fee structure."
+
+  utter_Pool_license:
+  - text: |
+      - "You require the Premises License and the Performance License."
+
+  utter_Pool_authority_license:
+  - text: |
+      - "The Premises License is issued by the office of the Commissioner of Police. A performance license is issued by the office of the Divisional Asst. Commissioner of Police."
+
+  utter_Pool_action_license:
+  - text: |
+      - "You should make an application in the prescribed format affixing a court fee stamp of Rs. 5 on it. It is available with the Theatre Branch situated in C.P. office, Mumbai."
+
+  utter_Pool_business_requirements:
+  - text: |
+      - "You will have to submit the following documents along with your application. 
+          1. The plan (map) showing details of the premises where the pool table will be placed to play games. The entry/exit and ventilation area (window) should be indicated in the Map along with the location of fire fighting apparatus.
+          2. Geographical location of the site (showing the road approach building/adjoining the proposed place, i.e. on east, west, north and south sides) The plan should be drawn by the register of architects with his counter signature.
+          3. Certificate or receipt of fire fighting equipment should be installed in the proposed premises. 
+          4. Documents showing ownership/title/rights of the premises(owned/leased/rented). 
+          5. If the premises are rented, then NOCs from the concerned landlord stating that he does not have any objection to starting the said activities.
+          6. N.O.C. from the Fire Brigade office.
+          7. N.O.C. from the Health Department of BMC. 
+          8. If there is a telephone, then the certificate from MTNL office. 
+          9. N.O.C. from the electrical Inspector."
+
+  utter_Pool_later_submission:
+  - text: |
+      - "Unless you submit these documents, your application will not be processed; you cannot start the business by submitting an incomplete application."
+
+  utter_Pool_other_requirements:
+  - text: |
+      - "After receipt of all the required documents, the application will be processed. enquiries will be made by the concerned Police station regarding the suitability of place and also the law and order situation."
+
+  utter_Pool_sustainability_enquiry:
+  - text: |
+      - "Enquiries will be made by the concerned/local Police station on the following points: 
+          1. Whether the premises (where pool table situated) are commercial or non- commercial. 
+          2. The distance of the site from any educational institution, hospital or religious place located within 75 meters.
+          3. Terms and conditions of the games. 
+          4. Whether the game is played for prize; if so, then what is the prize, and how long it will be played and also by how many players. Also, their details.
+          5. How many staff are employed or will be employed, their work and responsibility, whether they are trained or otherwise.
+          6. Whether any other activity is going on apart from the pool game; details of these activities. 
+          7. Details of tables with accessories. 
+          8. Details of fans, distance between tables, seating capacity (when all tables are busy) etc. 
+          9. Whether beverages, drinks, eatables or any other item is served to the visitors. 
+          10. Proposed timings of opening and closing of the establishment. 
+          11. Whether smoking is allowed inside the premises. 
+          12. Whether there is a trainer, if so the details to be provided. 
+          13. Whether the proposed place is located in a congested and thickly populated area. 
+          14. Names and address of the owner or partner of the place of amusement."
+
+  utter_Pool_NOC:
+  - text: |
+      - "NOC's are required as per the rules and hence they are mandatory. Unless you submit them, your application will not be considered."
+
+  utter_Pool_license_rules:
+  - text: |
+      - "Rules for Licensing and Controlling Places of Public Amusement (other than cinemas) and Performances for Public Amusements including Melas and Tamashas, 1960."
+
+  utter_Pool_negative_application:
+  - text: |
+      - "If the report is negative, or due to some reason your application is rejected, you will be given a personal hearing."
+
+  utter_Pool_license_renewal:
+  - text: |
+      - "You have to make an application along with the copy of license, one month prior to the expiry of the license. You will also have to submit valid NOC's along with the application. Enquiries will be made through concerned Police station and after receipt of the enquiry report, you will be intimated."
+
+  utter_Pool_license_renewal_fee:
+  - text: |
+       - "It is the same as license fees."
 
 actions:
   - utter_Bowling_alley_answer
@@ -644,6 +727,18 @@ actions:
   - utter_Cinema_law_license
   - utter_Cinema_renewal_license
   - utter_Cinema_renewal_charge
+  - utter_Cinema_license
+  - utter_Pool_license
+  - utter_Pool_authority_license
+  - utter_Pool_business_requirements
+  - utter_Pool_later_submission
+  - utter_Pool_other_requirements
+  - utter_Pool_sustainability_enquiry
+  - utter_Pool_NOC
+  - utter_Pool_license_rules
+  - utter_Pool_negative_application
+  - utter_Pool_license_renewal
+  - utter_Pool_license_renewal_fee
 
 session_config:
   session_expiration_time: 60
