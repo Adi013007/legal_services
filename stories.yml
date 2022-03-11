@@ -270,6 +270,41 @@ stories:
     - intent: Arms_register_other
     - action: utter_Arms_register_other
 
+- story: arms_path_14
+  steps:
+    - intent: Arms_license_Maharashtra
+    - action: utter_Arms_license_Maharashtra
+
+- story: arms_path_15
+  steps:
+    - intent: Arms_license_India
+    - action: utter_Arms_license_India
+
+- story: arms_path_16
+  steps:
+    - intent: Arms_sell
+    - action: utter_Arms_sell
+
+- story: arms_path_17
+  steps:
+    - intent: Arms_fire_cracker
+    - action: utter_Arms_fire_cracker
+
+- story: arms_path_18
+  steps:
+    - intent: Arms_road_permit
+    - action: utter_Arms_road_permit
+
+- story: arms_path_18
+  steps:
+    - intent: Arms_re_registration
+    - action: utter_Arms_re_registration
+
+- story: arms_path_19
+  steps:
+    - intent: Arms_suspend
+    - action: utter_Arms_suspend
+
 - story: cinema_path_1
   steps:
     - intent: Cinema_redevelop

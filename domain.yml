@@ -60,6 +60,14 @@ intents:
   - Arms_possession_03
   - Arms_register_Mumbai
   - Arms_register_other
+  - Arms_license_Maharashtra
+  - Arms_license_India
+  - Arms_sell
+  - Arms_fire_cracker
+  - Arms_explosive
+  - Arms_road_permit
+  - Arms_re_registration
+  - Arms_suspend
   - Cinema_redevelop
   - Cinema_months
   - Cinema_procure_license
@@ -525,6 +533,71 @@ responses:
   - text: |
       - "Arms and Ammunition Branch will issue an NOC to the new registering authority on receipt of their request letter."
 
+  utter_Arms_license_Maharashtra:
+  - text: |
+      - "Following process is required to be followed : 
+            i. Make an application on a plain paper with Rs.5/- court fees stamp.
+            ii. Attach a copy of the Arms license with it.
+            iii. The application will be sent to the Police station for enquiry
+            iv. On receipt of the Police station report, you will be called for an interview.
+            v. The decision will be conveyed to you in writing through the Police station."                 
+
+  utter_Arms_license_India:
+  - text: |
+      - "i. Submit an application to the Government of Maharashtra, Pol-IX, Home Department, Mantralaya, Mumbai with a copy of the license.
+         ii. The application will be sent to the Police station for an enquiry,
+         iii. On receipt of the report from the Police station, you will be interviewed and a report will be submitted to the Government of Maharashtra.
+         iv. The Government of Maharashtra will take the decision and you will be informed accordingly."  
+
+  utter_Arms_fire_cracker:
+  - text: |
+      - "Following process is required to be followed : 
+            1. Form No-24 should be duly filled. Attach, 
+                a. Shop and establishment License 
+                b. B.M.C. Certificate 
+                c. Land Owner's N.O.C. 
+                d. Fire Brigade N.O.C.
+            2. Reports from the concerned police station, Divisional Asstt. Commissioner Of Police, Zonal DCP, character verification report and the report from Special Branch-I CID and Technical unit of the Crime Branch will be obtained by the Arms and Ammunition Branch."
+
+  utter_Arms_sell:
+  - text: |
+      - "Following process is required to be followed :
+            i. Submit an application with Rs.5/- court fees, stamp and attach a copy of your license.
+            ii. Inform Arms and Ammunition Branch with relevant documents.
+            iii. If all documents are in order, sale permits will be issued within 15 days."
+
+  utter_Arms_explosive:
+  - text: |
+      - "Following process is required to be followed : 
+            1. Submit form No. 23 
+                Application should be in the prescribed format : 
+                    Required documents - 
+                    a. Contractor's agreement with NOC. 
+                    b. Landlords NOC for the purpose of blasting. 
+                    c. Storage of explosive license. 
+                    d. Explosive Transportation permit and Fire Brigade NOC.
+            2. Reports from the concerned Police station through Divisional Asst. Commissioner Of Police, Zonal DCP, character verification report and report from Special Branch-I, CID and Technical unit of Crime Branch will be obtained by the Arms and Ammunition Branch."
+
+  utter_Arms_road_permit:
+  - text: |
+      - "Submit the following documents :
+            1. Application form affixing Rs. 5/- Court Fees stamp
+            2. Xerox Copy of Arms License.
+            3. Purchase / Sell receipt 4. Fees of Rs. 20/-"
+
+  utter_Arms_re_registration:
+  - text: |
+      - "Submit an application in the prescribed form with ration card, telephone bill, license xerox copy etc. documents. On receipt of the following reports by the Arms and Ammunition branch final decision is taken :
+            1. NOC from original licensing authority.
+            2. Enquiry report of applicant through Zonal DCP.
+            3. Verification Report.
+            4. Technical Unit report
+            5. Special Branch-I. C.I.D. report"
+
+  utter_Arms_suspend:
+  - text: |
+      - "On receipt of reports from the concerned Police station, suspension/revocation of Arms license can take place"
+
   utter_Cinema_redevelop:
   - text: |
       - "You have to make an application affixing a court fee stamp of Rs.5 along with all the following documents: 
@@ -720,6 +793,12 @@ actions:
   - utter_Arms_possession_03
   - utter_Arms_register_Mumabi
   - utter_Arms_register_other
+  - utter_Arms_license_Maharashtra
+  - utter_Arms_license_India
+  - utter_Arms_sell
+  - utter_Arms_fire_cracker
+  - utter_Arms_road_permit
+  - utter_Arms_re_registration
   - utter_Cinema_redevelop
   - utter_Cinema_months
   - utter_Cinema_procure_license

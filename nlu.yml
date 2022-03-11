@@ -125,6 +125,7 @@ nlu:
     - I wish to start a Go Karting establishment. What are the Licenses I require?
     - What all license required to establish Go karting?
     - Should I get any license to establish Go karting?
+
 - intent: Go_karting_processing
   examples: |
     - How long will it take to process my application for Go karting?
@@ -328,6 +329,49 @@ nlu:
 - intent: Arms_register_other
   examples: |
     - My license was issued in Mumbai. I want to register it at another place.
+
+- intent: Arms_license_Maharashtra
+  examples: |
+    - I want to make my Arms license valid in the whole of Maharashtra. What is the procedure?
+    - How can I make my Arms license valid throughout Maharashtra?
+
+- intent: Arms_license_India
+  examples: |
+    - I want to make my Arms license valid in the whole of India. What should I do?
+    - How can I make my Arms license valid throughout India?
+
+- intent: Arms_sell
+  examples: |
+    - I want to sell my weapon. What is the procedure?
+    - How can I sell my weapon?
+
+- intent: Arms_fire_cracker
+  examples: |
+    - How to obtain a license to sell Fire Cracker?
+    - Procedure to acquire license to sell Fire Cracker.
+
+- intent: Arms_explosive
+  examples: |
+    - How to obtain License to store explosive?
+    - Procedure to acquire license to store explosive.
+    - License to store explosive
+
+- intent: Arms_road_permit
+  examples: |
+    - How do I apply for a Road permit?
+    - Arms road permit
+
+- intent: Arms_re_registration
+  examples: |
+    - What is the procedure for Arms re-registration
+    - How can I re-register my Arms license
+
+- intent: Arms_suspend
+  examples: |
+    - In which cases suspension can occur?
+    - In which cases revocation can occur?
+    - Arms license suspension
+    - Arms license revocation
 
 - intent: Cinema_redevelop
   examples: |
