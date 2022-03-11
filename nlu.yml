@@ -20,7 +20,7 @@ nlu:
 - intent: Bowling_alley_renewal
   examples: |
     - I want to renew license for my bowling alley, what should I do?
-    - What are bowling alley license renewal charges>?
+    - What are bowling alley license renewal charges?
 
 - intent: Circus_application
   examples: |
@@ -455,7 +455,7 @@ nlu:
 - intent: Pool_negative_application
   examples: |
     - If the report of the Police station is negative, what would be the result of my application?
-    - What happen to my application if the policate station report is negative?
+    - What happen to my application if the police station report is negative?
 
 - intent: Pool_license_renewal
   examples: |
@@ -465,3 +465,78 @@ nlu:
 - intent: Pool_license_renewal_fee
   examples: |
     -  What is the fees for renewal of the pool table establishment license?
+
+- intent: Social_start_license
+  examples: |
+    - I wish to start a social club room. What licenses do I require?
+    - I wish to start a social card room. What licenses do I require?
+    - What licenses do I need to start a social club room?
+    - What licenses do I need to start a social card room?
+
+- intent: Social_authority
+  examples: |
+    - Which authorities issue the social club room licenses?
+    - Which authorities issue the social card room licenses?
+
+- intent: Social_acquire_license
+  examples: |
+    -  What should I do to acquire the social club room license?
+    -  What should I do to acquire the social card room license?
+
+- intent: Social_application_form
+  examples: |
+    - Where will I get the application form?
+
+- intent: Social_requirement
+  examples: |
+    - What are the requirements to have the social club room license?
+    - What are the requirements to have the social card room license?
+
+- intent: Social_later_submission
+  examples: |
+    -  I don't have all these required documents at present. Can I submit them on a later date?
+
+- intent: Social_other_requirements
+  examples: |
+    - I have submitted all the documents. Are there any other requirements?
+
+- intent: Social_sustainability_enquiry
+  examples: |
+    - Which enquiries are conducted to verify the suitability of the social club room?
+    - Which enquiries are conducted to verify the suitability of the social card room?
+    - What about the enquiries regarding suitability of social club room place?
+    - What about the enquiries regarding suitability of social card room place?
+    - Is there any enquiries about the sustainability of the social club room place?
+    - Is there any enquiries about the sustainability of the social card room place?
+
+- intent: Social_license_rules
+  examples: |
+    - Under what rules do you issue the social club room license and what are the documents required for the it?
+    - Under what rules do you issue the social card room license and what are the documents required for the it?
+    - What are the documents are required for the social club room license, and under what rules to do you issue its license?
+    - What are the documents are required for the social card room license, and under what rules to do you issue its license?
+
+- intent: Social_time_license
+  examples: |
+    - How much time does this licensing process take?
+    - How long will the licensing process take?
+
+- intent: Social_fee
+  examples: |
+    - What is the license fee structure for the social club room?
+    - What is the license fee structure for the social card room?
+
+- intent: Social_negative_application
+  examples: |
+    - If the report of the Police station is negative, what would be the result of my application?
+    - What happen to my application if the police station report is negative?
+
+- intent: Social_license_renewal
+  examples: |
+    - What is the procedure for renewal of the license?
+    - What should I do to renew the license?
+
+- intent: Social_renewal_charge
+  examples: |
+    - What are the renewal charges for the social club room?
+    - What are the renewal charges for the social card room?    

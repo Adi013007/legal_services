@@ -88,6 +88,20 @@ intents:
   - Pool_negative_application
   - Pool_license_renewal
   - Pool_license_renewal_fee
+  - Social_start_license
+  - Social_authority
+  - Social_acquire_license
+  - Social_application_form
+  - Social_requirement
+  - Social_later_submission
+  - Social_other_requirements
+  - Social_sustainability_enquiry
+  - Social_license_rules
+  - Social_time_license
+  - Social_fee
+  - Social_negative_application
+  - Social_license_renewal
+  - Social_renewal_charge
 
 responses:
   utter_Bowling_alley_answer:
@@ -735,6 +749,88 @@ responses:
   - text: |
        - "It is the same as license fees."
 
+  utter_Social_start_license:
+  - text: |
+      - "You require a premises license and a performance license."
+
+  utter_Social_authority:
+  - text: |
+      - "These licenses are issued by the office of the Commissioner of Police."
+
+  utter_Social_acquire_license:
+  - text: |
+      - "You will have to make an application in the prescribed format affixing a court fee stamp of Rs. 5 on it. "
+
+  utter_Social_application_form:
+  - text: |
+      - "You can collect it from the Theater Branch or you can receive it online. "
+
+  utter_Social_requirement:
+  - text: |
+      - "You have to submit the following documents along with your application: 
+          1. Plan of the place certified by the architect 
+          2. N.O.C. issued by the Fire department. 
+          3. Certificate issued by the electrical Inspector 
+          4. Certificate issued by the Telephone exchange 
+          5. N.O.C. issued by the owner of the premises/NOC of society 
+          6. Certificate of health issued by the BMC 
+          7. Registration certificate issued by the Public Trust / Dharmaday Ayukta 
+          8. List of members, names, age, address and telephone numbers 
+          9. List of committee members, names, age and address
+          10. Memorandum and articles of association 
+          11. Establishment license issued by the BMC (in case of an eating house in the premises) 
+          12. Registration certificate issued by the ACP office (in case of an eating house inthe premises) 
+          13. N.O.C. issued by CP office for construction of the club (if premises speciallyconstructed for the club) 
+          14. Undertaking on bond paper for not allowing gambling in the club. "
+
+  utter_Social_later_submission:
+  - text: |
+      - "Unless you submit these documents, your application will not be processed and you cannot start the business by submitting an application with incomplete documents."
+
+  utter_Social_other_requirements:
+  - text: |
+      - "After the receipt of all the required documents, the application will be processed. Enquiries will be made by the concerned Police station regarding the suitability of place. A report will also be called from the traffic department on the Traffic point of view."
+
+  utter_Social_sustainability_enquiry:
+  - text: |
+      - "Enquiries will be made by the concerned/local Police station on the following points: 
+          1. Whether the information submitted by applicant is correct. 
+          2. Whether there are any complaints by members of the public against the club. 
+          3. Whether there is any school, college, nursery, hospital, temple or religious place within a radius of 75 meters.
+          4. Whether there is a similar place of club establishment within a radius of 75meters. 
+          5. Whether any law and order problem is likely to arise if a license is granted. 
+          6. Whether the establishment is situated in a congested locality which is predominantly a residential area.
+          7. Whether the applicant is a suitable person for grant of Police license. 
+          8. Whether the place is suitable/feasible for grant of Police license. 
+          9. The character and antecedents of the applicant/owner of the club should be verified from the record of Police station, SB-I, CID & Tech unit of Crime Branch.
+          10. The number of rooms in the establishment. 
+          11. The number of tables in each room. 
+          12. The number of persons to be seated per table. "
+
+  utter_Social_license_rules:
+  - text: |
+      - "Rules for Licensing and Controlling Places of Public Amusement (other than cinemas) and Performances for Public Amusements including Melas and Tamashas, 1960."
+
+  utter_Social_time_license:
+  - text: |
+      - "The process will take minimum 90 days from the date of submission of all the required documents."
+
+  utter_Social_fee:
+  - text: |
+      - "The fee structure is as under: Premises license fees Rs. 500 per year Performance license fees Rs. 1,000 per month per unit (one unit will consist of 10 tables in one room)."
+
+  utter_Social_negative_application:
+  - text: |
+      - "If the report is negative or if, for some other reason your application is rejected, You will be informed about it."
+
+  utter_Social_license_renewal:
+  - text: |
+      - "You will have to make an application along with a copy of the license one month prior to the expiry of the license and also submit valid NOC's along with the application. enquiries will be made through the concerned Police station and after receipt of the enquiry report, you will be intimated."
+
+  utter_Social_renewal_charge:
+  - text: |
+      - "It is the same as the license fees."
+
 actions:
   - utter_Bowling_alley_answer
   - utter_Bowling_alley_application_answer
@@ -818,6 +914,20 @@ actions:
   - utter_Pool_negative_application
   - utter_Pool_license_renewal
   - utter_Pool_license_renewal_fee
+  - utter_Social_start_license
+  - utter_Social_authority
+  - utter_Social_acquire_license
+  - utter_Social_application_form
+  - utter_Social_requirement
+  - utter_Social_later_submission
+  - utter_Social_other_requirements
+  - utter_Social_sustainability_enquiry
+  - utter_Social_license_rules
+  - utter_Social_time_license
+  - utter_Social_fee
+  - utter_Social_negative_application
+  - utter_Social_license_renewal
+  - utter_Social_renewal_charge 
 
 session_config:
   session_expiration_time: 60

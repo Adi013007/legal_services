@@ -404,3 +404,73 @@ stories:
   steps:
     - intent: Pool_license_renewal_fee
     - action: utter_Pool_license_renewal_fee
+
+- story: social_path_1
+  steps:
+    - intent: Social_start_license
+    - action: utter_Social_start_license
+
+- story: social_path_2
+  steps:
+    - intent: Social_authority
+    - action: utter_Social_authority
+
+- story: social_path_3
+  steps:
+    - intent: Social_acquire_license
+    - action: utter_Social_acquire_license
+
+- story: social_path_4
+  steps:
+    - intent: Social_application_form
+    - action: utter_Social_application_form
+
+- story: social_path_5
+  steps:
+    - intent: Social_requirement
+    - action: utter_Social_requirement
+
+- story: social_path_6
+  steps:
+    - intent: Social_later_submission
+    - action: utter_Social_later_submission
+
+- story: social_path_7
+  steps:
+    - intent: Social_other_requirements
+    - action: utter_Social_other_requirements
+
+- story: social_path_8
+  steps:
+    - intent: Social_sustainability_enquiry
+    - action: utter_Social_sustainability_enquiry
+
+story: social_path_9
+  steps:
+    - intent: Social_license_rules
+    - action: utter_Social_license_rules
+
+story: social_path_10
+  steps:
+    - intent: Social_time_license
+    - action: utter_Social_time_license
+
+story: social_path_11
+  steps:
+    - intent: Social_fee
+    - action: utter_Social_fee
+
+story: social_path_12
+  steps:
+    - intent: Social_negative_application
+    - action: utter_Social_negative_application
+
+story: social_path_13
+  steps:
+    - intent: Social_license_renewal
+    - action: utter_Social_license_renewal
+
+story: social_path_14
+  steps:
+    - intent: Social_renewal_charge
+    - action: utter_Social_renewal_charge
