@@ -445,32 +445,62 @@ stories:
     - intent: Social_sustainability_enquiry
     - action: utter_Social_sustainability_enquiry
 
-story: social_path_9
+- story: social_path_9
   steps:
     - intent: Social_license_rules
     - action: utter_Social_license_rules
 
-story: social_path_10
+- story: social_path_10
   steps:
     - intent: Social_time_license
     - action: utter_Social_time_license
 
-story: social_path_11
+- story: social_path_11
   steps:
     - intent: Social_fee
     - action: utter_Social_fee
 
-story: social_path_12
+- story: social_path_12
   steps:
     - intent: Social_negative_application
     - action: utter_Social_negative_application
 
-story: social_path_13
+- story: social_path_13
   steps:
     - intent: Social_license_renewal
     - action: utter_Social_license_renewal
 
-story: social_path_14
+- story: social_path_14
   steps:
     - intent: Social_renewal_charge
     - action: utter_Social_renewal_charge
+
+- story: cyber_cafe_path_01
+  steps:
+    - intent: Cyber_cafe_license
+    - action: utter_Cyber_cafe_license
+
+- story: cyber_cafe_path_02
+  steps:
+    - intent: Cyber_cafe_NOC
+    - action: utter_Cyber_cafe_NOC
+
+- story: cyber_cafe_path_03
+  steps:
+    - intent: Cyber_cafe_submitted_documents
+    - action: utter_Cyber_cafe_submitted_documents
+
+- story: cyber_cafe_path_04
+  steps:
+    - intent: Cyber_cafe_license_validity
+    - action: utter_Cyber_cafe_license_validity
+
+- story: cyber_cafe_path_05
+  steps:
+    - intent: Cyber_cafe_license_fee
+    - action: utter_Cyber_cafe_license_fee
+
+- story: cyber_cafe_path_06
+  steps:
+    - intent: Cyber_cafe_time
+    - action: utter_Cyber_cafe_time

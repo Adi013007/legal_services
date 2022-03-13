@@ -102,6 +102,12 @@ intents:
   - Social_negative_application
   - Social_license_renewal
   - Social_renewal_charge
+  - Cyber_cafe_license
+  - Cyber_cafe_NOC
+  - Cyber_cafe_submitted_documents
+  - Cyber_cafe_license_validity
+  - Cyber_cafe_license_fee
+  - Cyber_cafe_time
 
 responses:
   utter_Bowling_alley_answer:
@@ -831,6 +837,43 @@ responses:
   - text: |
       - "It is the same as the license fees."
 
+  utter_Cyber_cafe_license:
+  - text: |
+      - "You require premises license for cyber cafe as per the rules for licensing and controlling places of public amusement (other than cinemas) Rules 1960 and first amendment for cyber café on 28th December 2006."
+
+  utter_Cyber_cafe_NOC:
+  - text: |
+      - "If the government passed the proposal of rules and regulations then make an application affixing a court fee stamp of Rs.150\- on it and submit it along with the following documents :
+            1. Establishment Registration Certificate
+            2. Copy of partnership deed, if partnership firm.
+            3. Rent Receipt, if the place is on rent/lease
+            4. Bill of fire fighting equipment of current year
+            5. Ownership documents, if the premises is owned by the applicant.
+            6. NOC from the landlord or Society if the premises are residential.
+            7. Name, address and other details of manager / conductor, employees to be provided separately on the firm's letter head.
+            8. If establishment is a Company, copy of Memorandum of Articles.
+            9. Copy of the resolution under which applicant is authorized to sign and obtain the above licence from the Licensing Authority.
+            10. Copy of the current bill of payment made to ISP (Internet Service Provider) must be attached with the application.
+            11. No Licensee shall have any claim of whatsoever nature against my Government of Non-Government authority, on the basis of the Cyber Cafe License issued by Police under Cyber Cafe Licensing Rules"
+
+  utter_Cyber_cafe_submitted_documents:
+  - text: |
+      - "Following process is required to be followed : 
+            A) On the receipt of the application along with above documents, enquiries will be made through the local Police station from the law and order point of view will be obtained.
+            B) After receipt of the above reports, the proposal will be decided and you will be informed accordingly"
+
+  utter_Cyber_cafe_license_validity:
+  - text: |
+      - "Cyber cafe Licence will be valid for three years from the date of issue."
+
+  utter_Cyber_cafe_license_fee:
+  - text: |
+      - "The required fee for Cyber Café License is Rs. 600/- Per Computer, So that for Three Years the fee is Rs.1800/- per computer."
+
+  utter_Cyber_cafe_time:
+  - text: |
+      - It will take minimum two months for the procedure to complete.
+
 actions:
   - utter_Bowling_alley_answer
   - utter_Bowling_alley_application_answer
@@ -928,6 +971,12 @@ actions:
   - utter_Social_negative_application
   - utter_Social_license_renewal
   - utter_Social_renewal_charge 
+  - utter_Cyber_cafe_license
+  - utter_Cyber_cafe_NOC
+  - utter_Cyber_cafe_submitted_documents
+  - utter_Cyber_cafe_license_validity
+  - utter_Cyber_cafe_license_fee
+  - utter_Cyber_cafe_time
 
 session_config:
   session_expiration_time: 60

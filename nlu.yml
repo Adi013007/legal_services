@@ -539,4 +539,38 @@ nlu:
 - intent: Social_renewal_charge
   examples: |
     - What are the renewal charges for the social club room?
-    - What are the renewal charges for the social card room?    
+    - What are the renewal charges for the social card room?  
+
+- intent: Cyber_cafe_license
+  examples: |
+    - I want to obtain a license for a cyber cafe. What are the requirements?
+    - How can I acquire a cyber cafe license?
+    - What is the procedure to obtain a cyber cafe license?
+
+- intent: Cyber_cafe_NOC
+  examples: |
+    - What are the requirements for obtaining NOC for Cyber cafe license?
+    - How can I obtain NOC for my Cyber cafe license?
+    - NOC for Cyber cafe license
+
+- intent: Cyber_cafe_submitted_documents
+  examples: |
+    - I have submitted all the documents for Cyber cafe license, what do I do now?
+    - What do I have to do after submitting all the required documents for my Cyber cafe license?
+
+- intent: Cyber_cafe_license_validity
+  examples: | 
+    - What is the validity period of the Cyber Cafe Licence?
+    - Validity of Cyber Cafe license
+
+- intent: Cyber_cafe_license_fee
+  examples: |
+    - What is the required fee for Cyber Cafe Licence?
+    - Cost of Cyber Cafe license
+    - How much fees do we have to submit to obtain Cyber cafe license
+
+- intent: Cyber_cafe_time
+  examples: |
+    - How much time it will take to acquire a Cyber cafe license?
+    - Time taken to ibtain a Cyber cafe license
+    - How long does it take to acquire a Cyber cafe license?
