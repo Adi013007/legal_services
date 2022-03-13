@@ -504,3 +504,33 @@ stories:
   steps:
     - intent: Cyber_cafe_time
     - action: utter_Cyber_cafe_time
+
+- story: open_ground_01
+  steps:
+    - intent: Open_ground_license
+    - action: utter_Open_ground_license
+
+- story: open_ground_02
+  steps:
+    - intent: Open_ground_time
+    - action: utter_Open_ground_time
+
+- story: open_ground_03
+  steps:
+    - intent: Open_ground_required_licenses
+    - action: utter_Open_ground_required_licenses
+
+- story: open_ground_04
+  steps:
+    - intent: Open_ground_fee
+    - action: utter_Open_ground_fee
+
+- story: open_ground_05
+  steps:
+    - intent: Open_ground_after_submission
+    - action: utter_Open_ground_after_submission
+
+- story: open_ground_06
+  steps:
+    - intent: Open_ground_fee_structure
+    - action: utter_Open_ground_fee_structure

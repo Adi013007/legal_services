@@ -574,3 +574,35 @@ nlu:
     - How much time it will take to acquire a Cyber cafe license?
     - Time taken to ibtain a Cyber cafe license
     - How long does it take to acquire a Cyber cafe license?
+
+- intent: Open_ground_license
+  examples: |
+    - What is the procedure for obtaining a temporary license for the programs to be performed on an open ground?
+    - How can I get a temporary license to organise programs on open ground?
+
+- intent: Open_ground_time
+  examples: |
+    - How many days will it take to process temporary license for programs held in an open ground?
+    - Time taken to process temporary license for programs held in an open ground
+    - How long will it take to get a temporary license for programs to be held on open ground?
+
+- intent: Open_ground_required_licenses
+  examples: |
+    - Which are the licenses required for holding programs on the open ground?
+    - What all licenses are needed to hold programs on open grounds?
+    - Licenses to conduct programs on open ground.
+
+- intent: Open_ground_fee
+  examples: |
+    - What is the fee for temporary license for programs to be held on the open grounds?
+    - How much does it cost to acquire a temporary license for programs to be held on the open grounds?
+
+- intent: Open_ground_after_submission
+  examples: |
+    - After submitting the application, what procedure is to be followed for obtaining a license for programs to be held on open grounds?
+    - What do I have to do after submitting the application for temporary license for programs to be held on open grounds?
+
+- intent: Open_ground_fee_structure
+  examples: |
+    - What is the license fee structure required for programs to be held on open grounds?
+    - Fee structure for temporary license needed for programs conducted on open grounds
