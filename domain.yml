@@ -13,16 +13,115 @@ intents:
   - Multiplex_license_renewal 
   - Loudspeaker_license 
   - Loudspeaker_license_renewal 
+  - Passport_office_location
+  - Passport_application
+  - Passport_fee
+  - Amusement_Waterpark_NOC_requirements
+  - Amusement_Waterpark_procedure
+  - Amusement_Waterpark_NOC_processing
+  - Off_course_betting_centre
+  - Off_course_betting_centre_fee
+  - Go_karting_licenses
+  - Go_karting_processing
+  - Video_theatre_license
+  - Video_theatre_application
+  - Video_theatre_fee
+  - Passport_lost
+  - Passport_verification_time
+  - Passport_documents
+  - Passport_minor
+  - Passport_name_change_marriage
+  - Passport_name_change_remarriage
+  - Passport_name_change_divorce
+  - Passport_name_change_other
+  - Passport_address_change
+  - Passport_verification_procedure
+  - Passport_ecnr
+  - Passport_immediate
+  - Drama_redevelop
+  - Drama_days
+  - Drama_procure_license
+  - Drama_time_license
+  - Drama_law_license
+  - Drama_fee
+  - Drama_renewal_license
+  - Drama_renewal_charge
+  - Arms_new_license
+  - Arms_license_time
+  - Arms_license_procedure
+  - Arms_license_documents
+  - Arms_license_renewal
+  - Arms_license_renewal_late
+  - Arms_license_renewal_late_out_of_Mumbai
+  - Arms_TJP
+  - Arms_property_protection
+  - Arms_possession_01
+  - Arms_possession_02
+  - Arms_possession_03
+  - Arms_register_Mumbai
+  - Arms_register_other
+  - Arms_license_Maharashtra
+  - Arms_license_India
+  - Arms_sell
+  - Arms_fire_cracker
+  - Arms_explosive
+  - Arms_road_permit
+  - Arms_re_registration
+  - Arms_suspend
+  - Cinema_redevelop
+  - Cinema_months
+  - Cinema_procure_license
+  - Cinema_time_license
+  - Cinema_law_license
+  - Cinema_fee
+  - Cinema_renewal_license
+  - Cinema_renewal_charge
+  - Pool_license
+  - Pool_authority_license
+  - Pool_action_license
+  - Pool_business_requirements
+  - Pool_later_submission
+  - Pool_other_requirements
+  - Pool_sustainability_enquiry
+  - Pool_NOC
+  - Pool_license_rules
+  - Pool_negative_application
+  - Pool_license_renewal
+  - Pool_license_renewal_fee
+  - Social_start_license
+  - Social_authority
+  - Social_acquire_license
+  - Social_application_form
+  - Social_requirement
+  - Social_later_submission
+  - Social_other_requirements
+  - Social_sustainability_enquiry
+  - Social_license_rules
+  - Social_time_license
+  - Social_fee
+  - Social_negative_application
+  - Social_license_renewal
+  - Social_renewal_charge
+  - Cyber_cafe_license
+  - Cyber_cafe_NOC
+  - Cyber_cafe_submitted_documents
+  - Cyber_cafe_license_validity
+  - Cyber_cafe_license_fee
+  - Cyber_cafe_time
+  - Open_ground_license
+  - Open_ground_time
+  - Open_ground_required_licenses
+  - Open_ground_fee
+  - Open_ground_after_submission
+  - Open_ground_fee_structure
 
 responses:
   utter_Bowling_alley_answer:
   - text: |
      - "You require the Premises License, the Ticket Selling License and the Performance License."
-     - "The Premises License and Ticket selling license are issued from the Office of the Commissioner of Police.the Performance license is issued by the office of Divisional ACP."
-     - "The Performance license is issued by the office of Divisional ACP(Assistant Commissioner of Police".
+     - "The Premises License and Ticket selling license are issued from the Office of the Commissioner of Police. The Performance license is issued by the office of Divisional ACP."
+     - "The Performance license is issued by the office of Divisional ACP (Assistant Commissioner of Police)."
      - "To procure the licenses you will have to make an application form in the prescribed format, affixing a court fee stamp of Rs. 5 on it."
-
-
   
   utter_Bowling_alley_application_answer:
   - text: |
@@ -36,10 +135,10 @@ responses:
         6. N.O.C. from the Fire Brigade office.
         7. N.O.C. from the Health Department of local municipal corporation.
         8. If there is a telephone, then a certificate from MTNL office.
-        9. NOC from the electrical Inspector.
+        9. N.O.C. from the electrical Inspector.
         10.Number of bowling alleys.
         11.Undertaking application/notice for not installing any gambling equipment" 
-     - "If above documents are not presented,application will not be processed"
+     - "If above documents are not presented, application will not be processed"
     
   utter_Bowling_alley_processing_answer:
   - text: |
@@ -49,7 +148,6 @@ responses:
         2.Ticket selling fee Rs. 500 per year.
         3.Performance license fees Rs. 10,000/- per Alley/per month (this will be collected by Divisional Asst. commissioner of Police)."
     
-
   utter_Bowling_alley_renewal_answer:
   - text: |
      - "You will have to submit an application along with the copy of your license one month prior to the expiry of the license. You will also have to submit valid NOC's along with the application. Enquiries will be made through the concerned Police station, and after receipt of the inquiry report, you will be intimated." 
@@ -62,13 +160,13 @@ responses:
        2. Ticket Selling license
        3. Performance license:
      - "For obtaining license, An application should be in writing affixing court fees stamp of Rs.5 on it. The application should be submitted along with certified copies of the following documents:
-       1. NOC from the Landlord.
+       1. N.O.C. from the Landlord.
        2. N.O.C from the Traffic Police.
-       3. NOC from the Fire Brigade.
-       4. NOC from the electrical Inspector.
-       5. NOC from the Health Department of the local municipal corporation.
+       3. N.O.C. from the Fire Brigade.
+       4. N.O.C. from the electrical Inspector.
+       5. N.O.C. from the Health Department of the local municipal corporation.
        6. If there is a telephone, a certificate from the MTNL office.
-       7. NOC from the Collector.
+       7. N.O.C. from the Collector.
        8. Undertaking from applicant to observe The Provisions Of Cruelty To Animals Act-1960.
        9. The plan (map) showing details of the premises where the circus will be held.
        10 N.O.C. from P.W.D. Department"
@@ -82,6 +180,7 @@ responses:
        7. What is the seating arrangement made and whether it is sound.
        8. Certificate for fitness of machinery
        9. Whether the place is within 100 meters from a hospital, court, educational institute or religious place and defined as a silence zone, as per Noise Pollution (Regulation & Control) Rules-2000. After the receipt of this report through concerned ACP and DCP the decision will be taken and the applicant will be informed."
+
   utter_Circus_license_answer:
   - text: |
      - "Following are the license Fees for Circus:
@@ -110,7 +209,7 @@ responses:
   utter_Multiplex_noc_answer:
   - text: |
      - "You have to obtain NOC for the location of the proposed construction from The Office Of The Commissioner Of Police"
-     - "To obtain such an NOC,you have to make an application affixing court fees stamp of Rs. 5/- along with following necessary documents.
+     - "To obtain such an NOC, you have to make an application affixing court fees stamp of Rs. 5/- along with following necessary documents.
        1. Plan of the proposed site indicating surroundings, roads and buildings up to a distance of 75 meters from the perimeter. Schools, hospitals, temples or other similar places should be clearly indicated in the plan along with floor wise plans (3 sets)
        2. Certificate from the Collector for N.A. land.
        3. Property card
@@ -137,13 +236,13 @@ responses:
   - text: |
      - "After completing construction, you will have to make an application for grant of license. You have to submit the following documents along with your application:
        1. Occupation certificate from the BMC.
-       2. NOC from the electrical Inspector.
-       3. NOC from the Health Officer, local municipal corporation.
+       2. N.O.C. from the electrical Inspector.
+       3. N.O.C. from the Health Officer, local municipal corporation.
        4. Certificate from MTNL.
        5. Certificate of lighting contractor.
-       6. NOC from the Chief Fire Officer, BMC.
-       7. NOC from the Traffic Police regarding parking.
-       8. NOC from PWD.
+       6. N.O.C. from the Chief Fire Officer, BMC.
+       7. N.O.C. from the Traffic Police regarding parking.
+       8. N.O.C. from PWD.
        9. Structural stability certificate from the architect.
        10. Name and address of the Manager, Projector operator and electrician. After the receipt of the same, the proposal will be submitted to the Government for previous sanction. After receipt of the previous sanction from the Government, the license will be issued."
      - "Obtaining this license will take 2 months"
@@ -156,15 +255,15 @@ responses:
   utter_Multiplex_license_renewal_answer:
   - text: |
      - "For renewal of the license, you will have to submit the following documents along with the application:
-       1. NOC from PWD
-       2. NOC from the electrical Inspector
-       3. NOC from the Health Officer, BMC
+       1. N.O.C. from PWD
+       2. N.O.C. from the electrical Inspector
+       3. N.O.C. from the Health Officer, BMC
        4. Certificate from MTNL
        5. Certificate of lighting contractor
-       6. NOC from the Chief Fire Officer, BMC
-       7. NOC from the Traffic Police regarding parking
+       6. N.O.C. from the Chief Fire Officer, BMC
+       7. N.O.C. from the Traffic Police regarding parking
        8. Certificate regarding screening of approved films 
-       9. NOC from the Collector."
+       9. N.O.C. from the Collector."
      - "Fee is the same as in license fee structure"
   
   utter_Loudspeaker_license_answer:
@@ -188,8 +287,635 @@ responses:
    
   utter_Loudspeaker_license_renewal_answer:
   - text: |
-     - "You have to make an application along with a copy of the license one month prior to the expiry of the license; enquiries will be made by the concerned Police Station and after receipt of the enquiry report, you will be intimated."
-     - "The renewal charges are the same as license fee structure"
+      - "You have to make an application along with a copy of the license one month prior to the expiry of the license; enquiries will be made by the concerned Police Station and after receipt of the enquiry report, you will be intimated."
+      - "The renewal charges are the same as license fee structure"
+
+  utter_Passport_office_location:
+  - text: |
+      - "Address : Regional Passport Office, Videsh Bhavan, Bandra Kurla Complex, Plot No. C-45 G Block, Bandra (East), Mumbai -400051. Telephone number 26520017/26520016"
+
+  utter_Passport_application:
+  - text: |
+      - "Passport application is available on the following website - www.passportindia.gov.in"
+      
+  utter_Passport_fee:
+  - text: |
+      - "Fee structure :
+        i) Fresh Passport (36 pages) of 10 years validity- Rs. 1,500.
+        ii) Fresh Passport (60 pages) of 10 years validity - Rs. 2,000.
+        iii) Fresh Passport for Minors (Below 15 years of Age) of 5 years validity - Rs.1000."
+  
+  utter_Amusement_Waterpark_NOC_requirements:
+  - text: |
+      - "The applicant should submit the following documents/NOC's along with the application: 
+          a.  Plan of the proposed site indicating surroundings, roads and buildings up to a distance of 75 meters from the perimeter. Schools, Hospitals,Temples or other similar places should be clearly indicated in the plan along with floor wise plans (3 sets)
+          b.  Certificate from the Collector for non-agricultural land.
+          c.  Property Card.
+          d.  Appointment letter of the Architect. 
+          e.  Agreement between landowner and Builder/Developer or Power of Attorney. 
+          f.  Copies of applications submitted to the Building Proposal Department along with their remarks"
+
+  utter_Amusement_Waterpark_procedure:
+  - text: |
+      - " After applying NOC, following procedure is to be followed:
+      1. For inviting objections from the public, if any, the applicant is directed to - a. Display a Notice Board at the proposed site. b. Publish an advertisement in 3 newspapers.
+      2. One set of plans along with the application is forwarded to the local Police authorities for their remarks and also in-view of law and order.
+      3. One set of plans along with the application is forwarded to the Traffic branch for their remarks from the traffic point of view. After the reports are received, the licensing authority decides upon the application and the applicant is intimated accordingly."
+
+  utter_Amusement_Waterpark_NOC_processing:
+  - text: |
+      - "This procedure requires minimum 5 months of time."
+
+  utter_Off_course_betting_centre:
+  - text: |
+      - "Secretary of the Royal Western India Turf Club issues these licenses."  
+  
+  utter_Off_course_betting_centre_fee:
+  - text: |
+      - "Premises license fees Rs.2,000 /- Ticket selling license fees Rs.100/-"
+  
+  utter_Go_karting_licenses:
+  - text: |
+      - "You require a Premises License, a Ticket Selling License and Performance License."
+  
+  utter_Go_karting_processing:
+  - text: |
+      - "You require a Premises License, a Ticket Selling License and Performance License."
+  
+  utter_Video_theatre_license:
+  - text: |
+      - "You require the Premises License and the Ticket selling license."
+      - "The Premises License and Ticket selling license are issued from the Office of the Commissioner of Police, the Performance license is issued by the office of Divisional ACP."
+  
+  utter_Video_theatre_application:
+  - text: |
+      - "You can collect the form from Theater Branch or you can receive it online."
+      - "The process will take minimum two month's time."
+  
+  utter_Video_theatre_fee:
+  - text: |
+      - " 1. Cinema license - Up to 200 seats Rs. 2,000. Up to 500 seats Rs. 3,000. Above 501 seats Rs. 4,500.
+          2. Ticket selling license Rs. 500.
+          3. Addition/Alteration in the license. Rs. 25.
+          4. Duplicate license Rs. 50."
+  utter_Passport_lost:
+  - text: |
+      - "A complaint should be lodged in the concerned local Police station and thereafter, an application for a new Passport should be made in the Passport Office."
+
+  utter_Passport_verification_time:
+  - text: |
+      - "The verification procedure takes minimum 3 weeks from the receipt of the application, provided that reports are received well in time from the local Police station."
+
+  utter_Passport_documents:
+  - text: |
+      - "Following documents are needed for passport application : 
+          1. Any two of the below mentioned documents 
+              a)Applicant's ration card 
+              b)Telephone bill(copy of current month and previous year) 
+              c)Electricity payment(copy of current month and last year) 
+              d)Current bank account passbook(only first page) 
+              e)Election card/Aadhar card 
+              f)PAN card or driving license
+          2. Birth certificate proof or school leaving certificate
+          3. Documents of Citizenship
+          4. If the Indian citizens are registered or acquired by the acquisition of old passport copies"
+
+  utter_Passport_minor: 
+  - text: |
+      - "If the applicant is a minor, then the application should be accompanied by a copy of both the passport and Aadhar card. Also bring the sample 'D'(Annexure D) along with it."
+
+  utter_Passport_name_change_marriage:
+  - text: |
+      - "A woman applying for the first time for a passport in her married name or for change of name/surname in the existing passport on account of marriage should furnish :
+            i. A photocopy of the husband's Passport if any, and 
+            ii. An attested copy of the marriage certificate issued by Registrar of Marriage and affidavit of the husband and wife along with a joint photograph."
+
+  utter_Passport_name_change_remarriage:
+  - text: |
+      - "Re-married applicants applying for a change of name/spouse's name should furnish :
+            i. Divorce/death certificate as the case may be in respect of first spouse, and 
+            ii. An attested copy of the marriage certificate issued by Registrar of Marriage and affidavit of the husband and wife along with a joint photograph."
+
+  utter_Passport_name_change_divorce:
+  - text: |
+      - "Divorcees applying for change of name or deletion of spouse's name in existing passport must furnish :
+            i. Divorce deed duly authenticated by the court, or 
+            ii. Deed poll/sworn affidavit."
+
+  utter_Passport_name_change_other: 
+  - text: |
+      - "In circumstances other than marriage, remarriage and divorce, the applicant (both male and female) should furnish :
+          i. A deed poll/sworn affidavit. 
+          ii. A paper cutting of two leading daily newspapers(one daily newspaper should be of the area of applicants permanent and present address of nearby area)"
+
+  utter_Passport_address_change:
+  - text: |
+      - "Submit the prescribed passport application along with the present residence proof."
+
+  utter_Passport_verification_procedure:
+  - text: |
+      - "Following procedure is followed for passport verification : 
+          1. First of all, the submitted documents are presented to the passport service center with your application.
+          2. The applications are downloaded from the police station in the online way.
+          3. A copy of this application is given to the BIT executives. The passport applicant verifies the passport and signature of the passport applicant on the tab by going to Beat Employer of the Police Station on the address.
+          4. After the verification of the tab, the passport applicant has to appear before the passport verification officer for 2 to 3 days in the passport serial center and have to appear before the police station for verification of other documents (original and printed copies).
+          5. After verification of the documents, the application is sent online along with the passport verification report to the passport branch-2.
+          6. Police officers will again submit the passport application in Special Branch-2 and submit it in the online form to the Passport Office.
+          7. After the completion of the process, the applicant gets the passport from the regional passport office. After completion of the verification process, contact the Regional Passport Office if the applicant has any doubts regarding the passport."
+
+  utter_Passport_ecnr:
+  - text: |
+      - "Passport applicant whose education is more than 10th, come under the Emmigration check not included(ECNR) category."
+
+  utter_Passport_immediate:
+  - text: |
+      - "It will take 1 week (In relation to Regional Passport Office, Mumbai.)"
+
+  utter_Drama_redevelop:
+  - text: |
+      - "You have to make an application affixing a court fee stamp of Rs.5 and submit the following necessary documents:
+          1. Approved plan of the proposed site indicating surroundings, roads and buildings up to a distance of 75 meters from the perimeter. Schools, hospitals, temples or other similar places should be clearly indicated in the plan and floor wise plans (3 sets) (by the Building Proposals Department, BMC)
+          2. Intimation Of Disapproval issued by the BMC
+          3. N.O.C. from the Chief Fire Officer, BMC
+          4. N.O.C. from PWD
+          5. Appointment letter of the architect.
+          6. Agreement between Landowner and Builder/Developer or Power of Attorney"
+  
+  utter_Drama_days:
+  - text: |
+      - "It will take five months because:
+          1. Objections will be invited from the members of public by displaying board with details of the proposal at the site and the same will also be published in three local newspapers.
+          2. Enquiries will be conducted by the local Police station from the law and order point of view.
+          3. A report will be called for from the Traffic department from traffic point of view.
+          4. After completing the above procedure, a decision will be made and an NOC will be issued."
+
+  utter_Drama_procure_license:
+  - text: |
+      - "After completing the construction you will have to make an application for the grant of license. You need to submit the following documents along with your application:
+          1. Occupation certificate from the BMC 
+          2. N.O.C. from the electrical Inspector
+          3. N.O.C. from Health Officer, BMC 
+          4. N.O.C. from CFO 
+          5. Certificate from MTNL 
+          6. N.O.C. from PWD 
+          7. Structural stability certificate from the architect 
+          8. Name and address of the manager and electrician. 
+          9. Certificate of lightning conductor After the receipt of the same, a decision will be made and the license will be issued."
+
+  utter_Drama_time_license:
+  - text: |
+      - "The process will take minimum two months."  
+
+  utter_Drama_law_license:
+  - text: |
+      - "The Maharashtra Cinema (Regulation) Rules, 1966."      
+
+  utter_Drama_fee:
+  - text: |
+      - "Fees: 
+          1. Premises license up to 200 seats Rs. 5,000. up to 500 seats Rs. 10,000. above 501 seats Rs. 15,000.
+          2. Ticket selling license. Rs. 500. 
+          3. Addition/alteration in the license. Rs. 500. 
+          4. Duplicate license Rs. 500."  
+
+  utter_Drama_renewal_license:
+  - text: |
+      - "For renewal of the license you will have to submit following documents along with the application: 
+          1. N.O.C. from the electrical Inspector.
+          2. N.O.C. from the Health Officer, BMC 
+          3. N.O.C. from CFO 
+          4. Certificate from MTNL 
+          5. N.O.C. from PWD"  
+
+  utter_Drama_renewal_charge:
+  - text: |
+      - "It is the same as given in fee structure."
+
+  utter_Arms_new_license:
+  - text: |
+      - "One can procure a new Arms license by submitting an application in "A" form with Rs. 5/- Court fees, stamp"
+
+  utter_Arms_license_time:
+  - text: |
+      - "It will minimum two months to get a new Arms License."
+
+  utter_Arms_license_procedure:
+  - text: |
+      - "The application form is sent to the concerned Police station. The Police station makes an inquiry and submit the report to the Zonal DCP who interviews the applicant and submits his report. Once convinced by the reports, the licensing authority issues the license."
+
+  utter_Arms_license_documents:
+  - text: |
+      - "Following needs to be submitted to obtain a new Arms License :
+            1. Copy of Ration card
+            2. Election card
+            3. Last 3 years I.T. certificate / Challan copy
+            4. Two character certificates from the responsible citizens of your locality
+            5. Physical fitness certificate
+            6. Education Qualification certificate
+            7. Proof of age"
+
+  utter_Arms_license_renewal:
+  - text: |
+      - "If the renewal is not late, fill the renewal form and affix Rs. 5/- Court fees, stamp. Produce weapon and license for inspection at Citizen Facilitation Center. Pay the renewal fees. Renewal will be done immediately."
+
+  utter_Arms_license_renewal_late:
+  - text: |
+      - "Call on personally. Produce the weapon for inspection. Fill up the renewal form. Submit your explanation for the delay. You will be issued with a Show Cause Notice. Answer within 15 days. The decision will be taken after receipt of your reply. The decision will be conveyed to you by letter, through the concerned Police station."
+
+  utter_Arms_license_renewal_late_out_of_Mumbai:
+  - text: |
+      - "Deposit the weapon to the nearest Police station. Obtain receipt for the same. Fill up the renewal form and leave the license with A & A Branch. When the license holder returns, ask him to come into the office and collect the license."
+
+  utter_Arms_TJP:
+  - text: |
+      - "Submit an application on a plain paper with Rs. 5/- Court Fees, Stamp. Attach a copy of the license. Next day, pay a fee of Rs. 20/- and you will get a TJP. This is only valid for 30 days and is subject to local restrictions imposed by the local authority."
+
+  utter_Arms_property_protection:
+  - text: |
+      - "The license for property protection is granted on a Per-Pro basis. The procedure is same as that for obtaining a new license."
+
+  utter_Arms_possession_01:
+  - text: |
+      - "You have to deposit the weapon and the original license with ammunition for safe custody at the nearest police station. Attach copy of death certificate with application. A safe custody receipt will be issued to you. The weapon can be kept for one year. Charges are Rs. 50/- for one year."
+
+  utter_Arms_possession_02:
+  - text: |
+      - "Submit "A" form application for new license. Attach copy of the death certificate and the safe custody receipt of Rs. 20/- stamp paper, duly notarized. An affidavit of all legal heirs with NOC in the applicant's name has to be attached. The other procedure remains the same as for procuring a new license."
+
+  utter_Arms_possession_03:
+  - text: |
+      - "Make an application for an arms license in the form "A". Attach a consent letter of the license holder with an affidavit of Rs. 20/- stamp paper duly notarized. Attach an NOC from other legal heirs on Rs.20/- stamp paper duly notarized. The procedure remains the same as for procuring a new license. Please remember, grant of license depends upon your eligibility to hold it and not on the wish of the donor."
+
+  utter_Arms_register_Mumbai:
+  - text: |
+      - "Following process is required to be followed : 
+            i. Submit an application in prescribed form for re-registration.
+            ii. Attach a copy of the arms license.
+            iii. Produce/attach residential proof.
+            iv. An NOC from the original licensing authority is required.
+            v. A police station report with remarks from the Zonal DCP is also required. On receiving the NOC and remarks from the DCP, the decision shall be taken by the licensing authority."
+
+  utter_Arms_register_other:
+  - text: |
+      - "Arms and Ammunition Branch will issue an NOC to the new registering authority on receipt of their request letter."
+
+  utter_Arms_license_Maharashtra:
+  - text: |
+      - "Following process is required to be followed : 
+            i. Make an application on a plain paper with Rs.5/- court fees stamp.
+            ii. Attach a copy of the Arms license with it.
+            iii. The application will be sent to the Police station for enquiry
+            iv. On receipt of the Police station report, you will be called for an interview.
+            v. The decision will be conveyed to you in writing through the Police station."                 
+
+  utter_Arms_license_India:
+  - text: |
+      - "i. Submit an application to the Government of Maharashtra, Pol-IX, Home Department, Mantralaya, Mumbai with a copy of the license.
+         ii. The application will be sent to the Police station for an enquiry,
+         iii. On receipt of the report from the Police station, you will be interviewed and a report will be submitted to the Government of Maharashtra.
+         iv. The Government of Maharashtra will take the decision and you will be informed accordingly."  
+
+  utter_Arms_fire_cracker:
+  - text: |
+      - "Following process is required to be followed : 
+            1. Form No-24 should be duly filled. Attach, 
+                a. Shop and establishment License 
+                b. B.M.C. Certificate 
+                c. Land Owner's N.O.C. 
+                d. Fire Brigade N.O.C.
+            2. Reports from the concerned police station, Divisional Asstt. Commissioner Of Police, Zonal DCP, character verification report and the report from Special Branch-I CID and Technical unit of the Crime Branch will be obtained by the Arms and Ammunition Branch."
+
+  utter_Arms_sell:
+  - text: |
+      - "Following process is required to be followed :
+            i. Submit an application with Rs.5/- court fees, stamp and attach a copy of your license.
+            ii. Inform Arms and Ammunition Branch with relevant documents.
+            iii. If all documents are in order, sale permits will be issued within 15 days."
+
+  utter_Arms_explosive:
+  - text: |
+      - "Following process is required to be followed : 
+            1. Submit form No. 23 
+                Application should be in the prescribed format : 
+                    Required documents - 
+                    a. Contractor's agreement with NOC. 
+                    b. Landlords NOC for the purpose of blasting. 
+                    c. Storage of explosive license. 
+                    d. Explosive Transportation permit and Fire Brigade NOC.
+            2. Reports from the concerned Police station through Divisional Asst. Commissioner Of Police, Zonal DCP, character verification report and report from Special Branch-I, CID and Technical unit of Crime Branch will be obtained by the Arms and Ammunition Branch."
+
+  utter_Arms_road_permit:
+  - text: |
+      - "Submit the following documents :
+            1. Application form affixing Rs. 5/- Court Fees stamp
+            2. Xerox Copy of Arms License.
+            3. Purchase / Sell receipt 4. Fees of Rs. 20/-"
+
+  utter_Arms_re_registration:
+  - text: |
+      - "Submit an application in the prescribed form with ration card, telephone bill, license xerox copy etc. documents. On receipt of the following reports by the Arms and Ammunition branch final decision is taken :
+            1. NOC from original licensing authority.
+            2. Enquiry report of applicant through Zonal DCP.
+            3. Verification Report.
+            4. Technical Unit report
+            5. Special Branch-I. C.I.D. report"
+
+  utter_Arms_suspend:
+  - text: |
+      - "On receipt of reports from the concerned Police station, suspension/revocation of Arms license can take place"
+
+  utter_Cinema_redevelop:
+  - text: |
+      - "You have to make an application affixing a court fee stamp of Rs.5 along with all the following documents: 
+            1. Intimation of disapproval from BMC 
+            2. Approved plans (by the building proposals department, BMC) of the proposed site indicating surroundings, roads and buildings up to a distance of 75 meters from the perimeter. Schools, hospitals, temples or other like places should be clearly indicated in the plan and floor wise plans (3 sets)
+            3. Property card 
+            4. N.O.C. from PWD 
+            5. N.O.C. from the Chief Fire Officer 
+            6. Appointment letter of the architect. 
+            7. Agreement between Landowner and Builder/Developer or Power of Attorney."
+
+  utter_Cinema_months:
+  - text: |
+      - "It will take six months because 
+            1. Objections will be invited from the members of public by displaying a board with details of the proposal at the site and by publishing the same in three local Newspapers.
+            2. Enquiries will be conducted by the local Police station from the law and order point of view.
+            3. A report will be invited from The Traffic department from the traffic point of view.
+            4. After completing the above procedure, the proposal will be submitted to the government for previous sanction.
+            5. After the receipt of previous sanction from the government, an NOC will be issued. "
+
+  utter_Cinema_procure_license:
+  - text: |
+      - "After completing the construction you will have to make an application for the grant of license. You need to submit the following documents along with your application:
+          1. Occupation certificate from the BMC 
+          2. N.O.C. from the electrical Inspector
+          3. N.O.C. from Health Officer, BMC 
+          4. N.O.C. from CFO 
+          5. Certificate from MTNL 
+          6. N.O.C. from PWD 
+          7. Structural stability certificate from the architect 
+          8. Name and address of the manager and electrician. 
+          9. Certificate of lightning conductor After the receipt of the same, a decision will be made and the license will be issued. After the receipt of previous sanction from the government, licenses will be issued."
+
+  utter_Cinema_time_license:
+  - text: |
+      - "The process will take minimum two months."
+
+  utter_Cinema_law_license:
+  - text: |
+      - "The Maharashtra Cinema (Regulation) Rules, 1966."
+
+  utter_Cinema_fee:
+  - text: |
+      - "Fees
+          1. Cinema license - Up to 200 seats Rs. 2,000. Up to 500 seats Rs. 3,000. Above 501 seats Rs. 4,500. 
+          2. Ticket selling license Rs. 500. 
+          3. Addition/Alteration in the license. Rs. 25. 
+          4. Duplicate license Rs. 50. "
+
+  utter_Cinema_renewal_license:
+  - text: |
+      - "For renewal of the license you will have to submit the following documents along with the application: 
+          1. Certificate of lightning conductor.
+          2. N.O.C. from the electrical Inspector 
+          3. N.O.C. from the Health Officer, BMC 
+          4. N.O.C. from CFO, BMC 
+          5. Certificate from MTNL 
+          6. NOC from PWD 
+          7. N.O.C. from Traffic Police regarding parking. 
+          8. Name and address of the manager, projector operator and electrician. 
+          9. N.O.C. from the Collector. After the receipt of the same, enquiries will be made through the local Police Station and after receipt of the report, the license will be renewed."
+
+  utter_Cinema_renewal_charge:
+  - text: |
+      - "It is the same as given in fee structure."
+
+  utter_Pool_license:
+  - text: |
+      - "You require the Premises License and the Performance License."
+
+  utter_Pool_authority_license:
+  - text: |
+      - "The Premises License is issued by the office of the Commissioner of Police. A performance license is issued by the office of the Divisional Asst. Commissioner of Police."
+
+  utter_Pool_action_license:
+  - text: |
+      - "You should make an application in the prescribed format affixing a court fee stamp of Rs. 5 on it. It is available with the Theatre Branch situated in C.P. office, Mumbai."
+
+  utter_Pool_business_requirements:
+  - text: |
+      - "You will have to submit the following documents along with your application. 
+          1. The plan (map) showing details of the premises where the pool table will be placed to play games. The entry/exit and ventilation area (window) should be indicated in the Map along with the location of fire fighting apparatus.
+          2. Geographical location of the site (showing the road approach building/adjoining the proposed place, i.e. on east, west, north and south sides) The plan should be drawn by the register of architects with his counter signature.
+          3. Certificate or receipt of fire fighting equipment should be installed in the proposed premises. 
+          4. Documents showing ownership/title/rights of the premises(owned/leased/rented). 
+          5. If the premises are rented, then NOCs from the concerned landlord stating that he does not have any objection to starting the said activities.
+          6. N.O.C. from the Fire Brigade office.
+          7. N.O.C. from the Health Department of BMC. 
+          8. If there is a telephone, then the certificate from MTNL office. 
+          9. N.O.C. from the electrical Inspector."
+
+  utter_Pool_later_submission:
+  - text: |
+      - "Unless you submit these documents, your application will not be processed; you cannot start the business by submitting an incomplete application."
+
+  utter_Pool_other_requirements:
+  - text: |
+      - "After receipt of all the required documents, the application will be processed. enquiries will be made by the concerned Police station regarding the suitability of place and also the law and order situation."
+
+  utter_Pool_sustainability_enquiry:
+  - text: |
+      - "Enquiries will be made by the concerned/local Police station on the following points: 
+          1. Whether the premises (where pool table situated) are commercial or non- commercial. 
+          2. The distance of the site from any educational institution, hospital or religious place located within 75 meters.
+          3. Terms and conditions of the games. 
+          4. Whether the game is played for prize; if so, then what is the prize, and how long it will be played and also by how many players. Also, their details.
+          5. How many staff are employed or will be employed, their work and responsibility, whether they are trained or otherwise.
+          6. Whether any other activity is going on apart from the pool game; details of these activities. 
+          7. Details of tables with accessories. 
+          8. Details of fans, distance between tables, seating capacity (when all tables are busy) etc. 
+          9. Whether beverages, drinks, eatables or any other item is served to the visitors. 
+          10. Proposed timings of opening and closing of the establishment. 
+          11. Whether smoking is allowed inside the premises. 
+          12. Whether there is a trainer, if so the details to be provided. 
+          13. Whether the proposed place is located in a congested and thickly populated area. 
+          14. Names and address of the owner or partner of the place of amusement."
+
+  utter_Pool_NOC:
+  - text: |
+      - "NOC's are required as per the rules and hence they are mandatory. Unless you submit them, your application will not be considered."
+
+  utter_Pool_license_rules:
+  - text: |
+      - "Rules for Licensing and Controlling Places of Public Amusement (other than cinemas) and Performances for Public Amusements including Melas and Tamashas, 1960."
+
+  utter_Pool_negative_application:
+  - text: |
+      - "If the report is negative, or due to some reason your application is rejected, you will be given a personal hearing."
+
+  utter_Pool_license_renewal:
+  - text: |
+      - "You have to make an application along with the copy of license, one month prior to the expiry of the license. You will also have to submit valid NOC's along with the application. Enquiries will be made through concerned Police station and after receipt of the enquiry report, you will be intimated."
+
+  utter_Pool_license_renewal_fee:
+  - text: |
+       - "It is the same as license fees."
+
+  utter_Social_start_license:
+  - text: |
+      - "You require a premises license and a performance license."
+
+  utter_Social_authority:
+  - text: |
+      - "These licenses are issued by the office of the Commissioner of Police."
+
+  utter_Social_acquire_license:
+  - text: |
+      - "You will have to make an application in the prescribed format affixing a court fee stamp of Rs. 5 on it. "
+
+  utter_Social_application_form:
+  - text: |
+      - "You can collect it from the Theater Branch or you can receive it online. "
+
+  utter_Social_requirement:
+  - text: |
+      - "You have to submit the following documents along with your application: 
+          1. Plan of the place certified by the architect 
+          2. N.O.C. issued by the Fire department. 
+          3. Certificate issued by the electrical Inspector 
+          4. Certificate issued by the Telephone exchange 
+          5. N.O.C. issued by the owner of the premises/NOC of society 
+          6. Certificate of health issued by the BMC 
+          7. Registration certificate issued by the Public Trust / Dharmaday Ayukta 
+          8. List of members, names, age, address and telephone numbers 
+          9. List of committee members, names, age and address
+          10. Memorandum and articles of association 
+          11. Establishment license issued by the BMC (in case of an eating house in the premises) 
+          12. Registration certificate issued by the ACP office (in case of an eating house inthe premises) 
+          13. N.O.C. issued by CP office for construction of the club (if premises speciallyconstructed for the club) 
+          14. Undertaking on bond paper for not allowing gambling in the club. "
+
+  utter_Social_later_submission:
+  - text: |
+      - "Unless you submit these documents, your application will not be processed and you cannot start the business by submitting an application with incomplete documents."
+
+  utter_Social_other_requirements:
+  - text: |
+      - "After the receipt of all the required documents, the application will be processed. Enquiries will be made by the concerned Police station regarding the suitability of place. A report will also be called from the traffic department on the Traffic point of view."
+
+  utter_Social_sustainability_enquiry:
+  - text: |
+      - "Enquiries will be made by the concerned/local Police station on the following points: 
+          1. Whether the information submitted by applicant is correct. 
+          2. Whether there are any complaints by members of the public against the club. 
+          3. Whether there is any school, college, nursery, hospital, temple or religious place within a radius of 75 meters.
+          4. Whether there is a similar place of club establishment within a radius of 75meters. 
+          5. Whether any law and order problem is likely to arise if a license is granted. 
+          6. Whether the establishment is situated in a congested locality which is predominantly a residential area.
+          7. Whether the applicant is a suitable person for grant of Police license. 
+          8. Whether the place is suitable/feasible for grant of Police license. 
+          9. The character and antecedents of the applicant/owner of the club should be verified from the record of Police station, SB-I, CID & Tech unit of Crime Branch.
+          10. The number of rooms in the establishment. 
+          11. The number of tables in each room. 
+          12. The number of persons to be seated per table. "
+
+  utter_Social_license_rules:
+  - text: |
+      - "Rules for Licensing and Controlling Places of Public Amusement (other than cinemas) and Performances for Public Amusements including Melas and Tamashas, 1960."
+
+  utter_Social_time_license:
+  - text: |
+      - "The process will take minimum 90 days from the date of submission of all the required documents."
+
+  utter_Social_fee:
+  - text: |
+      - "The fee structure is as under: Premises license fees Rs. 500 per year Performance license fees Rs. 1,000 per month per unit (one unit will consist of 10 tables in one room)."
+
+  utter_Social_negative_application:
+  - text: |
+      - "If the report is negative or if, for some other reason your application is rejected, You will be informed about it."
+
+  utter_Social_license_renewal:
+  - text: |
+      - "You will have to make an application along with a copy of the license one month prior to the expiry of the license and also submit valid NOC's along with the application. enquiries will be made through the concerned Police station and after receipt of the enquiry report, you will be intimated."
+
+  utter_Social_renewal_charge:
+  - text: |
+      - "It is the same as the license fees."
+
+  utter_Cyber_cafe_license:
+  - text: |
+      - "You require premises license for cyber cafe as per the rules for licensing and controlling places of public amusement (other than cinemas) Rules 1960 and first amendment for cyber café on 28th December 2006."
+
+  utter_Cyber_cafe_NOC:
+  - text: |
+      - "If the government passed the proposal of rules and regulations then make an application affixing a court fee stamp of Rs.150\- on it and submit it along with the following documents :
+            1. Establishment Registration Certificate
+            2. Copy of partnership deed, if partnership firm.
+            3. Rent Receipt, if the place is on rent/lease
+            4. Bill of fire fighting equipment of current year
+            5. Ownership documents, if the premises is owned by the applicant.
+            6. NOC from the landlord or Society if the premises are residential.
+            7. Name, address and other details of manager / conductor, employees to be provided separately on the firm's letter head.
+            8. If establishment is a Company, copy of Memorandum of Articles.
+            9. Copy of the resolution under which applicant is authorized to sign and obtain the above licence from the Licensing Authority.
+            10. Copy of the current bill of payment made to ISP (Internet Service Provider) must be attached with the application.
+            11. No Licensee shall have any claim of whatsoever nature against my Government of Non-Government authority, on the basis of the Cyber Cafe License issued by Police under Cyber Cafe Licensing Rules"
+
+  utter_Cyber_cafe_submitted_documents:
+  - text: |
+      - "Following process is required to be followed : 
+            A) On the receipt of the application along with above documents, enquiries will be made through the local Police station from the law and order point of view will be obtained.
+            B) After receipt of the above reports, the proposal will be decided and you will be informed accordingly"
+
+  utter_Cyber_cafe_license_validity:
+  - text: |
+      - "Cyber cafe Licence will be valid for three years from the date of issue."
+
+  utter_Cyber_cafe_license_fee:
+  - text: |
+      - "The required fee for Cyber Café License is Rs. 600/- Per Computer, So that for Three Years the fee is Rs.1800/- per computer."
+
+  utter_Cyber_cafe_time:
+  - text: |
+      - "It will take minimum two months for the procedure to complete."
+
+  utter_Open_ground_license:
+  - text: |
+      - "You will have to make an application in the prescribed format, affixing court fees stamp of Rs. 5. Please submit the application 15 days prior to the date of the programme along with following necessary documents :
+            1. NOC from the Landlord
+            2. NOC from the Traffic Police
+            3. NOC from the Fire Brigade
+            4. NOC from the electrical Inspector.
+            5. NOC from the Health Department of BMC (if eatables are being served)
+            6. NOC from the Collector (if there is ticket selling or charity show)
+            7. NOC from the Rangabhumi Parinirikshan Mandal
+            8. Certificate regarding fitness of the machinery (in case of amusement rides)"
+
+  utter_Open_ground_time:
+  - text: |
+      - "The process usually takes around 15 days."
+
+  utter_Open_ground_required_licenses:
+  - text: |
+      - "1. NOC (for erecting structure/stage)
+         2. Ticket Selling License
+         3. Premises License
+         4. Performance License (Application to be made to the Divisional assistant commissioner of police.)"
+
+  utter_Open_ground_fee:
+  - text: |
+      - "NOC Rs.50, Ticket selling Fee Rs.50, Premises License Fee Rs.500, Performance License Fee (To be collected by the Divisional Assistant Commissioners of Police), Loudspeaker License Fee (To be collected by the Concerned Police Station) (The fee may vary depending upon the nature and the period of the program)"
+
+  utter_Open_ground_after_submission:
+  - text: |
+      - "The application will be sent to the concerned Police station for enquiries. After the receipt of the enquiry report, the decision will be taken and the applicant will be informed accordingly."
+
+  utter_Open_ground_fee_structure:
+  - text: |
+      - "Fees structure is as under :
+            Premises license fee Rs. 500 per table annually. 
+            Performance license fee Rs. 250 per table per day (issued by the concerned ACP)."
 
 actions:
   - utter_Bowling_alley_answer
@@ -204,10 +930,102 @@ actions:
   - utter_Multiplex_license_renewal_answer 
   - utter_Loudspeaker_license_answer 
   - utter_Loudspeaker_license_renewal_answer 
+  - utter_Passport_office_location
+  - utter_Passport_application
+  - utter_Passport_fee
+  - utter_Amusement_Waterpark_NOC_requirements
+  - utter_Amusement_Waterpark_procedure
+  - utter_Amusement_Waterpark_NOC_processing
+  - utter_Off_course_betting_centre
+  - utter_Off_course_betting_centre_fee
+  - utter_Go_karting_licenses
+  - utter_Go_karting_processing
+  - utter_Video_theatre_license
+  - utter_Video_theatre_application
+  - utter_Video_theatre_fee
+  - utter_Passport_lost
+  - utter_Passport_verification_time
+  - utter_Passport_documents
+  - utter_Passport_minor
+  - utter_Passport_name_change_marriage
+  - utter_Passport_name_change_remarriage
+  - utter_Passport_name_change_divorce
+  - utter_Passport_name_change_other
+  - utter_Passport_address_change
+  - utter_Passport_verification_procedure
+  - utter_Passport_ecnr
+  - utter_Passport_immediate
+  - utter_Drama_redevelop
+  - utter_Drama_days
+  - utter_Drama_time_license
+  - utter_Drama_law_license
+  - utter_Drama_fee
+  - utter_Drama_renewal_license
+  - utter_Drama_renewal_charge
+  - utter_Arms_license_time
+  - utter_Arms_license_procedure
+  - utter_Arms_license_documents
+  - utter_Arms_license_renewal
+  - utter_Arms_license_renewal_late
+  - utter_Arms_license_renewal_late_out_of_Mumbai
+  - utter_Arms_TJP
+  - utter_Arms_property_protection
+  - utter_Arms_possession_01
+  - utter_Arms_possession_02
+  - utter_Arms_possession_03
+  - utter_Arms_register_Mumbai
+  - utter_Arms_register_other
+  - utter_Arms_license_Maharashtra
+  - utter_Arms_license_India
+  - utter_Arms_sell
+  - utter_Arms_fire_cracker
+  - utter_Arms_road_permit
+  - utter_Arms_re_registration
+  - utter_Cinema_redevelop
+  - utter_Cinema_months
+  - utter_Cinema_procure_license
+  - utter_Cinema_time_license
+  - utter_Cinema_law_license
+  - utter_Cinema_renewal_license
+  - utter_Cinema_renewal_charge
+  - utter_Pool_license
+  - utter_Pool_authority_license
+  - utter_Pool_business_requirements
+  - utter_Pool_later_submission
+  - utter_Pool_other_requirements
+  - utter_Pool_sustainability_enquiry
+  - utter_Pool_NOC
+  - utter_Pool_license_rules
+  - utter_Pool_negative_application
+  - utter_Pool_license_renewal
+  - utter_Pool_license_renewal_fee
+  - utter_Social_start_license
+  - utter_Social_authority
+  - utter_Social_acquire_license
+  - utter_Social_application_form
+  - utter_Social_requirement
+  - utter_Social_later_submission
+  - utter_Social_other_requirements
+  - utter_Social_sustainability_enquiry
+  - utter_Social_license_rules
+  - utter_Social_time_license
+  - utter_Social_fee
+  - utter_Social_negative_application
+  - utter_Social_license_renewal
+  - utter_Social_renewal_charge 
+  - utter_Cyber_cafe_license
+  - utter_Cyber_cafe_NOC
+  - utter_Cyber_cafe_submitted_documents
+  - utter_Cyber_cafe_license_validity
+  - utter_Cyber_cafe_license_fee
+  - utter_Cyber_cafe_time
+  - utter_Open_ground_license
+  - utter_Open_ground_time
+  - utter_Open_ground_required_licenses
+  - utter_Open_ground_fee
+  - utter_Open_ground_after_submission
+  - utter_Open_ground_fee_structure
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-
-
-
