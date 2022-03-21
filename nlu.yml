@@ -5,7 +5,6 @@ nlu:
   examples: |
     - Open a bowling alley.
     - Want to open a bowling alley.
-    
  
 - intent: Bowling_alley_application
   examples: |
@@ -23,7 +22,6 @@ nlu:
     - Renew license for my bowling alley
     - License renewal charges for bowling alley
 
-
 - intent: Circus_application
   examples: |
     - Open a circus
@@ -37,7 +35,6 @@ nlu:
 - intent: Multiplex_application
   examples: |
     - Construct my own multiplex
-    
  
 - intent: Multiplex_noc 
   examples: |
@@ -66,9 +63,547 @@ nlu:
     - Application form for becoming loudspeaker contractor
     - License for loudspeaker contractor
 
-
-
 - intent: Loudspeaker_license_renewal 
   examples: |
     - Renew license for  loudspeaker contractor
     - License renewal fee for loudspeaker contractor
+
+- intent: Passport_office_location 
+  examples: |
+    - Location of Passport Office
+    - Where to go for Passport
+    - Where is Passport Office
+    - Contact Passport Office
+
+- intent: Passport_application
+  examples: |
+    - I want to get a passport
+    - Want passport application
+    - Want to issue a passport
+    - Where to fill the passport application
+
+- intent: Passport_fee
+  examples: |
+    - Cost for issuing a passport
+    - Fees for passport creation
+    - How much does it cost to get a passport
+
+- intent: Amusement_Waterpark_NOC_requirements
+  examples: |
+    - How to get NOC for Amusement park
+    - How to get NOC for water park
+    - What is the procedure to get NOC for Amusement park
+    - What is the procedure to get NOC for water park
+    - What all documents are required for NOC for amusement park
+    - What all documents are required for NOC for water park
+
+- intent: Amusement_Waterpark_procedure
+  examples: |
+    - What is the procedure involved for obtaining permission to build an Amusement Park
+    - How to obtain permission to build an Amusement Park
+    - What is the procedure involved for obtaining permission to build an Water Park
+    - How to obtain permission to build an Water Park
+
+- intent: Amusement_Waterpark_NOC_processing
+  examples: |
+    - How long will it take to process my application the NOC for the location of an Amusement/Water Park ?
+    - How many days will it take to process my application for the NOC for the location of an Amusement/Water Park ?
+
+- intent: Off_course_betting_centre
+  examples: |
+    - Which authority issue these licenses to an Off-Course Betting Centre?
+    - Who issue licenses to an Off-Course Betting Centre?
+    - How does an Off-Course Betting Centre obtain licenses?
+
+- intent: Off_course_betting_centre_fee
+  examples: |
+    - Cost for issuing a license to Off-Course Betting Centre
+    - Fees for Off-Course Betting Centre license
+    - How much does it cost to get a license for Off-Course Betting Centre
+
+- intent: Go_karting_licenses
+  examples: |
+    - I wish to start a Go Karting establishment. What are the Licenses I require?
+    - What all license required to establish Go karting?
+    - Should I get any license to establish Go karting?
+
+- intent: Go_karting_processing
+  examples: |
+    - How long will it take to process my application for Go karting?
+    - How many days will it take to process my application for Go karting?
+
+- intent: Go_karting_processing
+  examples: |
+    - How long will it take to process my application for Go karting?
+    - How many days will it take to process my application for Go karting?
+
+- intent: Video_theatre_license
+  examples: |
+    - I wish to start a video theatre. What are the Licenses I require?
+    - What all license required to establish video theatre?
+    - Should I get any license to establish Go video theatre?
+    - Where do I get licenses for video theatre?
+    - Where should I apply for  Premises License and Ticket selling license?
+    - Which authority issue Video theatre licenses?
+
+- intent: Video_theatre_application
+  examples: |
+    - Where will I get the application for opening new theatre?
+    - How to get the application for opening new theatre?
+    - Where is the application for opening new theatre available?
+    - How long the application will take to process?
+
+- intent: Video_theatre_fee
+  examples: |
+    - Cost for issuing a license to Video theatre
+    - Fees for passport Video theatre license
+    - How much does it cost to get a license for Video theatre?
+    - What is the fee structure for Video theatre application?
+
+  
+- intent: Passport_lost
+  examples: |
+    - What to do if I have misplaced my passport
+    - Lost my passport
+    - Can't find my passport
+
+- intent: Passport_verification_time
+  examples: |
+    - How long is the passport verification process
+    - Time taken in passport verification
+    - Duration for passport verification process
+
+- intent: Passport_documents
+  examples: |
+    - What all documents are required for passport application
+    - Documents needed to issue a passport
+    - What all documents I need to apply for a passport
+
+- intent: Passport_minor
+  examples: | 
+    - Passport application procedure for minors
+    - How do I issue a passport if I am a minor
+
+- intent: Passport_name_change_marriage
+  examples: |
+    - Procedure for change of name following marriage
+
+- intent: Passport_name_change_remarriage
+  examples: |
+    - Procedure for change of name following remarriage
+
+- intent: Passport_name_change_divorce
+  examples: |
+    - Procedure for change of name following divorce
+
+- intent: Passport_name_change_other
+  examples: |
+    - How do I change my name in passport
+    - New name on passport application
+
+- intent: Passport_address_change
+  examples: |
+    - How to change my address on passport
+    - Procedure for change of address
+
+- intent: Passport_verification_procedure
+  examples: |
+    - What is the procedure for verfication for passport application
+    - What entails the verification procedure
+
+- intent: Passport_ecnr
+  examples: |
+    - What is ecnr category
+    - What is Emigration Check Not Required category
+    - Who all do not need a Emigeration Check
+
+- intent: Passport_immediate
+  examples: |
+    - How long does it take get a passport immediately
+    - Time taken to issue immediate passport
+
+- intent: Drama_redevelop
+  examples: |
+    - I plan to redevelop an existing drama hall. What should I need to do?
+    - What should I do to redevelop an existing drama hall?
+
+- intent: Drama_days
+  examples: |
+    - How many days will it take to redevelop the drama hall?
+    - How long will the construction last?
+
+- intent: Drama_procure_license
+  examples: |
+    - Once the construction is complete, how do I procure a license to start my business?
+    - How to procure license after construction?
+
+- intent: Drama_time_license
+  examples: |
+    - How much time does this licensing process take?
+    - How long will the licensing process take?
+
+- intent: Drama_law_license
+  examples: |
+    - Under which law this license is required?
+
+- intent: Drama_fee
+  examples: |
+    - What is the fee structure for the drama hall?
+
+- intent: Drama_renewal_license
+  examples: |
+    - What is the procedure of renewal of license?
+    - What should I do to renew the license?
+
+- intent: Drama_renewal_charge
+  examples: |
+    - What are the renewal charges for the drama hall?
+
+- intent: Arms_new_license
+  examples: |
+    - How to get a new Arms license
+    - How do I procure an Arms license
+
+- intent: Arms_license_time
+  examples: | 
+    - How long does it take to get a new Arms license
+    - Time taken to issue a new Arms license
+
+- intent: Arms_license_procedure
+  examples: |
+    - What is the procedure to procure a new Arms license
+    - Steps involved in issuing a new Arms license
+    - What procedure is followed to issue a Arms license
+
+- intent: Arms_license_documents
+  examples: |
+    - What all documents do we need to submit for a new Arms license
+    - To issue an Arms license, what all documents are needed
+
+- intent: Arms_license_renewal
+  examples: |
+    - How to renew an Arms license
+    - What do I need to do to get my Arms license renewed
+
+- intent: Arms_license_renewal_late
+  examples: |
+    - What do I have do if my Arms license renewal is late
+    - I missed my Arms license renewal
+    - My Arms license renewal is late 
+
+- intent: Arms_license_renewal_late_out_of_Mumbai
+  examples: |
+    - I was out of Mumbai, so my Arms license renewal is late
+    - Couldn't renew my Arms license on time because I was out of Mumbai
+
+- intent: Arms_TJP
+  examples: |
+    - How can I obtain a Temporary Journey Permit
+    - How can I obtain a TJP
+
+- intent: Arms_property_protection
+  examples: |
+    - How can I get a license for property protection
+    - What do I need to do to get a property protecion
+
+- intent: Arms_possession_01
+  examples: |
+    - My father was a license holder. He is expired and the license is now in my possession. What should I do?
+    - My uncle was a license holder. He is expired and the license is now in my possession. What should I do?
+    - My husband was a license holder. He is expired and the license is now in my possession. What should I do?
+    - My relative was a license holder. He is expired and the license is now in my possession. What should I do?
+
+- intent: Arms_possession_02
+  examples: |
+    - A relative wishes to possess the weapon of a deceased person. What is the procedure?
+
+- intent: Arms_possession_03
+  examples: |
+    - My father is old. He wishes to give me his weapon. Can you guide me?
+    - My relative is old. He wishes to give me his weapon. Can you guide me?
+
+- intent: Arms_register_Mumbai
+  examples: |
+    - My All India Arms License was issued in another State. I want it to be renewed in Mumbai.
+    - My All India Arms License was issued in another State. I want it to be registered in Mumbai.
+
+- intent: Arms_register_other
+  examples: |
+    - My license was issued in Mumbai. I want to register it at another place.
+
+- intent: Arms_license_Maharashtra
+  examples: |
+    - I want to make my Arms license valid in the whole of Maharashtra. What is the procedure?
+    - How can I make my Arms license valid throughout Maharashtra?
+
+- intent: Arms_license_India
+  examples: |
+    - I want to make my Arms license valid in the whole of India. What should I do?
+    - How can I make my Arms license valid throughout India?
+
+- intent: Arms_sell
+  examples: |
+    - I want to sell my weapon. What is the procedure?
+    - How can I sell my weapon?
+
+- intent: Arms_fire_cracker
+  examples: |
+    - How to obtain a license to sell Fire Cracker?
+    - Procedure to acquire license to sell Fire Cracker.
+
+- intent: Arms_explosive
+  examples: |
+    - How to obtain License to store explosive?
+    - Procedure to acquire license to store explosive.
+    - License to store explosive
+
+- intent: Arms_road_permit
+  examples: |
+    - How do I apply for a Road permit?
+    - Arms road permit
+
+- intent: Arms_re_registration
+  examples: |
+    - What is the procedure for Arms re-registration
+    - How can I re-register my Arms license
+
+- intent: Arms_suspend
+  examples: |
+    - In which cases suspension can occur?
+    - In which cases revocation can occur?
+    - Arms license suspension
+    - Arms license revocation
+
+- intent: Cinema_redevelop
+  examples: |
+    - I wish to redevelop my cinema theatre. What are the requirements?
+    - What are the requirements to redevelop a cinema theatre?
+
+- intent: Cinema_months
+  examples: |
+    - How much time will the renewal process take?
+    - How long will it take to renew the cinema theatre?
+
+- intent: Cinema_procure_license
+  examples: |
+    - After completion of the construction, how do I procure a license to start the business?
+    - How to procure license after construction?
+
+- intent: Cinema_time_license
+  examples: |
+    - How much time does this licensing process take?
+    - How long will the licensing process take?
+
+- intent: Cinema_law_license
+  examples: |
+    - Under which law the license is required?
+
+- intent: Cinema_fee
+  examples: |
+    - What is the fee structure for the cinema theatre?
+
+- intent: Cinema_renewal_license
+  examples: |
+    - What is the procedure of renewal of license?
+    - What should I do to renew the license?
+
+- intent: Cinema_renewal_charge
+  examples: |
+    - What are the renewal charges for the cinema theatre?
+
+- intent: Pool_license
+  examples: |
+    - I wish to start a pool table establishment. What are the licenses I require?
+    - What license do I need in order to start a pool table?
+
+- intent: Pool_authority_license
+  examples: |
+    - Which authority issue these licenses for the pool table establishment?
+    - Pool table establishment license are issued by which authority?
+
+- intent: Pool_action_license
+  examples: |
+    - What should I do to have these pool table establishment licenses?
+    - What must be done for me to possess the license for the pool table establishment?
+
+- intent: Pool_business_requirements
+  examples: |
+    - What are the requirements to start the pool table business?
+
+- intent: Pool_later_submission
+  examples: |
+    - I don't have all these required documents at present. Can I submit them afterwards?
+
+- intent: Pool_other_requirements
+  examples: |
+    - I have submitted all the documents. Are there any other requirements?
+
+- intent: Pool_sustainability_enquiry
+  examples: |
+    - What about the enquiries regarding suitability of pool table place?
+    - Is there any enquiries about the sustainability of the pool table place?
+
+- intent: Pool_NOC
+  examples: |
+    - Why so many NOC's are required? Are they really necessary?
+    - Are so many NOC's required?
+
+- intent: Pool_license_rules
+  examples: |
+    - Under what rules do you issue the pool table establishment license and what are the documents required for the it?
+    - What are the documents are required for the pool table establishment license, and under what rules to do you issue its license?
+
+- intent: Pool_negative_application
+  examples: |
+    - If the report of the Police station is negative, what would be the result of my application?
+    - What happen to my application if the police station report is negative?
+
+- intent: Pool_license_renewal
+  examples: |
+    - What is the procedure for renewal of the license?
+    - What should I do to renew the license?
+
+- intent: Pool_license_renewal_fee
+  examples: |
+    -  What is the fees for renewal of the pool table establishment license?
+
+- intent: Social_start_license
+  examples: |
+    - I wish to start a social club room. What licenses do I require?
+    - I wish to start a social card room. What licenses do I require?
+    - What licenses do I need to start a social club room?
+    - What licenses do I need to start a social card room?
+
+- intent: Social_authority
+  examples: |
+    - Which authorities issue the social club room licenses?
+    - Which authorities issue the social card room licenses?
+
+- intent: Social_acquire_license
+  examples: |
+    -  What should I do to acquire the social club room license?
+    -  What should I do to acquire the social card room license?
+
+- intent: Social_application_form
+  examples: |
+    - Where will I get the application form?
+
+- intent: Social_requirement
+  examples: |
+    - What are the requirements to have the social club room license?
+    - What are the requirements to have the social card room license?
+
+- intent: Social_later_submission
+  examples: |
+    -  I don't have all these required documents at present. Can I submit them on a later date?
+
+- intent: Social_other_requirements
+  examples: |
+    - I have submitted all the documents. Are there any other requirements?
+
+- intent: Social_sustainability_enquiry
+  examples: |
+    - Which enquiries are conducted to verify the suitability of the social club room?
+    - Which enquiries are conducted to verify the suitability of the social card room?
+    - What about the enquiries regarding suitability of social club room place?
+    - What about the enquiries regarding suitability of social card room place?
+    - Is there any enquiries about the sustainability of the social club room place?
+    - Is there any enquiries about the sustainability of the social card room place?
+
+- intent: Social_license_rules
+  examples: |
+    - Under what rules do you issue the social club room license and what are the documents required for the it?
+    - Under what rules do you issue the social card room license and what are the documents required for the it?
+    - What are the documents are required for the social club room license, and under what rules to do you issue its license?
+    - What are the documents are required for the social card room license, and under what rules to do you issue its license?
+
+- intent: Social_time_license
+  examples: |
+    - How much time does this licensing process take?
+    - How long will the licensing process take?
+
+- intent: Social_fee
+  examples: |
+    - What is the license fee structure for the social club room?
+    - What is the license fee structure for the social card room?
+
+- intent: Social_negative_application
+  examples: |
+    - If the report of the Police station is negative, what would be the result of my application?
+    - What happen to my application if the police station report is negative?
+
+- intent: Social_license_renewal
+  examples: |
+    - What is the procedure for renewal of the license?
+    - What should I do to renew the license?
+
+- intent: Social_renewal_charge
+  examples: |
+    - What are the renewal charges for the social club room?
+    - What are the renewal charges for the social card room?  
+
+- intent: Cyber_cafe_license
+  examples: |
+    - I want to obtain a license for a cyber cafe. What are the requirements?
+    - How can I acquire a cyber cafe license?
+    - What is the procedure to obtain a cyber cafe license?
+
+- intent: Cyber_cafe_NOC
+  examples: |
+    - What are the requirements for obtaining NOC for Cyber cafe license?
+    - How can I obtain NOC for my Cyber cafe license?
+    - NOC for Cyber cafe license
+
+- intent: Cyber_cafe_submitted_documents
+  examples: |
+    - I have submitted all the documents for Cyber cafe license, what do I do now?
+    - What do I have to do after submitting all the required documents for my Cyber cafe license?
+
+- intent: Cyber_cafe_license_validity
+  examples: | 
+    - What is the validity period of the Cyber Cafe Licence?
+    - Validity of Cyber Cafe license
+
+- intent: Cyber_cafe_license_fee
+  examples: |
+    - What is the required fee for Cyber Cafe Licence?
+    - Cost of Cyber Cafe license
+    - How much fees do we have to submit to obtain Cyber cafe license
+
+- intent: Cyber_cafe_time
+  examples: |
+    - How much time it will take to acquire a Cyber cafe license?
+    - Time taken to ibtain a Cyber cafe license
+    - How long does it take to acquire a Cyber cafe license?
+
+- intent: Open_ground_license
+  examples: |
+    - What is the procedure for obtaining a temporary license for the programs to be performed on an open ground?
+    - How can I get a temporary license to organise programs on open ground?
+
+- intent: Open_ground_time
+  examples: |
+    - How many days will it take to process temporary license for programs held in an open ground?
+    - Time taken to process temporary license for programs held in an open ground
+    - How long will it take to get a temporary license for programs to be held on open ground?
+
+- intent: Open_ground_required_licenses
+  examples: |
+    - Which are the licenses required for holding programs on the open ground?
+    - What all licenses are needed to hold programs on open grounds?
+    - Licenses to conduct programs on open ground.
+
+- intent: Open_ground_fee
+  examples: |
+    - What is the fee for temporary license for programs to be held on the open grounds?
+    - How much does it cost to acquire a temporary license for programs to be held on the open grounds?
+
+- intent: Open_ground_after_submission
+  examples: |
+    - After submitting the application, what procedure is to be followed for obtaining a license for programs to be held on open grounds?
+    - What do I have to do after submitting the application for temporary license for programs to be held on open grounds?
+
+- intent: Open_ground_fee_structure
+  examples: |
+    - What is the license fee structure required for programs to be held on open grounds?
+    - Fee structure for temporary license needed for programs conducted on open grounds
