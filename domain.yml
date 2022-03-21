@@ -973,7 +973,7 @@ actions:
   - utter_Arms_possession_01
   - utter_Arms_possession_02
   - utter_Arms_possession_03
-  - utter_Arms_register_Mumabi
+  - utter_Arms_register_Mumbai
   - utter_Arms_register_other
   - utter_Arms_license_Maharashtra
   - utter_Arms_license_India
@@ -988,7 +988,6 @@ actions:
   - utter_Cinema_law_license
   - utter_Cinema_renewal_license
   - utter_Cinema_renewal_charge
-  - utter_Cinema_license
   - utter_Pool_license
   - utter_Pool_authority_license
   - utter_Pool_business_requirements
