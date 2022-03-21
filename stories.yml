@@ -19,7 +19,6 @@ stories:
   - action: utter_Circus_application_answer
   - intent: Circus_license
   - action: utter_Circus_license_answer
-  
 
 - story: mutliplex_application path
   steps:
