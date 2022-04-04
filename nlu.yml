@@ -40,24 +40,34 @@ nlu:
 
 - intent: Bowling_alley
   examples: |
-    - Open a bowling alley.
-    - Want to open a bowling alley.
+    - Open a bowling alley
+    - Steps to open a bowling alley
+    - Haw to start a bowling alley
+    - Want to open a bowling alley
+    - Start bowling alley
  
 - intent: Bowling_alley_application
   examples: |
     - Application form for bowling alley
     - Documents required for opening bowling alley
     - Do not have all documents required for opening bowling alley
+    - Bowling alley Application
+    - Bowling alley form
 
 - intent: Bowling_alley_processing
   examples: |
     - How long will it take to process my application for bowling alley?
     - License fee for opening bowling alley
+    - Bowling alley fee
+    - process time for bowling alley
+    - term of application bowling alley
     
 - intent: Bowling_alley_renewal
   examples: |
     - Renew license for my bowling alley
     - License renewal charges for bowling alley
+    - Bowling alley renewal
+    - Bowling alley expiration
 
 - intent: Circus_application
   examples: |
@@ -141,6 +151,10 @@ nlu:
     - What is the procedure to get NOC for water park
     - What all documents are required for NOC for amusement park
     - What all documents are required for NOC for water park
+    - Amusement requirements
+    - Waterpark requirements
+    
+    
 
 - intent: Amusement_Waterpark_procedure
   examples: |
@@ -148,22 +162,34 @@ nlu:
     - How to obtain permission to build an Amusement Park
     - What is the procedure involved for obtaining permission to build an Water Park
     - How to obtain permission to build an Water Park
+    - Amusement opening procedure
+    - Waterpark opening procedure
+    - Amusement park permission
+    - Waterpark opening permssion
 
 - intent: Amusement_Waterpark_NOC_processing
   examples: |
     - How long will it take to process my application the NOC for the location of an Amusement/Water Park ?
     - How many days will it take to process my application for the NOC for the location of an Amusement/Water Park ?
+    - Amusement park Application duration
+    - Water park Application duration
 
 - intent: Off_course_betting_centre
   examples: |
     - Which authority issue these licenses to an Off-Course Betting Centre?
     - Who issue licenses to an Off-Course Betting Centre?
     - How does an Off-Course Betting Centre obtain licenses?
+    - Who gives license Off course betting center
+    - Off course betting center license provider
+
+
 
 - intent: Off_course_betting_centre_fee
   examples: |
     - Cost for issuing a license to Off-Course Betting Centre
     - Fees for Off-Course Betting Centre license
+    - Off course betting center fee
+    - Off course betting center charges    
     - How much does it cost to get a license for Off-Course Betting Centre
 
 - intent: Go_karting_licenses
@@ -171,16 +197,16 @@ nlu:
     - I wish to start a Go Karting establishment. What are the Licenses I require?
     - What all license required to establish Go karting?
     - Should I get any license to establish Go karting?
+    - Go karting licences
+    - Go karting requirements
+    - Go karting approval
 
 - intent: Go_karting_processing
   examples: |
     - How long will it take to process my application for Go karting?
     - How many days will it take to process my application for Go karting?
+    - Go karting Application duration
 
-- intent: Go_karting_processing
-  examples: |
-    - How long will it take to process my application for Go karting?
-    - How many days will it take to process my application for Go karting?
 
 - intent: Video_theatre_license
   examples: |
@@ -190,6 +216,9 @@ nlu:
     - Where do I get licenses for video theatre?
     - Where should I apply for  Premises License and Ticket selling license?
     - Which authority issue Video theatre licenses?
+    - Video Theatre requirements
+    - Video Theatre license
+    
 
 - intent: Video_theatre_application
   examples: |
@@ -197,6 +226,11 @@ nlu:
     - How to get the application for opening new theatre?
     - Where is the application for opening new theatre available?
     - How long the application will take to process?
+    - Video theatre application time
+    - Video theatre approval time
+    - Video theatre duration
+    
+    
 
 - intent: Video_theatre_fee
   examples: |
@@ -204,6 +238,10 @@ nlu:
     - Fees for passport Video theatre license
     - How much does it cost to get a license for Video theatre?
     - What is the fee structure for Video theatre application?
+    - Video theatre application time
+    - Video theatre fee
+    -Video theatre payment
+    
 
 - intent: Passport_lost
   examples: |
