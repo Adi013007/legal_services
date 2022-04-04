@@ -37,7 +37,7 @@ nlu:
     - Thank you
     - Appreciate the help
     - That was very helpful
-    
+
 - intent: Bowling_alley
   examples: |
     - Open a bowling alley.
@@ -328,33 +328,44 @@ nlu:
   examples: |
     - How to get a new Arms license
     - How do I procure an Arms license
+    - New Arms license 
+    - I want an Arms license
 
 - intent: Arms_license_time
   examples: | 
     - How long does it take to get a new Arms license
     - Time taken to issue a new Arms license
+    - How much time to get a Arms license
+    - When will I get my new Arms license
 
 - intent: Arms_license_procedure
   examples: |
     - What is the procedure to procure a new Arms license
     - Steps involved in issuing a new Arms license
     - What procedure is followed to issue a Arms license
+    - Procedure for getting an Arms license 
 
 - intent: Arms_license_documents
   examples: |
     - What all documents do we need to submit for a new Arms license
     - To issue an Arms license, what all documents are needed
+    - Docs required to apply for Arms license
+    - Documents required to apply for Arms license
+    - Documents required to get an Arms license
 
 - intent: Arms_license_renewal
   examples: |
     - How to renew an Arms license
     - What do I need to do to get my Arms license renewed
+    - How can I renew my Arms license
+    - Renewal of Arms license
 
 - intent: Arms_license_renewal_late
   examples: |
     - What do I have do if my Arms license renewal is late
     - I missed my Arms license renewal
     - My Arms license renewal is late 
+    - Late for Arms license renewal 
 
 - intent: Arms_license_renewal_late_out_of_Mumbai
   examples: |
@@ -365,11 +376,14 @@ nlu:
   examples: |
     - How can I obtain a Temporary Journey Permit
     - How can I obtain a TJP
+    - Want TJP
+    - Need Temporary Journey Permit for Arms 
 
 - intent: Arms_property_protection
   examples: |
     - How can I get a license for property protection
     - What do I need to do to get a property protecion
+    - Property protection for registered Arms
 
 - intent: Arms_possession_01
   examples: |
@@ -377,44 +391,56 @@ nlu:
     - My uncle was a license holder. He is expired and the license is now in my possession. What should I do?
     - My husband was a license holder. He is expired and the license is now in my possession. What should I do?
     - My relative was a license holder. He is expired and the license is now in my possession. What should I do?
+    - Death of relative, license in my possession
 
 - intent: Arms_possession_02
   examples: |
     - A relative wishes to possess the weapon of a deceased person. What is the procedure?
+    - Want to possess Arms license earlier registered to a now deceased realtive.
+    - Deceased relative, want to possess their Arms license
 
 - intent: Arms_possession_03
   examples: |
     - My father is old. He wishes to give me his weapon. Can you guide me?
     - My relative is old. He wishes to give me his weapon. Can you guide me?
+    - Relative is old, want to pass on his weapon.
 
 - intent: Arms_register_Mumbai
   examples: |
     - My All India Arms License was issued in another State. I want it to be renewed in Mumbai.
     - My All India Arms License was issued in another State. I want it to be registered in Mumbai.
+    - Register Arms license in Mumbai.
 
 - intent: Arms_register_other
   examples: |
     - My license was issued in Mumbai. I want to register it at another place.
+    - Register Arms license outside Mumbai.
 
 - intent: Arms_license_Maharashtra
   examples: |
     - I want to make my Arms license valid in the whole of Maharashtra. What is the procedure?
     - How can I make my Arms license valid throughout Maharashtra?
+    - Register Arms license throughout Maharastra
+    - Register Arms license in entire Maharastra
 
 - intent: Arms_license_India
   examples: |
     - I want to make my Arms license valid in the whole of India. What should I do?
     - How can I make my Arms license valid throughout India?
+    - Register Arms license throughout India
+    - Register Arms license in entire India
 
 - intent: Arms_sell
   examples: |
     - I want to sell my weapon. What is the procedure?
     - How can I sell my weapon?
+    - Sell registered Arms.
 
 - intent: Arms_fire_cracker
   examples: |
     - How to obtain a license to sell Fire Cracker?
     - Procedure to acquire license to sell Fire Cracker.
+    - License to sell Fire Cracker.
 
 - intent: Arms_explosive
   examples: |
@@ -426,11 +452,13 @@ nlu:
   examples: |
     - How do I apply for a Road permit?
     - Arms road permit
+    - Get road permit for Arms
 
 - intent: Arms_re_registration
   examples: |
     - What is the procedure for Arms re-registration
     - How can I re-register my Arms license
+    - Re-register Arms license
 
 - intent: Arms_suspend
   examples: |
@@ -438,6 +466,7 @@ nlu:
     - In which cases revocation can occur?
     - Arms license suspension
     - Arms license revocation
+    - Suspension of Arms license
 
 - intent: Cinema_redevelop
   examples: |
