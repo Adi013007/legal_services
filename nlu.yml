@@ -1,6 +1,43 @@
 version: "3.0"
 
 nlu:
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: thanks
+  examples: |
+    - Thank you
+    - Appreciate the help
+    - That was very helpful
+    
 - intent: Bowling_alley
   examples: |
     - Open a bowling alley.
@@ -74,19 +111,27 @@ nlu:
     - Where to go for Passport
     - Where is Passport Office
     - Contact Passport Office
+    - Where is the Passport Office
+    - Address of Passport Office
 
 - intent: Passport_application
   examples: |
     - I want to get a passport
-    - Want passport application
-    - Want to issue a passport
+    - Passport application
+    - How to issue a passport
     - Where to fill the passport application
+    - How can I get a Passport
 
 - intent: Passport_fee
   examples: |
     - Cost for issuing a passport
     - Fees for passport creation
     - How much does it cost to get a passport
+    - Cost of getting a Passport
+    - Expenses in getting a Passport
+    - Fees of Passport
+    - Cost of issueing Passport 
+    - Expense of Passport
 
 - intent: Amusement_Waterpark_NOC_requirements
   examples: |
@@ -160,67 +205,87 @@ nlu:
     - How much does it cost to get a license for Video theatre?
     - What is the fee structure for Video theatre application?
 
-  
 - intent: Passport_lost
   examples: |
     - What to do if I have misplaced my passport
     - Lost my passport
     - Can't find my passport
+    - I lost my Passport
 
 - intent: Passport_verification_time
   examples: |
     - How long is the passport verification process
     - Time taken in passport verification
     - Duration for passport verification process
+    - Time to get verification done for Passport
 
 - intent: Passport_documents
   examples: |
     - What all documents are required for passport application
     - Documents needed to issue a passport
     - What all documents I need to apply for a passport
+    - Required docs for passport application
+    - Documents required for Passport Application
 
 - intent: Passport_minor
   examples: | 
     - Passport application procedure for minors
     - How do I issue a passport if I am a minor
+    - Passport for Minors
+    - Passport for people less than 18 yrs of age
 
 - intent: Passport_name_change_marriage
   examples: |
     - Procedure for change of name following marriage
+    - Passport name change for marriage
+    - Pasport name change because of marraige
+    - Passport Marraige
 
 - intent: Passport_name_change_remarriage
   examples: |
     - Procedure for change of name following remarriage
+    - Passport name change for remarriage
+    - Pasport name change because of remarraige
+    - Passport Remarraige
 
 - intent: Passport_name_change_divorce
   examples: |
     - Procedure for change of name following divorce
+    - Passport name change for divorce
+    - Pasport name change because of divorce
+    - Passport Divorce
 
 - intent: Passport_name_change_other
   examples: |
     - How do I change my name in passport
     - New name on passport application
+    - Name change passport
 
 - intent: Passport_address_change
   examples: |
     - How to change my address on passport
     - Procedure for change of address
+    - Address change passport
 
 - intent: Passport_verification_procedure
   examples: |
     - What is the procedure for verfication for passport application
     - What entails the verification procedure
+    - Verification procedure for Passport
+    - Verification procedure for Passport application
 
 - intent: Passport_ecnr
   examples: |
     - What is ecnr category
     - What is Emigration Check Not Required category
     - Who all do not need a Emigeration Check
+    - ECNR Passport
 
 - intent: Passport_immediate
   examples: |
     - How long does it take get a passport immediately
     - Time taken to issue immediate passport
+    - Immediate passport
 
 - intent: Drama_redevelop
   examples: |

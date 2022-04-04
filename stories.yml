@@ -2,6 +2,11 @@ version: "3.0"
 
 stories:
 
+- story: beginning of flow
+  steps:
+  - intent: greet
+  - action: utter_greet
+  
 - story: bowling_alley path
   steps:
   - intent: Bowling_alley
@@ -533,3 +538,8 @@ stories:
   steps:
     - intent: Open_ground_fee_structure
     - action: utter_Open_ground_fee_structure
+
+- story: end of flow
+  steps:
+  - intent: thanks
+  - action: utter_welcome
