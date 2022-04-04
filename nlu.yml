@@ -641,63 +641,82 @@ nlu:
     - I want to obtain a license for a cyber cafe. What are the requirements?
     - How can I acquire a cyber cafe license?
     - What is the procedure to obtain a cyber cafe license?
+    - License for Cyber Cafe
+    - Open a Cyber Cafe
 
 - intent: Cyber_cafe_NOC
   examples: |
     - What are the requirements for obtaining NOC for Cyber cafe license?
     - How can I obtain NOC for my Cyber cafe license?
     - NOC for Cyber cafe license
+    - NOC for Cyber Cafe
 
 - intent: Cyber_cafe_submitted_documents
   examples: |
     - I have submitted all the documents for Cyber cafe license, what do I do now?
     - What do I have to do after submitting all the required documents for my Cyber cafe license?
+    - Submission for required docs for Cyber Cafe license
 
 - intent: Cyber_cafe_license_validity
   examples: | 
     - What is the validity period of the Cyber Cafe Licence?
     - Validity of Cyber Cafe license
+    - How long is Cyber Cafe license valid?
 
 - intent: Cyber_cafe_license_fee
   examples: |
     - What is the required fee for Cyber Cafe Licence?
     - Cost of Cyber Cafe license
     - How much fees do we have to submit to obtain Cyber cafe license
+    - Fees for Cyber Cafe license
+    - Money for Cyber Cafe license
 
 - intent: Cyber_cafe_time
   examples: |
     - How much time it will take to acquire a Cyber cafe license?
     - Time taken to ibtain a Cyber cafe license
     - How long does it take to acquire a Cyber cafe license?
+    - When can I get my Cyber Cafe license
+    - How long is the procedure to get a Cyber Cafe license?
 
 - intent: Open_ground_license
   examples: |
     - What is the procedure for obtaining a temporary license for the programs to be performed on an open ground?
     - How can I get a temporary license to organise programs on open ground?
+    - Open ground temporary license
+    - Open ground license
 
 - intent: Open_ground_time
   examples: |
     - How many days will it take to process temporary license for programs held in an open ground?
     - Time taken to process temporary license for programs held in an open ground
     - How long will it take to get a temporary license for programs to be held on open ground?
+    - Time taken to get Open ground license
+    - When will I get my Open ground temporary license
+    - Time taken to get Open ground temporary license
 
 - intent: Open_ground_required_licenses
   examples: |
     - Which are the licenses required for holding programs on the open ground?
     - What all licenses are needed to hold programs on open grounds?
     - Licenses to conduct programs on open ground.
+    - Licenses required to hold programs on open ground.
 
 - intent: Open_ground_fee
   examples: |
     - What is the fee for temporary license for programs to be held on the open grounds?
     - How much does it cost to acquire a temporary license for programs to be held on the open grounds?
+    - Fees to get Open ground temporary license
+    - Cost of Open ground temporary license
 
 - intent: Open_ground_after_submission
   examples: |
     - After submitting the application, what procedure is to be followed for obtaining a license for programs to be held on open grounds?
     - What do I have to do after submitting the application for temporary license for programs to be held on open grounds?
+    - Procedure to get an open ground temporary license
 
 - intent: Open_ground_fee_structure
   examples: |
     - What is the license fee structure required for programs to be held on open grounds?
     - Fee structure for temporary license needed for programs conducted on open grounds
+    - Fees breakdown to get open ground temporary license.

@@ -838,12 +838,11 @@ responses:
       - "It is the same as the license fees."
 
   utter_Cyber_cafe_license:
-  - text: |
-      - "You require premises license for cyber cafe as per the rules for licensing and controlling places of public amusement (other than cinemas) Rules 1960 and first amendment for cyber café on 28th December 2006."
+  - text: You require premises license for cyber cafe as per the rules for licensing and controlling places of public amusement (other than cinemas) Rules 1960 and first amendment for cyber café on 28th December 2006.
 
   utter_Cyber_cafe_NOC:
   - text: |
-      - "If the government passed the proposal of rules and regulations then make an application affixing a court fee stamp of Rs.150\- on it and submit it along with the following documents :
+            If the government passed the proposal of rules and regulations then make an application affixing a court fee stamp of Rs.150\- on it and submit it along with the following documents :
             1. Establishment Registration Certificate
             2. Copy of partnership deed, if partnership firm.
             3. Rent Receipt, if the place is on rent/lease
@@ -854,29 +853,26 @@ responses:
             8. If establishment is a Company, copy of Memorandum of Articles.
             9. Copy of the resolution under which applicant is authorized to sign and obtain the above licence from the Licensing Authority.
             10. Copy of the current bill of payment made to ISP (Internet Service Provider) must be attached with the application.
-            11. No Licensee shall have any claim of whatsoever nature against my Government of Non-Government authority, on the basis of the Cyber Cafe License issued by Police under Cyber Cafe Licensing Rules"
+            11. No Licensee shall have any claim of whatsoever nature against my Government of Non-Government authority, on the basis of the Cyber Cafe License issued by Police under Cyber Cafe Licensing Rules
 
   utter_Cyber_cafe_submitted_documents:
   - text: |
-      - "Following process is required to be followed : 
+            Following process is required to be followed : 
             A) On the receipt of the application along with above documents, enquiries will be made through the local Police station from the law and order point of view will be obtained.
-            B) After receipt of the above reports, the proposal will be decided and you will be informed accordingly"
+            B) After receipt of the above reports, the proposal will be decided and you will be informed accordingly
 
   utter_Cyber_cafe_license_validity:
-  - text: |
-      - "Cyber cafe Licence will be valid for three years from the date of issue."
+  - text: Cyber cafe Licence will be valid for three years from the date of issue.
 
   utter_Cyber_cafe_license_fee:
-  - text: |
-      - "The required fee for Cyber Café License is Rs. 600/- Per Computer, So that for Three Years the fee is Rs.1800/- per computer."
+  - text: The required fee for Cyber Café License is Rs. 600/- Per Computer, So that for Three Years the fee is Rs.1800/- per computer.
 
   utter_Cyber_cafe_time:
-  - text: |
-      - "It will take minimum two months for the procedure to complete."
+  - text: It will take minimum two months for the procedure to complete.
 
   utter_Open_ground_license:
   - text: |
-      - "You will have to make an application in the prescribed format, affixing court fees stamp of Rs. 5. Please submit the application 15 days prior to the date of the programme along with following necessary documents :
+            You will have to make an application in the prescribed format, affixing court fees stamp of Rs. 5. Please submit the application 15 days prior to the date of the programme along with following necessary documents :
             1. NOC from the Landlord
             2. NOC from the Traffic Police
             3. NOC from the Fire Brigade
@@ -884,32 +880,29 @@ responses:
             5. NOC from the Health Department of BMC (if eatables are being served)
             6. NOC from the Collector (if there is ticket selling or charity show)
             7. NOC from the Rangabhumi Parinirikshan Mandal
-            8. Certificate regarding fitness of the machinery (in case of amusement rides)"
+            8. Certificate regarding fitness of the machinery (in case of amusement rides)
 
   utter_Open_ground_time:
-  - text: |
-      - "The process usually takes around 15 days."
+  - text: The process usually takes around 15 days.
 
   utter_Open_ground_required_licenses:
   - text: |
-      - "1. NOC (for erecting structure/stage)
+         1. NOC (for erecting structure/stage)
          2. Ticket Selling License
          3. Premises License
-         4. Performance License (Application to be made to the Divisional assistant commissioner of police.)"
+         4. Performance License (Application to be made to the Divisional assistant commissioner of police)
 
   utter_Open_ground_fee:
-  - text: |
-      - "NOC Rs.50, Ticket selling Fee Rs.50, Premises License Fee Rs.500, Performance License Fee (To be collected by the Divisional Assistant Commissioners of Police), Loudspeaker License Fee (To be collected by the Concerned Police Station) (The fee may vary depending upon the nature and the period of the program)"
+  - text: NOC Rs.50, Ticket selling Fee Rs.50, Premises License Fee Rs.500, Performance License Fee (To be collected by the Divisional Assistant Commissioners of Police), Loudspeaker License Fee (To be collected by the Concerned Police Station) (The fee may vary depending upon the nature and the period of the program)
 
   utter_Open_ground_after_submission:
-  - text: |
-      - "The application will be sent to the concerned Police station for enquiries. After the receipt of the enquiry report, the decision will be taken and the applicant will be informed accordingly."
+  - text: The application will be sent to the concerned Police station for enquiries. After the receipt of the enquiry report, the decision will be taken and the applicant will be informed accordingly.
 
   utter_Open_ground_fee_structure:
   - text: |
-      - "Fees structure is as under :
+            Fees structure is as under :
             Premises license fee Rs. 500 per table annually. 
-            Performance license fee Rs. 250 per table per day (issued by the concerned ACP)."
+            Performance license fee Rs. 250 per table per day (issued by the concerned ACP).
 
   utter_please_rephrase:
   - text: |
