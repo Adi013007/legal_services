@@ -381,8 +381,8 @@ stories:
 
 - story: pool_path_7
   steps:
-    - intent: Pool_sustainability_enquiry
-    - action: utter_Pool_sustainability_enquiry
+    - intent: Pool_suitability_enquiry
+    - action: utter_Pool_suitability_enquiry
 
 - story: pool_path_8
   steps:
@@ -446,8 +446,8 @@ stories:
 
 - story: social_path_8
   steps:
-    - intent: Social_sustainability_enquiry
-    - action: utter_Social_sustainability_enquiry
+    - intent: Social_suitability_enquiry
+    - action: utter_Social_suitability_enquiry
 
 - story: social_path_9
   steps:

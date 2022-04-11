@@ -1,0 +1,545 @@
+version: "3.0"
+
+stories:
+
+- story: beginning of flow
+  steps:
+  - intent: greet
+  - action: utter_greet
+  
+- story: bowling_alley path
+  steps:
+  - intent: Bowling_alley
+  - action: utter_Bowling_alley_answer
+  - intent: Bowling_alley_application
+  - action: utter_Bowling_alley_application_answer
+  - intent: Bowling_alley_processing
+  - action: utter_Bowling_alley_processing_answer
+  - intent: Bowling_alley_renewal
+  - action: utter_Bowling_alley_renewal_answer
+
+- story: circus_application path 
+  steps:
+  - intent: Circus_application
+  - action: utter_Circus_application_answer
+  - intent: Circus_license
+  - action: utter_Circus_license_answer
+
+- story: mutliplex_application path
+  steps:
+  - intent: Multiplex_application
+  - action: utter_Multiplex_application_answer
+  - intent: Multiplex_noc
+  - action: utter_Multiplex_noc_answer
+  - intent: Multiplex_license
+  - action: utter_Multiplex_license_answer
+
+- story: loudspeaker_application path 
+  steps:
+  - intent: Loudspeaker_license
+  - action: utter_Loudspeaker_license_answer
+  - intent: Loudspeaker_license_renewal
+  - action: utter_Loudspeaker_license_renewal_answer
+
+- story: passport_application_path_01
+  steps: 
+  - intent: Passport_application
+  - action: utter_Passport_application
+
+- story: passport_application_path_02
+  steps:
+  - intent: Passport_fee
+  - action: utter_Passport_fee
+
+- story: passport_application_path_03
+  steps:
+  - intent: Passport_office_location
+  - action: utter_Passport_office_location
+
+- story: Amusement_Waterpark_path1
+  steps:
+  - intent: Amusement_Waterpark_NOC_requirements
+  - action: utter_Amusement_Waterpark_NOC_requirements
+
+- story: Amusement_Waterpark_path2
+  steps:
+  - intent: Amusement_Waterpark_NOC_processing
+  - action: utter_Amusement_Waterpark_NOC_processing
+
+- story: Amusement_Waterpark_path3
+  steps:
+  - intent: Amusement_Waterpark_procedure
+  - action: utter_Amusement_Waterpark_procedure
+
+- story: Off_course_betting_centre_path1
+  steps:
+  - intent: Off_course_betting_centre
+  - action: utter_Off_course_betting_centre
+
+- story: Off_course_betting_centre_path2
+  steps:
+  - intent: Off_course_betting_centre
+  - action: utter_Off_course_betting_centre
+  - intent: Off_course_betting_centre_fee
+  - action: utter_Off_course_betting_centre_fee
+
+- story: Off_course_betting_centre_path3
+  steps:
+  - intent: Off_course_betting_centre_fee
+  - action: utter_Off_course_betting_centre_fee
+
+- story: Video_theatre_path1
+  steps:
+  - intent: Video_theatre_license
+  - action: utter_Video_theatre_license
+
+- story: Video_theatre_path2
+  steps:
+  - intent: Video_theatre_application
+  - action: utter_Video_theatre_application
+
+- story: Video_theatre_path3
+  steps:
+  - intent: Video_theatre_fee
+  - action: utter_Video_theatre_fee
+
+- story: passport_application_path_04
+  steps:
+  - intent: Passport_lost
+  - action: utter_Passport_lost
+
+- story: passport_application_path_05
+  steps:
+  - intent: Passport_verification_time
+  - action: utter_Passport_verification_time
+
+- story: passport_application_path_06
+  steps:
+  - intent: Passport_documents
+  - action: utter_Passport_documents
+
+- story: passport_application_path_07
+  steps:
+  - intent: Passport_minor
+  - action: utter_Passport_minor
+
+- story: passport_application_path_08_name_change_01
+  steps:
+  - intent: Passport_name_change_marriage
+  - action: utter_Passport_name_change_marriage
+
+- story: passport_application_path_08_name_change_02
+  steps:
+  - intent: Passport_name_change_remarriage
+  - action: utter_Passport_name_change_remarriage
+
+- story: passport_application_path_08_name_change_03
+  steps:
+  - intent: Passport_name_change_divorce
+  - action: utter_Passport_name_change_divorce
+
+- story: passport_application_path_08_name_change_04
+  steps:
+  - intent: Passport_name_change_other
+  - action: utter_Passport_name_change_other
+
+- story: passport_application_path_09
+  steps:
+  - intent: Passport_address_change
+  - action: utter_Passport_address_change
+
+- story: passport_application_path_10
+  steps:
+  - intent: Passport_verification_procedure
+  - action: utter_Passport_verification_procedure
+
+- story: passport_application_path_11
+  steps:
+  - intent: Passport_ecnr
+  - action: utter_Passport_ecnr
+
+- story: passport_application_path_12
+  steps:
+  - intent: Passport_immediate
+  - action: utter_Passport_immediate
+
+- story: drama_renewal_path_1
+  steps:
+  - intent: Drama_redevelop
+  - action: utter_Drama_redevelop
+
+- story: drama_renewal_path_2
+  steps:
+  - intent: Drama_days
+  - action: utter_Drama_days
+
+- story: drama_license_path_1
+  steps:
+  - intent: Drama_procure_license
+  - action: utter_Drama_procure_license
+
+- story: drama_license_path_2
+  steps:
+  - intent: Drama_time_license
+  - action: utter_Drama_time_license
+
+- story: drama_license_path_3
+  steps:
+  - intent: Drama_law_license
+  - action: utter_Drama_law_license
+
+- story: drama_fee_structure
+  steps:
+  - intent: Drama_fee
+  - action: utter_Drama_fee
+
+- story: drama_renewal_path_3
+  steps:
+  - intent: Drama_renewal_license
+  - action: utter_Drama_renewal_license
+
+- story: drama_renewal_path_4
+  steps:
+  - intent: Drama_renewal_charge
+  - action: utter_Drama_renewal_charge
+
+- story: arms_path_01
+  steps:
+  - intent: Arms_new_license
+  - action: utter_Arms_new_license
+
+- story: arms_path_02
+  steps:
+  - intent: Arms_license_time
+  - action: utter_Arms_license_time
+
+- story: arms_path_03
+  steps:
+  - intent: Arms_license_procedure
+  - action: utter_Arms_license_procedure
+
+- story: arms_path_04
+  steps:
+  - intent: Arms_license_documents
+  - action: utter_Arms_license_documents
+
+- story: arms_path_05
+  steps:
+  - intent: Arms_license_renewal
+  - action: utter_Arms_license_renewal
+
+- story: arms_path_06
+  steps:
+  - intent: Arms_license_renewal_late
+  - action: utter_Arms_license_renewal_late
+
+
+- story: arms_path_07
+  steps:
+  - intent: Arms_license_renewal_late_out_of_Mumbai
+  - action: utter_Arms_license_renewal_late_out_of_Mumbai
+
+- story: arms_path_08
+  steps:
+  - intent: Arms_TJP
+  - action: utter_Arms_TJP
+
+- story: arms_path_09
+  steps:
+  - intent: Arms_property_protection
+  - action: utter_Arms_property_protection
+
+- story: arms_path_10
+  steps:
+    - intent: Arms_possession_01
+    - action: utter_Arms_possession_01
+
+- story: arms_path_10
+  steps:
+    - intent: Arms_possession_02
+    - action: utter_Arms_possession_02
+
+- story: arms_path_11
+  steps:
+    - intent: Arms_possession_03
+    - action: utter_Arms_possession_03
+
+- story: arms_path_12
+  steps:
+    - intent: Arms_register_Mumbai
+    - action: utter_Arms_register_Mumbai
+
+- story: arms_path_13
+  steps:
+    - intent: Arms_register_other
+    - action: utter_Arms_register_other
+
+- story: arms_path_14
+  steps:
+    - intent: Arms_license_Maharashtra
+    - action: utter_Arms_license_Maharashtra
+
+- story: arms_path_15
+  steps:
+    - intent: Arms_license_India
+    - action: utter_Arms_license_India
+
+- story: arms_path_16
+  steps:
+    - intent: Arms_sell
+    - action: utter_Arms_sell
+
+- story: arms_path_17
+  steps:
+    - intent: Arms_fire_cracker
+    - action: utter_Arms_fire_cracker
+
+- story: arms_path_18
+  steps:
+    - intent: Arms_road_permit
+    - action: utter_Arms_road_permit
+
+- story: arms_path_18
+  steps:
+    - intent: Arms_re_registration
+    - action: utter_Arms_re_registration
+
+- story: arms_path_19
+  steps:
+    - intent: Arms_suspend
+    - action: utter_Arms_suspend
+
+- story: cinema_path_1
+  steps:
+    - intent: Cinema_redevelop
+    - action: utter_Cinema_redevelop
+
+- story: cinema_path_2
+  steps:
+    - intent: Cinema_months
+    - action: utter_Cinema_months
+
+- story: cinema_path_3
+  steps:
+    - intent: Cinema_procure_license
+    - action: utter_Cinema_procure_license
+
+- story: cinema_path_4
+  steps:
+    - intent: Cinema_time_license
+    - action: utter_Cinema_time_license
+
+- story: cinema_path_5
+  steps:
+    - intent: Cinema_law_license
+    - action: utter_Cinema_time_license
+
+- story: cinema_path_6
+  steps:
+    - intent: Cinema_fee
+    - action: utter_Cinema_fee
+
+- story: cinema_path_7
+  steps:
+    - intent: Cinema_renewal_license
+    - action: utter_Cinema_renewal_license
+
+- story: cinema_path_8
+  steps:
+    - intent: Cinema_renewal_charge
+    - action: utter_Cinema_renewal_charge
+
+- story: pool_path_1
+  steps:
+    - intent: Pool_license
+    - action: utter_Pool_license
+
+- story: pool_path_2
+  steps:
+    - intent: Pool_authority_license
+    - action: utter_Pool_authority_license
+
+- story: pool_path_3
+  steps:
+    - intent: Pool_action_license
+    - action: utter_Pool_action_license
+
+- story: pool_path_4
+  steps:
+    - intent: Pool_business_requirements
+    - action: utter_Pool_business_requirements
+
+- story: pool_path_5
+  steps:
+    - intent: Pool_later_submission
+    - action: utter_Pool_later_submission
+
+- story: pool_path_6
+  steps:
+    - intent: Pool_other_requirements
+    - action: utter_Pool_other_requirements
+
+- story: pool_path_7
+  steps:
+    - intent: Pool_sustainability_enquiry
+    - action: utter_Pool_sustainability_enquiry
+
+- story: pool_path_8
+  steps:
+    - intent: Pool_NOC
+    - action: utter_Pool_NOC
+
+- story: pool_path_9
+  steps:
+    - intent: Pool_license_rules
+    - action: utter_Pool_license_rules
+
+- story: pool_path_10
+  steps:
+    - intent: Pool_negative_application
+    - action: utter_Pool_negative_application
+
+- story: pool_path_11
+  steps:
+    - intent: Pool_license_renewal
+    - action: utter_Pool_license_renewal
+
+- story: pool_path_12
+  steps:
+    - intent: Pool_license_renewal_fee
+    - action: utter_Pool_license_renewal_fee
+
+- story: social_path_1
+  steps:
+    - intent: Social_start_license
+    - action: utter_Social_start_license
+
+- story: social_path_2
+  steps:
+    - intent: Social_authority
+    - action: utter_Social_authority
+
+- story: social_path_3
+  steps:
+    - intent: Social_acquire_license
+    - action: utter_Social_acquire_license
+
+- story: social_path_4
+  steps:
+    - intent: Social_application_form
+    - action: utter_Social_application_form
+
+- story: social_path_5
+  steps:
+    - intent: Social_requirement
+    - action: utter_Social_requirement
+
+- story: social_path_6
+  steps:
+    - intent: Social_later_submission
+    - action: utter_Social_later_submission
+
+- story: social_path_7
+  steps:
+    - intent: Social_other_requirements
+    - action: utter_Social_other_requirements
+
+- story: social_path_8
+  steps:
+    - intent: Social_sustainability_enquiry
+    - action: utter_Social_sustainability_enquiry
+
+- story: social_path_9
+  steps:
+    - intent: Social_license_rules
+    - action: utter_Social_license_rules
+
+- story: social_path_10
+  steps:
+    - intent: Social_time_license
+    - action: utter_Social_time_license
+
+- story: social_path_11
+  steps:
+    - intent: Social_fee
+    - action: utter_Social_fee
+
+- story: social_path_12
+  steps:
+    - intent: Social_negative_application
+    - action: utter_Social_negative_application
+
+- story: social_path_13
+  steps:
+    - intent: Social_license_renewal
+    - action: utter_Social_license_renewal
+
+- story: social_path_14
+  steps:
+    - intent: Social_renewal_charge
+    - action: utter_Social_renewal_charge
+
+- story: cyber_cafe_path_01
+  steps:
+    - intent: Cyber_cafe_license
+    - action: utter_Cyber_cafe_license
+
+- story: cyber_cafe_path_02
+  steps:
+    - intent: Cyber_cafe_NOC
+    - action: utter_Cyber_cafe_NOC
+
+- story: cyber_cafe_path_03
+  steps:
+    - intent: Cyber_cafe_submitted_documents
+    - action: utter_Cyber_cafe_submitted_documents
+
+- story: cyber_cafe_path_04
+  steps:
+    - intent: Cyber_cafe_license_validity
+    - action: utter_Cyber_cafe_license_validity
+
+- story: cyber_cafe_path_05
+  steps:
+    - intent: Cyber_cafe_license_fee
+    - action: utter_Cyber_cafe_license_fee
+
+- story: cyber_cafe_path_06
+  steps:
+    - intent: Cyber_cafe_time
+    - action: utter_Cyber_cafe_time
+
+- story: open_ground_01
+  steps:
+    - intent: Open_ground_license
+    - action: utter_Open_ground_license
+
+- story: open_ground_02
+  steps:
+    - intent: Open_ground_time
+    - action: utter_Open_ground_time
+
+- story: open_ground_03
+  steps:
+    - intent: Open_ground_required_licenses
+    - action: utter_Open_ground_required_licenses
+
+- story: open_ground_04
+  steps:
+    - intent: Open_ground_fee
+    - action: utter_Open_ground_fee
+
+- story: open_ground_05
+  steps:
+    - intent: Open_ground_after_submission
+    - action: utter_Open_ground_after_submission
+
+- story: open_ground_06
+  steps:
+    - intent: Open_ground_fee_structure
+    - action: utter_Open_ground_fee_structure
+
+- story: end of flow
+  steps:
+  - intent: thanks
+  - action: utter_welcome
